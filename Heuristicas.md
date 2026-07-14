@@ -4,7 +4,7 @@
 
 | Información | Datos | Información | Datos |
 |---|---|---|---|
-| **Asignatura:** | Interacción Hombre-Maquina| **Docente:** | Ing. Erazo Orlando |
+| **Asignatura:** | Interacción Hombre-Maquina| **Docente:** | Dr. Erazo Orlando |
 | **Grupo:** | Dos | **Fecha:** | 14 de julio de 2026 |
 | **Sitio evaluado:** | Brainly AI (https://brainly.com/) | **Tipo:** | Evaluación heurística |
 
