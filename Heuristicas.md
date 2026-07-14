@@ -148,15 +148,3 @@ Sin embargo, la evaluación muestra que su experiencia puede mejorar si concentr
 Asimismo, validar mejor las preguntas y archivos, conservar el contexto y ofrecer ayuda dentro del flujo reduciría errores y carga mental.
 
 En conjunto, los problemas encontrados no impiden completamente el uso de la plataforma, pero varios afectan de forma significativa la continuidad y la calidad del aprendizaje, por lo que deberían priorizarse las recomendaciones con severidad 3.
-
-# 6. Referencias
-
-Brainly. (2026). *Your AI Learning Companion | Get Homework Help*. https://brainly.com/
-
-Brainly. (2025). *Meet Brainly’s AI Learning Companion*. https://brainly.com/insights/meet-brainlys-ai-learning-companion
-
-Brainly. (2025). *Introducing Sources: Brainly’s new AI feature for trusted support*. https://brainly.com/insights/introducing-brainly-sources
-
-Moran, K., & Gordon, K. (2023). *How to conduct a heuristic evaluation*. Nielsen Norman Group. https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/
-
-Nielsen, J. (1994). *10 usability heuristics for user interface design*. Nielsen Norman Group. https://www.nngroup.com/articles/ten-usability-heuristics/
