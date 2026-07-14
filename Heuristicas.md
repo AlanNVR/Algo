@@ -4,8 +4,8 @@
 
 | Información | Datos | Información | Datos |
 |---|---|---|---|
-| **Asignatura:** | ______________________________ | **Docente:** | ______________________________ |
-| **Grupo:** | 4 integrantes | **Fecha:** | 14 de julio de 2026 |
+| **Asignatura:** | Interacción Hombre-Maquina| **Docente:** | Ing. Erazo Orlando |
+| **Grupo:** | Dos | **Fecha:** | 14 de julio de 2026 |
 | **Sitio evaluado:** | Brainly AI (https://brainly.com/) | **Tipo:** | Evaluación heurística |
 
 ## Objetivo
@@ -26,7 +26,7 @@ La revisión se realizó sobre funciones y flujos visibles públicamente. Cierta
 
 ## Integrante 1 — Evaluador A
 
-**Nombre:** ______________________________
+**Nombre:** Francisco Arboleda
 
 **Alcance de revisión:** Recorrido inicial, búsqueda de pregunta y primer acceso al tutor.
 
@@ -41,7 +41,7 @@ La revisión se realizó sobre funciones y flujos visibles públicamente. Cierta
 
 ## Integrante 2 — Evaluador B
 
-**Nombre:** ______________________________
+**Nombre:** Obed Crespo
 
 **Alcance de revisión:** Generación de respuestas, personalización y manejo de entradas.
 
@@ -56,7 +56,7 @@ La revisión se realizó sobre funciones y flujos visibles públicamente. Cierta
 
 ## Integrante 3 — Evaluador C
 
-**Nombre:** ______________________________
+**Nombre:** Fabiola Huilcapi
 
 **Alcance de revisión:** Página de resultados y transición entre respuesta comunitaria, verificada e IA.
 
@@ -71,7 +71,7 @@ La revisión se realizó sobre funciones y flujos visibles públicamente. Cierta
 
 ## Integrante 4 — Evaluador D
 
-**Nombre:** ______________________________
+**Nombre:** Allan Villafuerte
 
 **Alcance de revisión:** Carga de material, continuidad de contexto y experiencia general de estudio.
 
