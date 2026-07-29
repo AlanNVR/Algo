@@ -140,3 +140,594 @@ Se recomienda seguir la estructura DMP-Roadmap del Digital Curation Centre (Rein
 |   # | Elemento             | Descripcion requerida                                                                                                                                                                          |
 |-----|----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   1 | Descripcion de datos | Tipos de datos que se recolectaran: transcripciones de entrevistas, respuestas de encuesta, notas de observacion, prototipos, artefactos UML, fotografias (sin rostros), grabaciones de audio. |
+
+<!-- Fin del bloque -->
+
+|   # | Elemento                           | Descripcion requerida                                                                                                                                  |
+|-----|------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+|   2 | Formatos                           | Formatos abiertos preferidos: .txt, .csv, .pdf, .md, .png. Formatos propietarios permitidos si son de uso obligatorio.                                 |
+|   3 | Volumen estimado                   | Tamano aproximado en MB o GB de la data cruda al finalizar el proyecto.                                                                                |
+|   4 | Metodo de captura                  | Aplicacion utilizada (Google Forms, Zoom, dispositivo personal), procedimiento de transferencia al repositorio.                                        |
+|   5 | Estandares de metadatos            | Cada archivo lleva encabezado con: proyecto, fecha, autor, version, tipo, licencia (Creative Commons BY-NC-SA 4.0 por defecto).                        |
+|   6 | Almacenamiento durante el proyecto | Repositorio institucional (GitHub bajo cuenta institucional), carpeta ✵✻❴❊a116✐❝❛✴❞❛a116❛❴❝a114✉❞❛✴ con cifrado si contiene datos personales.          |
+|   7 | Cifrado y control de acceso        | Cifrado en reposo con AES-256 mediante 7-Zip o VeraCrypt para datos sensibles. Acceso restringido a integrantes del equipo y docente.                  |
+|   8 | Copias de seguridad                | Doble copia: repositorio + almacenamiento en la nube institucional. Frecuencia: al finalizar cada semana de recoleccion.                               |
+|   9 | Politica de retencion              | Datos crudos: 24 meses desde la finalizacion del proyecto. Datos agregados publicables: sin limite.                                                    |
+|  10 | Procedimiento de destruccion       | Al vencer el periodo de retencion: eliminacion segura con a115❤a114❡❞ en Linux o a115❞❡❧❡a116❡ en Windows. Acta de destruccion firmada por el docente. |
+|  11 | Datos que se publicaran            | Solo datos agregados o disociados en el manuscrito. Repositorio publico Zenodo con DOI para materiales suplementarios.                                 |
+|  12 | Datos que no se publicaran         | Nombres, cargos especificos, ubicaciones geograficas exactas de las organizaciones, imagenes con rostros, informacion competitiva de la organizacion.  |
+|  13 | Responsable de la gestion          | Docente Ing. Gleiston Guerrero Ulloa, PhD, con apoyo del lider del equipo estudiantil.                                                                 |
+|  14 | Presupuesto para gestion de datos  | Costo cero (recursos institucionales y de acceso libre).                                                                                               |
+
+## A.6 - Declaracion de conflicto de intereses
+
+## Instrucciones
+
+Un formulario firmado por cada integrante del equipo (docente + estudiantes). Se marca 'Si' o 'No' en cada item; toda respuesta 'Si' debe explicarse en el recuadro final.
+
+## DECLARACION DE CONFLICTO DE INTERESES
+
+Yo, , con cedula de ciudadania , inte-
+
+grante del equipo del PFC , declaro bajo mi responsabilidad lo siguiente:
+
+|   # | Situacion a declarar                                                                                           | Si   | No   |
+|-----|----------------------------------------------------------------------------------------------------------------|------|------|
+|   1 | Mantengo vinculo laboral, contractual o profesional actual con la organizacion objeto de estudio.              |      |      |
+|   2 | Poseo participacion accionaria o economica en la organizacion.                                                 |      |      |
+|   3 | Tengo parentesco de consanguinidad o afinidad (hasta cuarto grado) con directivos o socios de la organizacion. |      |      |
+|   4 | He recibido pagos, regalos o beneficios de la organizacion en los ultimos 12 meses.                            |      |      |
+|   5 | Existe algun financiamiento externo condicionante para este proyecto.                                          |      |      |
+|   6 | Existe conflicto con otros proyectos o consultorias en curso.                                                  |      |      |
+|   7 | Alguna otra situacion que pudiera comprometer mi independencia como investigador.                              |      |      |
+
+Detalle de las situaciones marcadas 'Si' (si aplica):
+
+Firma:
+
+Fecha:
+
+## A.8 - Curriculum vitae resumido del docente responsable
+
+## Instrucciones
+
+CV academico de maximo dos paginas , adaptado para revision etica. Enfasis en formacion, produccion cientifica reciente y experiencia en direccion de investigacion. Se firma en la ultima linea.
+
+## Estructura sugerida
+
+1. Datos personales. Nombres, cedula, ORCID, correo institucional, telefono, unidad academica.
+2. Formacion academica. Doctorado, maestria, pregrado (institucion, ano, titulo obtenido).
+3. Experiencia docente. Cargo actual, anos en la asignatura, asignaturas afines dictadas.
+4. Produccion cientifica reciente (ultimos cinco anos). Articulos JCR/Scopus con DOI, cuartil, factor de impacto. Ponencias en conferencias internacionales indexadas. Capitulos de libro con editorial. Se listan cronologicamente descendentes.
+
+5. Direccion de tesis y proyectos. Tesis de pregrado y posgrado dirigidas. Proyectos de investigacion coordinados con financiamiento institucional o externo.
+6. Formacion etica. Certificaciones eticas vigentes (CITI Program, curso equivalente).
+7. Declaracion de veracidad. Frase final y firma.
+
+## Frase de cierre obligatoria
+
+Declaro bajo juramento que toda la informacion consignada en el presente curriculum vitae es veraz y corresponde a documentos originales que reposan en mi archivo personal y en la Direccion de Talento Humano de la UTEQ.
+
+## A.9 - Nomina del equipo estudiantil
+
+PROYECTO:
+
+PARALELO:
+
+|   # | Nombres y apellidos completos   | Cedula   | Correo institucional   | Rol asignado   |
+|-----|---------------------------------|----------|------------------------|----------------|
+|   1 |                                 |          |                        | Lider          |
+|   2 |                                 |          |                        | Secretario(a)  |
+|   3 |                                 |          |                        | Tecnico(a)     |
+|   4 |                                 |          |                        | Tecnico(a)     |
+|   5 |                                 |          |                        | Tecnico(a)     |
+
+Compromiso del equipo: los integrantes cuyo nombre aparece en esta nomina declaran conocer y aceptar los compromisos eticos establecidos en el protocolo de investigacion, el consentimiento informado y el plan de gestion de datos.
+
+Firma del lider del equipo
+
+Fecha
+
+Firma del docente responsable
+
+Fecha
+
+## A.10 - Cronograma detallado del proyecto (Gantt semanal)
+
+## Alineacion con hitos del PFC
+
+El cronograma debe reflejar los cuatro hitos oficiales del PFC (Entregas 1A Semana 4, 1B Semana 10, 2A Semana 13, 2B Semana 17) y ubicar dentro de ellos las ventanas de recoleccion de datos y las revisiones eticas intermedias.
+
+Plantilla Gantt (semanas 1 a 17 del PPA)
+
+| Actividad                   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10   | 11   | 12   | 13   | 14   | 15   | 16   | 17   |
+|-----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|------|------|------|------|------|------|------|
+| Diagnostico y objetivo      |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |
+| Identificacion stakeholders |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |
+| Elicitacion primaria        |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |
+| Aval institucional firmado  |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |
+| Consentimientos firmados    |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |
+| Ejecucion de entrevistas    |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |
+| Ejecucion de encuestas      |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |
+| Sesiones Design Thinking    |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |
+| Analisis y clasificacion    |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |
+| Redaccion de ERS/SRS        |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |
+| Modelado UML                |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |
+| Validacion con stakeholders |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |
+| Preparacion de manuscrito   |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |
+| Entrega 1A                  |     |     |     | •   |     |     |     |     |     |      |      |      |      |      |      |      |      |
+| Entrega 1B                  |     |     |     |     |     |     |     |     |     | •    |      |      |      |      |      |      |      |
+| Entrega 2A                  |     |     |     |     |     |     |     |     |     |      |      |      | •    |      |      |      |      |
+| Entrega 2B / Defensa        |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      | •    |
+
+Marcar las celdas con un simbolo X, un rectangulo relleno o color de fondo verde para indicar en que semanas ocurre cada actividad.
+
+## A.11 - Analisis de riesgos y medidas de mitigacion
+
+## Metodologia
+
+Matriz de riesgos con evaluacion cualitativa de probabilidad (Baja, Media, Alta) e impacto (Bajo, Medio, Alto). Nivel de riesgo resultante: Bajo (verde), Medio (amarillo), Alto (rojo). Cada riesgo debe tener al menos una accion de mitigacion.
+
+## Categorias minimas de riesgos a analizar
+
+|   # | Categoria           | Ejemplo de riesgo                                           | Medida de mitigacion tipo                                                         |
+|-----|---------------------|-------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|   1 | Riesgo etico        | Filtracion de datos personales de participantes.            | Cifrado en reposo, anonimizacion desde el diseno.                                 |
+|   2 | Riesgo etico        | Incomodidad emocional del participante al ser entrevistado. | Derecho a interrumpir sin justificacion. Preguntas revisadas por el docente.      |
+|   3 | Riesgo reputacional | Publicacion accidental del nombre de la organizacion.       | Doble revision del manuscrito antes de someterlo. Uso de seudonimo institucional. |
+|   4 | Riesgo tecnico      | Perdida de datos crudos.                                    | Doble copia (repositorio + nube). Backup semanal.                                 |
+|   5 | Riesgo operativo    | Retiro de un integrante del equipo.                         | Cross-training. Documentacion de todos los procesos.                              |
+
+|   # | Categoria         | Ejemplo de riesgo                     | Medida de mitigacion tipo                            |
+|-----|-------------------|---------------------------------------|------------------------------------------------------|
+|   6 | Riesgo operativo  | Retiro del aval institucional.        | Contar con un segundo caso de estudio de respaldo.   |
+|   7 | Riesgo academico  | Incumplimiento de plazos del PPA.     | Cronograma con holgura del 15%. Reuniones semanales. |
+|   8 | Riesgo integridad | Fabricacion o falsificacion de datos. | Trazabilidad de commits. Auditoria docente.          |
+
+## Formato para completar la matriz
+
+|   # | Descripcion del riesgo   | Prob.   | Impacto   | Nivel   | Medida de mitigacion   |
+|-----|--------------------------|---------|-----------|---------|------------------------|
+|   1 |                          |         |           |         |                        |
+|   2 |                          |         |           |         |                        |
+|   3 |                          |         |           |         |                        |
+|   4 |                          |         |           |         |                        |
+|   5 |                          |         |           |         |                        |
+|   6 |                          |         |           |         |                        |
+|   7 |                          |         |           |         |                        |
+|   8 |                          |         |           |         |                        |
+
+## A.12 - Certificado de formacion etica en investigacion
+
+## Opciones aceptadas
+
+El requisito se acredita con cualquiera de las siguientes opciones. Se adjunta copia digital del certificado con el codigo de verificacion visible.
+
+1. CITI Program (Collaborative Institutional Training Initiative). Modulo 'Human Subjects Research - Social &amp; Behavioral Investigators' o 'Responsible Conduct of Research (RCR)'. Sitio: ❤a116a116♣a115✿✴✴❛❜♦✉a116✳❝✐a116✐♣a114♦❣a114❛♠✳♦a114❣ . Duracion aproximada: 4-6 horas. Vigencia: 3 anos.
+2. Curso de Buenas Practicas Clinicas GCP-ICH . Recomendado si el proyecto se aproxima a datos clinicos (aplicable a MediCita).
+3. Curso de Etica en Investigacion del Consorcio Ecuatoriano para el Desarrollo de la Internet Avanzada (CEDIA) o su equivalente institucional local.
+4. Modulo interno de la UTEQ sobre Etica en Investigacion, si se dicta durante el semestre.
+
+## Documentacion minima que se adjunta
+
+- Copia digital del certificado (PDF).
+- Codigo o URL de verificacion.
+- Fecha de emision y fecha de vencimiento.
+
+- Modulo especifico aprobado.
+
+## Alcance del requisito
+
+- El docente responsable acredita certificado vigente.
+- Al menos un integrante por equipo estudiantil acredita certificado.
+- Se recomienda que todos los integrantes lo completen antes de iniciar el trabajo de campo.
+
+<!-- Fin del bloque -->
+
+organizacion. Si la organizacion facilita un extracto de sus datos, este debe llegar previamente disociado y ser tratado bajo el DMP .
+
+## B4. Politica de manejo de datos de geolocalizacion (aplica solo a RutaExpress)
+
+Documento de una pagina que establece:
+
+- Los datos de geolocalizacion de rutas se manejan de forma agregada , no individual.
+- No se publican mapas con rutas individuales de conductores.
+- Los puntos de origen y destino se generalizan a nivel de barrio o parroquia, no de direccion exacta.
+- Las trayectorias almacenadas se anonimizan antes del analisis (sin ID de conductor asociado).
+- No se activa geolocalizacion en tiempo real durante el desarrollo; se usan datos historicos disociados.
+
+## B5. Politica de manejo de datos de menores (aplica solo a MundiPets y Clinica Veterinaria si corresponde)
+
+Documento de una pagina que establece la conducta del proyecto ante la posibilidad de que propietarios de mascotas sean menores de edad:
+
+- El proyecto no incluye a menores de edad en entrevistas ni encuestas.
+- Si un menor aparece en un caso hipotetico, se requiere consentimiento del representante legal previo cualquier interaccion.
+- El sistema, en su version productiva, incluira un mecanismo de verificacion de mayoria de edad al registrar propietarios.
+- Los datos de menores, de existir en el extracto disociado facilitado por la organizacion, se filtran y se eliminan antes del analisis.
+
+Categoria C -Riesgo minimo operativo (AquaGest, SIMPA, Gestion Agricola verde/cacao)
+
+## C1. Aval de la unidad productiva
+
+Carta firmada por el propietario o administrador de la unidad productiva (camaronera o predio palmicultor), en papel membretado o con sello, que autoriza al equipo estudiantil a realizar entrevistas al personal tecnico y administrativo, observar procesos productivos, y utilizar informacion disociada para fines academicos.
+
+## C2. Compromiso de confidencialidad sobre informacion estrategica
+
+Declaracion firmada por el equipo en la que se compromete a no divulgar: volumenes de produccion mensual o anual, precios de venta, margenes, proveedores, contratos comerciales, informacion tributaria, ni informacion competitiva de la organizacion.
+
+## C3. Protocolo de anonimizacion de datos empresariales sensibles
+
+Documento de una pagina que explica como se enmascaran los siguientes elementos en el manuscrito y en los artefactos publicados:
+
+- Nombre de la organizacion. Sustituido por seudonimo tipo 'Camaronera X' o 'Palmicultora Y'.
+- Ubicacion geografica exacta. Generalizada a nivel de canton o provincia.
+- Volumenes de produccion. Presentados en rangos o normalizados a porcentajes.
+- Precios y margenes. No se reportan.
+- Nombres de directivos y empleados. Se reemplazan por identificadores tipo ❊◆❚❘✲✵✶ .
+
+## C4. Referencia a normativa sectorial
+
+Seccion del protocolo que reconoce y respeta la normativa sectorial aplicable segun corresponda:
+
+- AquaGest. Codigo Organico Ambiental, Ley Organica para el Desarrollo de la Acuicultura y Pesca, regulaciones del Ministerio de Produccion, Comercio Exterior, Inversiones y Pesca (MPCEIP), y del Instituto Publico de Investigacion de Acuicultura y Pesca (IPIAP).
+- SIMPA. Regulaciones de la Agencia de Regulacion y Control Fito y Zoosanitario (AGROCALIDAD), Ministerio de Agricultura y Ganaderia (MAG), y estandares de la Asociacion Nacional de Cultivadores de Palma Aceitera (ANCUPA).
+
+Declaracion de que el proyecto no contraviene ni sustituye ninguna obligacion regulatoria sectorial de la organizacion.
+
+## PARTE III - Guia especifica de elaboracion por proyecto PFC
+
+## Como leer esta parte
+
+Cada ficha PFC describe: dominio, organizacion objeto de estudio recomendada, poblacion participante, banco de preguntas guia para la entrevista, riesgos eticos particulares del proyecto y checklist de documentos que aplica. La categoria de riesgo etico se muestra en la cabecera.
+
+## PFC #1 - AquaGest
+
+Categoria C - Riesgo minimo operativo
+
+Dominio y sistema objetivo. Sistema de gestion de camaronera (Biofina o similar) para el control operativo de corrales de cultivo de camaron, monitoreo de biomasa, calidad de agua y ciclos productivos.
+
+Organizacion objeto de estudio. Camaronera formal ubicada en la costa de Los Rios, Guayas, El Oro o Manabi, con al menos cinco corrales activos y personal tecnico dedicado.
+
+Poblacion participante. Administrador de finca, jefe tecnico, tecnicos de monitoreo, capataces de corral y personal administrativo. Todos mayores de edad, dependientes contractuales de la organizacion.
+
+## Banco de preguntas guia (entrevista)
+
+1. Como planifica la actividad diaria de siembra y monitoreo de sus corrales.
+2. Que parametros de calidad de agua monitorea con mayor frecuencia y como los registra.
+3. Como calcula la biomasa y estima el consumo de alimento por corral.
+4. Que decisiones toma cuando un parametro sale fuera de rango.
+5. Como se coordinan las tareas entre capataces, laboratorio y administracion.
+6. Que informacion consulta o registra al momento de una cosecha.
+7. Que problemas o errores le ha generado el uso de registros en papel o en Excel.
+8. Que le gustaria automatizar y por que.
+
+## Riesgos eticos particulares
+
+- Divulgacion de informacion competitiva (volumenes, rendimiento, densidades de siembra).
+- Divulgacion de la ubicacion exacta de la finca.
+- Exposicion involuntaria de informacion sobre incidentes ambientales o sanitarios.
+
+## Checklist de documentos aplicables
+
+| Documentos A.1 al A.12 del Anexo A (comunes obligatorios).         | 12 items   |
+|--------------------------------------------------------------------|------------|
+| C1 - Aval de la unidad productiva (camaronera).                    | Aplica     |
+| C2 - Compromiso de confidencialidad sobre informacion estrategica. | Aplica     |
+| C3 - Protocolo de anonimizacion de datos empresariales.            | Aplica     |
+| C4 - Referencia a normativa sectorial (MPCEIP, IPIAP).             | Aplica     |
+
+## PFC #2 - MundiPets
+
+Categoria B - Datos personales
+
+Dominio y sistema objetivo. Plataforma veterinaria multiservicio para gestion de historia clinica de mascotas, agendamiento de citas, prescripciones y comunidad de duenos.
+
+Organizacion objeto de estudio. Una o mas clinicas veterinarias asociadas y un panel de duenos de mascotas mayores de edad.
+
+Poblacion participante. Medicos veterinarios, recepcionistas y personal auxiliar de la clinica; duenos de mascotas mayores de edad reclutados por convocatoria voluntaria.
+
+## Banco de preguntas guia (entrevista al personal veterinario)
+
+1. Como agenda las citas actualmente y que problemas enfrenta con el proceso.
+2. Como registra la historia clinica de cada mascota y como accede a consultas anteriores.
+3. Como maneja las prescripciones, vacunacion y recordatorios.
+4. Que comunicaciones sostiene con los duenos entre consultas.
+5. Que informacion querria consultar en el momento de atender una emergencia.
+6. Que reportes le seria util generar para la gestion de la clinica.
+
+## Banco de preguntas guia (entrevista al dueno voluntario)
+
+1. Como escoge a la veterinaria a la que lleva a su mascota.
+2. Que informacion querria tener disponible siempre sobre su mascota.
+3. Que recordatorios le serian utiles.
+4. Que uso da actualmente a redes sociales para temas de su mascota.
+
+## Riesgos eticos particulares
+
+- Manejo de datos de contacto de duenos (nombre, telefono, direccion).
+- Posible inclusion involuntaria de datos de menores (si el dueno registrado es menor).
+- Manejo de historia clinica animal (no humana, pero sensible desde la perspectiva del propietario).
+
+## Checklist de documentos aplicables
+
+| Documentos A.1 al A.12 del Anexo A (comunes obligatorios).                 | 12 items   |
+|----------------------------------------------------------------------------|------------|
+| B1 - Aval de la clinica veterinaria y/o convocatoria a duenos voluntarios. | Aplica     |
+| B2 - Protocolo de proteccion de datos personales de duenos.                | Aplica     |
+| B3 - Compromiso de no uso de datos reales de historias clinicas.           | Aplica     |
+| B5 - Politica de manejo de datos de menores.                               | Aplica     |
+
+## PFC #3 - SIMPA
+
+Categoria C - Riesgo minimo operativo
+
+Dominio y sistema objetivo. Sistema Integrado para el Mantenimiento de la Palma Africana (SIMPA): gestion de parcelas, aplicaciones fitosanitarias, monitoreo de plagas y registro conforme a AGROCALIDAD.
+
+Organizacion objeto de estudio. Predio palmicultor de mediana o gran escala en Los Rios, Esmeraldas, Sucumbios u Orellana, con al menos 20 hectareas activas.
+
+Poblacion participante. Propietario o administrador del predio, ingeniero agronomo residente, tecnicos AGROCALIDAD que asesoran al predio, capataces y personal de campo.
+
+## Banco de preguntas guia
+
+1. Como planifica la aplicacion de fitosanitarios en cada parcela y como respeta los periodos de reingreso.
+2. Como registra la ocurrencia de plagas (Pudricion del Cogollo, Anillo Rojo, Marchitez Sorpresiva) y su evolucion.
+3. Como reporta a AGROCALIDAD y que registros exige la agencia.
+4. Como coordina la cosecha semanal con la extractora.
+5. Que registros mantiene en papel actualmente.
+6. Que informacion querria consultar en campo desde un dispositivo movil.
+
+## Riesgos eticos particulares
+
+- Divulgacion de rendimiento por hectarea y precios de venta.
+- Divulgacion de la incidencia de plagas (informacion sensible para la aseguradora y para el sector).
+- Localizacion exacta de los predios afectados.
+
+## Checklist de documentos aplicables
+
+| Documentos A.1 al A.12 del Anexo A (comunes obligatorios).         | 12 items   |
+|--------------------------------------------------------------------|------------|
+| C1 - Aval de la unidad productiva (predio palmicultor).            | Aplica     |
+| C2 - Compromiso de confidencialidad sobre informacion estrategica. | Aplica     |
+| C3 - Protocolo de anonimizacion.                                   | Aplica     |
+| C4 - Referencia a normativa sectorial (AGROCALIDAD, MAG, ANCUPA).  | Aplica     |
+
+PFC #4 - RutaExpress Categoria B - Datos personales Dominio y sistema objetivo. Plataforma de movilidad colaborativa y mensajeria urbana para gestion de envios, asignacion de conductores y seguimiento de entregas.
+
+Organizacion objeto de estudio. Empresa de mensajeria formal de tamano pequeno o mediano en Quevedo, Guayaquil o Santo Domingo, o cooperativa de motorizados.
+
+Poblacion participante. Conductores adultos afiliados, coordinadores de operaciones, personal de bodega, clientes-tipo (perfiles construidos, no clientes reales identificados) y usuarios finales voluntarios que quieran participar de encuestas.
+
+## Banco de preguntas guia
+
+1. Como recibe y despacha una solicitud de envio actualmente.
+2. Como se comunica con el cliente durante la ruta.
+3. Como confirma la entrega y captura la evidencia (firma, foto, codigo).
+4. Que problemas frecuentes enfrenta (direcciones incompletas, cliente no disponible, corte de internet).
+5. Como se coordina el pago y la comision.
+6. Que informacion querria ver en su aplicacion movil como conductor.
+
+## Riesgos eticos particulares
+
+- Manejo de datos de geolocalizacion.
+- Datos personales de conductores (rutas frecuentes, ingresos).
+- Datos personales de clientes finales (direcciones exactas, patrones de consumo).
+- Potencial uso indebido de datos para vigilancia laboral.
+
+## Checklist de documentos aplicables
+
+| Documentos A.1 al A.12 del Anexo A (comunes obligatorios).   | 12 items    |
+|--------------------------------------------------------------|-------------|
+| B1 - Aval de la empresa de mensajeria.                       | Aplica      |
+| B2 - Protocolo de proteccion de datos personales.            | Aplica      |
+| B3 - Compromiso de no uso de datos reales de transacciones.  | Aplica      |
+| B4 - Politica de manejo de datos de geolocalizacion.         | Obligatorio |
+
+## PFC #5 - MediCita
+
+Categoria A - Datos sensibles de salud
+
+Dominio y sistema objetivo. Plataforma de agendamiento de citas medicas y telemedicina orientada a consultorios y clinicas privadas.
+
+Organizacion objeto de estudio. Clinica privada u hospital cooperante, o consultorio medico particular. Se prohibe expresamente el trabajo con establecimientos publicos sin autorizacion adicional del MSP .
+
+Poblacion participante. Personal medico (medicos generales y especialistas), personal administrativo (recepcion, facturacion), pacientes-tipo. No se entrevista a pacientes reales.
+
+## Banco de preguntas guia
+
+<!-- Fin del bloque -->
+
+6. Que reportes de ocupacion o subutilizacion se generan para la toma de decisiones.
+
+## Banco de preguntas guia (docentes)
+
+1. Como confirma la disponibilidad de un aula antes de una clase.
+2. Que hace cuando el aula asignada tiene problemas de equipamiento.
+3. Como reserva un aula fuera de su horario regular (tutorias, examenes de recuperacion).
+4. Que informacion querria consultar desde su telefono sobre las aulas.
+
+## Banco de preguntas guia (estudiantes voluntarios)
+
+1. Como se entera de un cambio de aula.
+2. Que tan claras son las senalizaciones para ubicar el aula asignada.
+3. Que uso hace de las aulas libres para estudio autonomo.
+
+## Riesgos eticos particulares
+
+- Datos personales de la comunidad UTEQ (nombres, correos institucionales, horarios de clase).
+- Riesgo de vigilancia si el sistema incluye sensores IoT, contadores de personas o camaras.
+- Riesgo reputacional institucional en caso de filtracion (afecta directamente a la UTEQ).
+- Conflicto de intereses estructural por auto-observacion.
+- Sensibilidad de patrones de asistencia docente que pudieran revelarse por analitica de ocupacion.
+- Posible correlacion no autorizada con datos del SGA (calificaciones, matriculacion).
+- Posible presencia de estudiantes de 17 anos en primer nivel (aunque el proyecto se focaliza en cuarto/quinto).
+
+## Criterio de elevacion a Categoria A
+
+Si el diseno de SIGA contempla cualquiera de los siguientes componentes, el proyecto debe elevarse a Categoria A y elaborar adicionalmente los documentos A1-A5: (1) reconocimiento facial para control de asistencia; (2) camaras de video en aulas con analitica visual; (3) huella dactilar o cualquier biometrico para acceso; (4) escaneo de codigos QR personales vinculados a expedientes academicos. En ese caso, tambien se prohibe la captura de datos biometricos reales durante el desarrollo, empleando exclusivamente personas-tipo.
+
+Checklist de documentos aplicables (Categoria B base)
+
+| Documentos A.1 al A.12 del Anexo A (comunes obligatorios).                                       | 12 items    |
+|--------------------------------------------------------------------------------------------------|-------------|
+| B1 - Aval institucional emitido por el Decano de la FCCoel Vicerrectorado Academico.             | Obligatorio |
+| B2 - Protocolo de proteccion de datos personales de la comunidad uni- versitaria.                | Obligatorio |
+| B3 - Compromiso de no correlacion con datos del SGA institucional.                               | Obligatorio |
+| B5 - Politica de manejo de datos de menores (por precaucion, aunque no se prevee reclutamiento). | Aplica      |
+| Elevacion a CategoriaA : si el diseno incluye biometria o vigilancia visual, agregar A1-A5.      | Condicional |
+
+## Aval institucional recomendado
+
+Dado que el aval del Vicerrectorado Academico coincide con la aprobacion etica solicitada, se recomienda que el aval del proyecto SIGA lo emita el Decano de la Facultad de Ciencias de la Computacion , con copia informativa al Vicerrectorado. De esa manera se preserva la separacion entre la autoridad que autoriza el acceso a la organizacion (Decano) y la autoridad que aprueba la etica del estudio (Vicerrector).
+
+PFC #10 - Sistema Inteligente de Control y Seguimiento de Terapia Fisica Categoria A - Datos sensibles de salud + biometricos
+
+Dominio y sistema objetivo. Sistema para el control administrativo y seguimiento clinico de pacientes en tratamiento de fisioterapia y rehabilitacion, con componente de vision por computadora para el analisis de la correcta ejecucion de ejercicios terapeuticos y seguimiento remoto de la progresion del paciente.
+
+Organizacion objeto de estudio. Centro de fisioterapia y rehabilitacion, consultorio privado de fisioterapia, o area de rehabilitacion de una clinica cooperante. Se prohibe expresamente el trabajo con establecimientos publicos sin autorizacion adicional del Ministerio de Salud Publica.
+
+Poblacion participante. Fisioterapeutas, kinesiologos, medicos rehabilitadores, personal administrativo del centro, estudiantes o profesionales voluntarios de fisioterapia como asesores. No se entrevista a pacientes reales y no se captura video de pacientes reales ejecutando ejercicios.
+
+## Banco de preguntas guia (personal clinico)
+
+1. Como registra actualmente la ficha clinica del paciente al ingresar por primera vez.
+2. Como planifica el programa de rehabilitacion y como lo ajusta segun la evolucion.
+3. Que ejercicios son mas dificiles de supervisar cuando el paciente los hace en casa.
+4. Que evidencia de progreso solicita usualmente al paciente (fotos, videos, autorreportes, mediciones goniometricas).
+5. Como se comunica con el paciente entre sesiones presenciales.
+6. Que reportes de progreso genera para el paciente y para el medico tratante.
+7. Que necesidades detecta en el seguimiento post-alta.
+
+Banco de preguntas guia (fisioterapeuta como asesor experto)
+
+1. Que angulos, posturas y patrones de movimiento son criticos identificar automaticamente en cada tipo de ejercicio.
+2. Que errores de ejecucion son mas frecuentes y cuales tienen mayor riesgo de agravar la lesion.
+3. Que criterios permitirian a un sistema decidir si un ejercicio se ejecuto correctamente sin necesidad de supervision presencial.
+
+## Riesgos eticos particulares
+
+- Riesgo alto de exposicion a datos clinicos sensibles (historia clinica, diagnostico, evolucion).
+- Riesgo biometrico por el componente de vision por computadora: puntos anatomicos, esqueleto, medidas corporales.
+- Riesgo de dano fisico si el sistema emite retroalimentacion erronea que induzca al paciente a ejecutar mal un ejercicio (riesgo de responsabilidad civil).
+- Datos de salud y datos biometricos son ambos categoria especial en la LOPDP .
+- Posibilidad de que el fisioterapeuta mencione casos de pacientes durante la entrevista (debe evitarse desviando la conversacion).
+
+## Restricciones especificas de Terapia Fisica
+
+Este proyecto no debera en ninguna etapa: (a) acceder a historias clinicas reales de pacientes en rehabilitacion; (b) entrevistar a pacientes; (c) capturar video real de pacientes ejecutando ejercicios; (d) integrar el modelo de vision por computadora con imagenes de pacientes reales; (e) desplegar el sistema en un entorno productivo sin evaluacion adicional. Todo el desarrollo se hace con personas-tipo, videos de acceso libre (bancos publicos con licencia) y capturas propias del equipo estudiantil ejecutando los ejercicios como voluntarios explicitos.
+
+## Consideraciones sobre el componente de IA
+
+El modelo de vision por computadora debe entrenarse exclusivamente con: (1) bancos publicos etiquetados con licencia libre (ej. MPII Human Pose, COCO, MediaPipe); (2) videos capturados por el equipo estudiantil con consentimiento explicito de sus propios integrantes; (3) datos sinteticos generados por herramientas de simulacion. Se declara en el manuscrito la procedencia exacta de todos los datos de entrenamiento, y se publica una tarjeta de modelo (model card) con las limitaciones conocidas del sistema.
+
+## Checklist de documentos aplicables
+
+| Documentos A.1 al A.12 del Anexo A (comunes obligatorios).                            | 12 items    |
+|---------------------------------------------------------------------------------------|-------------|
+| A1 - Protocolo de disociacion completa desde el diseno (Privacy-by- Design).          | Obligatorio |
+| A2 - Declaracion de uso exclusivo de datos sinteticos y bancos publicos con licencia. | Obligatorio |
+| A3 - Aval especifico del centro de fisioterapia.                                      | Obligatorio |
+| A4 - Referencia a LOPDP articulos sobre datos sensibles de salud y bio- metricos.     | Obligatorio |
+| A5 - Protocolo de manejo de video corporal + tarjeta de modelo de IA.                 | Obligatorio |
+
+## PFC #11 - Sistema de Gestion Agricola (cultivo de verde y cacao) Categoria C - Riesgo minimo operativo
+
+Dominio y sistema objetivo. Sistema para la gestion de fincas dedicadas al cultivo simultaneo de banano/platano verde (Musa spp.) y cacao (Theobroma cacao) en sistemas de asociacion o monocultivo. Cubre planificacion de labores culturales, aplicaciones fitosanitarias, control de cosecha, trazabilidad hasta acopio y registro conforme a AGROCALIDAD y las regulaciones sectoriales.
+
+Organizacion objeto de estudio. Finca agricola formal ubicada en la costa (Los Rios, Guayas, El Oro, Manabi) o en la Amazonia (Sucumbios, Orellana, Napo), con al menos 10 hectareas activas de verde o cacao, y personal tecnico dedicado. Preferible con certificacion Rainforest Alliance, Fair Trade o similar (esto agrega valor al analisis).
+
+Poblacion participante. Propietario o administrador de la finca, ingeniero agronomo residente, tecnicos AGROCALIDAD que asesoran, capataces, personal de campo, personal de acopio, y de manera opcional representantes del centro de acopio o de la asociacion de productores (ANECACAO para cacao, AEBE para banano).
+
+## Banco de preguntas guia
+
+1. Como planifica el calendario anual de labores culturales para verde y para cacao (poda, deshije, control de malezas, fertilizacion).
+2. Como registra la aplicacion de fitosanitarios y como controla los periodos de reingreso y de carencia.
+3. Como identifica y registra la ocurrencia de plagas y enfermedades (Sigatoka Negra en verde, Moniliasis y Escoba de Bruja en cacao) y cual es su protocolo de accion.
+4. Como planifica y ejecuta la cosecha semanal, y como coordina el transporte al centro de acopio.
+5. Como maneja el control de calidad post-cosecha (fermentacion y secado del cacao, embarque del verde).
+6. Como reporta a AGROCALIDAD, MAG y a la comercializadora los movimientos productivos.
+7. Que registros mantiene en papel o en Excel actualmente y que informacion querria consultar en campo desde un dispositivo movil.
+8. Como gestiona el pago del personal por tarea o por dia y como controla la asistencia.
+
+## Riesgos eticos particulares
+
+- Divulgacion de rendimiento por hectarea, precios de venta al acopiador o al exportador, y margenes.
+- Divulgacion de la incidencia de plagas y enfermedades (informacion sensible para la aseguradora, para las certificadoras y para el sector).
+- Localizacion exacta de la finca (riesgo de robo de cacao, robo de racimos, invasion).
+- Datos personales del personal de campo, muchos de ellos jornaleros con vinculo laboral informal (proteccion adicional necesaria).
+- Posibilidad de que se detecten practicas no conformes con normativa laboral o ambiental durante las entrevistas (el equipo debe tener protocolo de accion ante estos hallazgos).
+
+## Nota sobre relaciones laborales informales
+
+Es frecuente que en fincas medianas y pequenas exista personal de campo con vinculo laboral informal (jornaleros, subcontratistas, familiares). Al aplicar las entrevistas, el equipo debe: (a) asegurar que el consentimiento se comprenda plenamente (leerlo en voz alta si el participante lo prefiere); (b) no preguntar sobre condiciones contractuales del participante que puedan generar consecuencias para el; (c) no publicar respuestas que pudieran identificar practicas irregulares del empleador con consecuencias legales para este.
+
+## Checklist de documentos aplicables
+
+| Documentos A.1 al A.12 del Anexo A (comunes obligatorios).                       | 12 items   |
+|----------------------------------------------------------------------------------|------------|
+| C1 - Aval de la unidad productiva (finca agricola).                              | Aplica     |
+| C2 - Compromiso de confidencialidad sobre informacion estrategica y de personal. | Aplica     |
+| C3 - Protocolo de anonimizacion (finca, ubicacion, rendimientos, personal).      | Aplica     |
+| C4 - Referencia a normativa sectorial (AGROCALIDAD, MAG, ANECACAO, AEBE).        | Aplica     |
+
+## Resumen operativo - Que entrega cada equipo
+
+## Estructura de carpeta ✵✻❴❊a116✐❝❛✴ en el repositorio del PFC
+
+✵✻❴❊a116✐❝❛✴
+
+⑤✲✲ ❆✶❴a80a114♦a116♦❝♦❧♦❴■♥✈❡a115a116✐❣❛❝✐♦♥✳♣❞❢
+
+⑤✲✲ ❆✷❴■♥a115a116a114✉♠❡♥a116♦a115❴❘❡❝♦❧❡❝❝✐♦♥✳♣❞❢
+
+⑤✲✲ ❆✸❴❈♦♥a115❡♥a116✐♠✐❡♥a116♦❴■♥❢♦a114♠❛❞♦✳♣❞❢
+
+✭♣❧❛♥a116✐❧❧❛ ❞❡❧ ♦❢✐❝✐♦ ❆♥❡①♦ ❈✮
+
+⑤✲✲ ❆✹❴a80❧❛♥❴●❡a115a116✐♦♥❴❉❛a116♦a115✳♣❞❢
+
+⑤✲✲ ❆✺❴❆✈❛❧❴■♥a115a116✐a116✉❝✐♦♥❛❧✳♣❞❢
+
+✭♣❧❛♥a116✐❧❧❛ ❞❡❧ ♦❢✐❝✐♦ ❆♥❡①♦ ❊✮
+
+⑤✲✲ ❆✻❴❉❡❝❧❛a114❛❝✐♦♥❴❈♦♥❢❧✐❝a116♦❴■♥a116❡a114❡a115❡a115✳♣❞❢
+
+⑤✲✲ ❆✼❴❈♦♠♣a114♦♠✐a115♦❴❈♦♥❢✐❞❡♥❝✐❛❧✐❞❛❞✳♣❞❢
+
+✭♣❧❛♥a116✐❧❧❛ ❞❡❧ ♦❢✐❝✐♦ ❆♥❡①♦ ❉✮
+
+⑤✲✲ ❆✽❴❈❱❴❉♦❝❡♥a116❡✳♣❞❢
+
+⑤✲✲ ❆✾❴◆♦♠✐♥❛❴❊a113✉✐♣♦✳♣❞❢
+
+⑤✲✲ ❆✶✵❴❈a114♦♥♦❣a114❛♠❛❴●❛♥a116a116✳♣❞❢
+
+⑤✲✲ ❆✶✶❴❆♥❛❧✐a115✐a115❴❘✐❡a115❣♦a115✳♣❞❢
+
+⑤✲✲ ❆✶✷❴❈❡a114a116✐❢✐❝❛❞♦❴❊a116✐❝❛✳♣❞❢
+
+⑤✲✲ ❬❈❛a116❡❣♦a114✐❛❪✴
+
+✭a115✉❜❝❛a114♣❡a116❛ a115❡❣✉♥ ❆✱ ❇ ♦ ❈✮
+
+⑤✲✲ ❞♦❝✉♠❡♥a116♦a115❴❡a115♣❡❝✐❢✐❝♦a115✳♣❞❢
+
+⑤✲✲ ❘❊❆❉▼❊❴❊a116✐❝❛✳♠❞
+
+## Resumen de conteo de documentos por proyecto
+
+|   # | PFC                                     | Categoria       |   Anexo A | Adicionales        |
+|-----|-----------------------------------------|-----------------|-----------|--------------------|
+|   1 | AquaGest                                | C               |        12 | 4 (C1-C4)          |
+|   2 | MundiPets                               | B               |        12 | 4 (B1, B2, B3, B5) |
+|   3 | SIMPA                                   | C               |        12 | 4 (C1-C4)          |
+|   4 | RutaExpress                             | B               |        12 | 4 (B1-B4)          |
+|   5 | MediCita                                | A               |        12 | 4-5 (A1-A5)        |
+|   6 | Marketplace UTEQ                        | B               |        12 | 3 (B1-B3)          |
+|   7 | Sistema de gimnasio                     | A               |        12 | 4-5 (A1-A5)        |
+|   8 | Sistema de clinica veterinaria          | B               |        12 | 4 (B1, B2, B3, B5) |
+|   9 | SIGA (auto-observacion UTEQ)            | B (potencial A) |        12 | 4 + condicional    |
+|  10 | Sistema Inteligente de Terapia Fisica   | A               |        12 | 5 (A1-A5)          |
+|  11 | Sistema de Gestion Agricola verde/cacao | C               |        12 | 4 (C1-C4)          |
+
+<!-- Fin del bloque -->
+
