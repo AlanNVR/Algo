@@ -141,8 +141,6 @@ Se recomienda seguir la estructura DMP-Roadmap del Digital Curation Centre (Rein
 |-----|----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   1 | Descripcion de datos | Tipos de datos que se recolectaran: transcripciones de entrevistas, respuestas de encuesta, notas de observacion, prototipos, artefactos UML, fotografias (sin rostros), grabaciones de audio. |
 
-<!-- Fin del bloque -->
-
 |   # | Elemento                           | Descripcion requerida                                                                                                                                  |
 |-----|------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   2 | Formatos                           | Formatos abiertos preferidos: .txt, .csv, .pdf, .md, .png. Formatos propietarios permitidos si son de uso obligatorio.                                 |
@@ -322,7 +320,84 @@ El requisito se acredita con cualquiera de las siguientes opciones. Se adjunta c
 - Al menos un integrante por equipo estudiantil acredita certificado.
 - Se recomienda que todos los integrantes lo completen antes de iniciar el trabajo de campo.
 
-<!-- Fin del bloque -->
+## PARTE II - Documentos adicionales por categoria de riesgo etico
+
+## Aplicabilidad
+
+La Categoria A aplica a MediCita, Sistema de gestion de gimnasio y Sistema Inteligente de Terapia Fisica. La Categoria B aplica a MundiPets, RutaExpress, Marketplace UTEQ, Sistema de gestion de clinica veterinaria y SIGA. La Categoria C aplica a AquaGest, SIMPA y Sistema de Gestion Agricola verde/cacao. Cada equipo elabora unicamente los documentos correspondientes a su categoria.
+
+Categoria A - Datos sensibles de salud o biometricos (MediCita, Gimnasio, Terapia Fisica)
+
+## A1. Protocolo de disociacion completa desde el diseno (Privacy-by-Design)
+
+Documento tecnico de 3-5 paginas que demuestra que el sistema no procesa datos clinicos ni biometricos reales de personas identificables. Estructura:
+
+1. Identificacion de flujos de datos. Diagrama de flujo de datos (DFD) del sistema mostrando todos los puntos donde entran, se procesan y salen datos personales, clinicos o biometricos.
+2. Diagrama entidad-relacion con marca de campos sensibles. Modelo ER completo con marca visual (asterisco rojo o icono candado) sobre cada atributo considerado dato personal, sensible o biometrico segun la LOPDP .
+3. Estrategia de disociacion. Descripcion tecnica: separacion en dos bases (una operativa con datos disociados, otra de mapeo con identificadores). Uso de tokens, hashes con sal, seudonimizacion, o generacion sintetica.
+4. Controles tecnicos. Cifrado en reposo (AES-256), cifrado en transito (TLS 1.3), gestion de claves, control de acceso basado en roles (RBAC), registro de auditoria (audit log).
+5. Modelo de personas-tipo (personas ficticias). Se documentan al menos cinco personas ficticias que se usaran para casos de prueba (nombre, edad, condiciones inventadas, historial construido, sin correspondencia con persona real).
+6. Verificacion de disociacion. Procedimiento para verificar antes de cada despliegue de prueba que no ha entrado data real por error (test de reidentificacion).
+
+## A2. Declaracion de uso exclusivo de datos sinteticos o de personas-tipo
+
+## Plantilla firmable
+
+Yo/Nosotros, , integrantes del equipo del PFC , categoria A, declaramos formalmente que durante el desarrollo del proyecto: (1) no captaremos, procesaremos, almacenaremos ni publicaremos datos clinicos, biometricos ni de salud de personas reales; (2) todos los ejemplos, capturas de pantalla, casos de prueba y demostraciones se construiran sobre personas ficticias representativas cuyo mapeo se conserva en un documento interno del equipo; (3) las entrevistas al personal de la organizacion se limitaran a describir procesos de trabajo y no involucraran comentarios sobre pacientes o socios individuales; (4) si durante el desarrollo del sistema el equipo advierte captura accidental de data real, procederemos a su borrado seguro dentro de las 24 horas siguientes al hallazgo y comunicaremos el hecho al docente responsable.
+
+Fecha, firmas de cada integrante y del docente responsable.
+
+## A3. Aval especifico del establecimiento (clinica o gimnasio)
+
+Carta membretada del establecimiento firmada por el director medico, gerente clinico o propietario del centro deportivo, en la cual se declara expresamente que:
+
+1. Se autoriza al equipo estudiantil a realizar entrevistas al personal designado.
+2. No se autoriza el acceso a expedientes clinicos, historias medicas, fichas de socios ni evaluaciones biometricas de personas reales.
+3. El equipo estudiantil trabajara con datos ficticios para el desarrollo del sistema.
+4. Se establece un canal de comunicacion con el establecimiento para reportar cualquier incidente.
+
+## A4. Referencia a LOPDP - articulos sobre datos sensibles
+
+## Contenido minimo de esta seccion del protocolo
+
+Redactar en el protocolo de investigacion una seccion titulada 'Cumplimiento de la Ley Organica de Proteccion de Datos Personales' que:
+
+- Reconozca que los datos de salud son categoria especial de datos sensibles segun la LOPDP.
+- Cite los articulos de la LOPDP que regulan el tratamiento de datos sensibles y sus condiciones excepcionales.
+- Declare que el proyecto se acoge a la excepcion de investigacion cientifica con datos disociados.
+- Establezca al docente responsable como Delegado de Proteccion de Datos (DPO) informal del proyecto.
+- Detalle los derechos ARCO (Acceso, Rectificacion, Cancelacion, Oposicion) que el sistema soportara en su version productiva.
+
+## A5. Protocolo de manejo de imagenes clinicas y biometricas (si aplica)
+
+Aplica unicamente si el sistema procesa radiografias, fotografias clinicas, huellas, reconocimiento facial o similares. Contenido:
+
+- Prohibicion de captura de imagenes reales durante el desarrollo.
+- Uso de imagenes sinteticas o de bancos publicos de datos con licencia (ej. NIH ChestXray14, Kaggle synthetic datasets).
+- Procedimiento de enmascaramiento automatico de rostros (blur, mosaico) si por error entra una imagen real.
+- Almacenamiento cifrado y separado del resto de datos operativos.
+- Compromiso de no entrenar modelos de IA con imagenes de personas reales sin autorizacion adicional.
+
+Categoria B - Datos personales (MundiPets, RutaExpress, Marketplace UTEQ, Clinica Veterinaria, SIGA)
+
+## B1. Aval especifico de la organizacion comercial o de servicios
+
+Adicional al Anexo E del oficio principal. Carta membretada firmada por el gerente o representante legal que precisa: (1) autorizacion para entrevistar al personal indicado, (2) autorizacion para aplicar encuestas a clientes voluntarios previa firma de consentimiento, (3) autorizacion para observar procesos operativos sin registrar informacion personal de clientes, (4) compromiso de la organizacion de no divulgar externamente la informacion recogida por el equipo estudiantil.
+
+## B2. Protocolo de proteccion de datos personales de clientes y usuarios
+
+Documento tecnico de 2-3 paginas que describe:
+
+1. Minimizacion de datos. Se recolectan unicamente los datos estrictamente necesarios para la especificacion del sistema.
+2. Seudonimizacion. Nombres y contactos se reemplazan por identificadores tipo ❈▲■✲✵✵✶ , ❯❙❘✲✵✵✷ .
+3. Cifrado. AES-256 en reposo, TLS 1.3 en transito.
+4. Controles de acceso. Solo integrantes del equipo y docente responsable pueden acceder a los datos disociados.
+5. Politica de retencion. 24 meses, luego borrado seguro.
+6. Ejercicio de derechos ARCO. Canal habilitado para que participantes puedan solicitar acceso, rectificacion, cancelacion u oposicion.
+
+## B3. Compromiso de no uso de datos reales de transacciones comerciales
+
+Declaracion firmada por el equipo indicando que las bases de datos de prueba del sistema se construyen exclusivamente con transacciones ficticias, y que no se importa data real de la
 
 organizacion. Si la organizacion facilita un extracto de sus datos, este debe llegar previamente disociado y ser tratado bajo el DMP .
 
@@ -534,7 +609,168 @@ Poblacion participante. Personal medico (medicos generales y especialistas), per
 
 ## Banco de preguntas guia
 
-<!-- Fin del bloque -->
+1. Como se agenda una cita actualmente (telefono, WhatsApp, presencial).
+2. Como se maneja la agenda de multiples especialistas.
+3. Como se documenta la consulta (historia clinica en papel, sistema institucional).
+4. Que necesidades ha detectado en el manejo de recordatorios y cancelaciones.
+5. Que consideraciones tiene sobre telemedicina y videoconsulta.
+6. Que datos administrativos maneja para facturacion y estadistica.
+
+## Riesgos eticos particulares
+
+- Riesgo alto de exposicion a datos clinicos sensibles.
+- Datos de salud son categoria especial en la LOPDP .
+- Posibilidad de que el personal medico mencione casos de pacientes durante la entrevista (debe evitarse desviando la conversacion).
+- Alta responsabilidad de disociacion desde el diseno.
+
+## Restricciones especificas de MediCita
+
+Este proyecto no debera en ninguna etapa: (a) acceder a historias clinicas reales; (b) entrevistar a pacientes; (c) capturar imagenes clinicas reales; (d) integrarse con sistemas hospitalarios en produccion. Todo el desarrollo se hace con personas-tipo y datos sinteticos.
+
+## Checklist de documentos aplicables
+
+| Documentos A.1 al A.12 del Anexo A (comunes obligatorios).                   | 12 items      |
+|------------------------------------------------------------------------------|---------------|
+| A1 - Protocolo de disociacion completa desde el diseno (Privacy-by- Design). | Obligatorio   |
+| A2 - Declaracion de uso exclusivo de datos sinteticos.                       | Obligatorio   |
+| A3 - Aval especifico del establecimiento medico.                             | Obligatorio   |
+| A4 - Referencia a LOPDP articulos sobre datos sensibles.                     | Obligatorio   |
+| A5 - Protocolo de manejo de imagenes clinicas (si aplica).                   | Segun sistema |
+
+## PFC #6 - Marketplace UTEQ
+
+Categoria B - Datos personales
+
+Dominio y sistema objetivo. Plataforma de comercio electronico interna para la comunidad universitaria: publicacion, busqueda y compra-venta de productos y servicios entre estudiantes, docentes y personal.
+
+Organizacion objeto de estudio. La propia comunidad UTEQ, con aval del Vicerrectorado Academico o del Vicerrectorado de Bienestar Universitario.
+
+Poblacion participante. Estudiantes, docentes y personal administrativo mayores de edad, reclutados por convocatoria voluntaria en la Facultad de Ciencias de la Computacion y facultades afines.
+
+## Banco de preguntas guia
+
+1. Que ha comprado o vendido dentro de la UTEQ o entre companeros en el ultimo semestre.
+2. Como se ha enterado de las ofertas o solicitudes (WhatsApp, redes, tablon).
+3. Que problemas ha enfrentado (precios, calidad, pagos, encuentros).
+4. Que garantias querria antes de comprarle a otro miembro de la comunidad.
+5. Como preferiria acordar el punto y momento de entrega.
+6. Que categorias de productos o servicios cree usted que deberian estar disponibles.
+
+## Riesgos eticos particulares
+
+- Datos personales de la comunidad universitaria.
+- Sensibilidad reputacional (una filtracion afecta directamente la imagen institucional).
+- Uso adecuado del correo institucional para reclutamiento.
+- Potencial captura de datos financieros si el sistema procesa pagos.
+
+## Checklist de documentos aplicables
+
+| Documentos A.1 al A.12 del Anexo A (comunes obligatorios).        | 12 items   |
+|-------------------------------------------------------------------|------------|
+| B1 - Aval institucional UTEQ (Vicerrectorado).                    | Aplica     |
+| B2 - Protocolo de proteccion de datos personales de la comunidad. | Aplica     |
+| B3 - Compromiso de no uso de datos reales de pagos.               | Aplica     |
+
+## PFC #7 - Sistema de gestion de gimnasio
+
+Categoria A - Datos sensibles biometricos
+
+Dominio y sistema objetivo. Sistema de gestion de centros deportivos: registro de socios, planes de entrenamiento, control de asistencia, seguimiento de progreso corporal.
+
+Organizacion objeto de estudio. Gimnasio o centro deportivo privado, con al menos un ano de operacion formal.
+
+Poblacion participante. Propietario, entrenadores personales, recepcionistas, socios-tipo (perfiles construidos, no socios reales).
+
+## Banco de preguntas guia
+
+1. Como registra actualmente a los socios y como maneja los pagos mensuales.
+2. Como asigna planes de entrenamiento y como controla su cumplimiento.
+3. Que datos corporales o de progreso recoge y con que frecuencia.
+4. Como maneja la asistencia diaria de los socios.
+5. Como se comunica con socios inactivos.
+6. Que reportes usa para la gestion del negocio.
+
+## Riesgos eticos particulares
+
+- Datos biometricos son categoria especial en la LOPDP .
+
+- Datos de peso, medidas corporales, IMC pueden generar impacto psicologico si son mal manejados.
+- Posible captura de fotografias de socios (deben evitarse durante el desarrollo).
+- Datos de rutina y horario pueden ser usados con fines de vigilancia.
+
+## Restricciones especificas del sistema de gestion de gimnasio
+
+El proyecto no debera durante el desarrollo: (a) capturar datos biometricos reales de socios; (b) tomar fotografias corporales; (c) recolectar peso, medidas o IMC de personas identificables. Todo se trabaja con socios-tipo ficticios y datos sinteticos.
+
+## Checklist de documentos aplicables
+
+| Documentos A.1 al A.12 del Anexo A (comunes obligatorios).           | 12 items      |
+|----------------------------------------------------------------------|---------------|
+| A1 - Protocolo de disociacion completa desde el diseno.              | Obligatorio   |
+| A2 - Declaracion de uso exclusivo de datos sinteticos.               | Obligatorio   |
+| A3 - Aval especifico del establecimiento deportivo.                  | Obligatorio   |
+| A4 - Referencia a LOPDP articulos sobre datos sensibles biometricos. | Obligatorio   |
+| A5 - Protocolo de manejo de imagenes corporales (si aplica).         | Segun sistema |
+
+## PFC #8 - Sistema de gestion de clinica veterinaria
+
+Categoria B - Datos personales
+
+Dominio y sistema objetivo. Sistema de gestion integral para clinica veterinaria: agenda, historia clinica animal, inventario de medicamentos, facturacion, comunicacion con propietarios.
+
+Organizacion objeto de estudio. Clinica veterinaria local privada con al menos dos veterinarios de planta.
+
+Poblacion participante. Medicos veterinarios, personal administrativo, propietarios de mascotas voluntarios mayores de edad.
+
+## Banco de preguntas guia
+
+1. Como se registra un nuevo paciente (mascota + propietario) actualmente.
+2. Como se documenta la historia clinica y las consultas subsecuentes.
+3. Como se maneja el inventario de medicamentos y vacunas.
+4. Como se comunican los recordatorios de desparasitacion, vacunacion o control.
+5. Como se genera la factura al finalizar una consulta.
+6. Que reportes usa el propietario de la clinica para la gestion.
+
+## Riesgos eticos particulares
+
+- Datos personales de propietarios (nombre, contacto, direccion).
+- Posible presencia de propietarios menores de edad.
+- Datos financieros de la clinica.
+
+- Historia clinica animal, aunque no de humanos, contiene datos sensibles del propietario por conexion.
+
+## Checklist de documentos aplicables
+
+| Documentos A.1 al A.12 del Anexo A (comunes obligatorios).        | 12 items   |
+|-------------------------------------------------------------------|------------|
+| B1 - Aval de la clinica veterinaria.                              | Aplica     |
+| B2 - Protocolo de proteccion de datos personales de propietarios. | Aplica     |
+| B3 - Compromiso de no uso de datos reales.                        | Aplica     |
+| B5 - Politica de manejo de datos de menores.                      | Aplica     |
+
+## PFC #9 - SIGA - Sistema Inteligente de Gestion de Aulas
+
+(potencial A)
+
+Dominio y sistema objetivo. Sistema Inteligente de Gestion de Aulas (SIGA) para la Facultad de Ciencias de la Computacion de la UTEQ. Cubre reservacion y asignacion de aulas, monitoreo de ocupacion, control de asistencia, gestion de equipamiento tecnologico, integracion con horarios academicos y analitica de uso de espacios.
+
+Organizacion objeto de estudio. La propia UTEQ , especificamente la Facultad de Ciencias de la Computacion. Esta caracteristica de auto-observacion institucional exige consideraciones eticas y de conflicto de intereses adicionales respecto a los demas PFC.
+
+Poblacion participante. Coordinacion de carrera (Mgs. Jessica A. Ponce Ordonez), personal administrativo de la FCC, docentes de la carrera de Ingenieria de Software, estudiantes mayores de edad de cuarto y quinto nivel (voluntarios reclutados por convocatoria abierta), personal de servicios generales responsable del acondicionamiento de aulas.
+
+## Consideraciones especiales por auto-observacion
+
+Al ser SIGA un proyecto donde la organizacion objeto de estudio es la propia UTEQ, aplican las siguientes reglas adicionales: (a) el aval institucional se solicita al Decano de la FCC o directamente al Vicerrectorado Academico - la misma autoridad que aprueba la solicitud etica - lo cual debe manejarse explicitamente para evitar apariencia de conflicto de intereses; (b) el docente responsable y los integrantes del equipo son parte de la comunidad universitaria estudiada, por lo que la declaracion de conflicto de intereses debe ser mas detallada; (c) las entrevistas a docentes de la carrera deben conducirse por integrantes que no tengan asignaturas vigentes con ellos, o registrarse con doble validacion; (d) los datos de estudiantes participantes no pueden vincularse con sus calificaciones academicas ni con ningun registro del SGA institucional.
+
+## Banco de preguntas guia (personal administrativo y coordinacion)
+
+1. Como se asignan actualmente las aulas a las asignaturas al inicio del semestre.
+2. Como se registran los cambios de aula durante el semestre y quien los autoriza.
+3. Como se gestionan las solicitudes puntuales de aula para eventos, defensas, tutorias.
+4. Como se controla el estado del equipamiento tecnologico (proyectores, computadoras, sistemas de audio).
+5. Como se coordina con servicios generales la limpieza y el acondicionamiento entre clases.
+
+Categoria B - Datos personales
 
 6. Que reportes de ocupacion o subutilizacion se generan para la toma de decisiones.
 
@@ -729,5 +965,7 @@ Es frecuente que en fincas medianas y pequenas exista personal de campo con vinc
 |  10 | Sistema Inteligente de Terapia Fisica   | A               |        12 | 5 (A1-A5)          |
 |  11 | Sistema de Gestion Agricola verde/cacao | C               |        12 | 4 (C1-C4)          |
 
-<!-- Fin del bloque -->
+## Recordatorio final
+
+Todos los documentos deben subirse al repositorio institucional del proyecto antes del cierre de la ventana de recoleccion de datos (semana 6 del PPA como fecha limite recomendada). El docente responsable consolida los once paquetes y los remite adjuntos al oficio dirigido al Vicerrectorado Academico. La aprobacion emitida sera adjuntada a los manuscritos que se sometan a revistas JCR/Scopus.
 
