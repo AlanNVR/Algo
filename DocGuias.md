@@ -1,2470 +1,1311 @@
-UNIVERSIDAD TECNICA ESTATAL DE QUEVEDO
-Facultad de Ciencias de la Computacion
-Carrera de Ingenieria de Software
-
-PAQUETE INTEGRAL DE ANEXOS Y GUIAS DE
+|         | UNIVERSIDAD |     |          | TECNICA |             |            | ESTATAL           | DE  | QUEVEDO |     |
+| ------- | ----------- | --- | -------- | ------- | ----------- | ---------- | ----------------- | --- | ------- | --- |
+|         |             |     | Facultad |         | de Ciencias |            | de la Computacion |     |         |     |
+|         |             |     |          | Carrera | de          | Ingenieria | de Software       |     |         |     |
+| PAQUETE |             |     | INTEGRAL |         |             | DE         | ANEXOS            |     | Y GUIAS | DE  |
 ELABORACION
+| Solicitud |                                        | de  | Aprobacion |         |            | Etica       | de Proyectos  |                      | Fin de | Curso |
+| --------- | -------------------------------------- | --- | ---------- | ------- | ---------- | ----------- | ------------- | -------------------- | ------ | ----- |
+|           |                                        |     |            | ISR-401 | Ingenieria |             | de Requisitos |                      |        |       |
+|           |                                        |     |            | Periodo | academico  |             | 2026‚Äì2027     | PPA                  |        |       |
+|           |                                        |     |            | Cuarto  | nivel      | ‚Äì paralelos | A             | y B                  |        |       |
+|           | DocumentodeacompanamientodelOficioNro. |     |            |         |            |             |               | FCC-ISR401-____-2026 |        |       |
+dirigidoalVicerrectoradoAcademicodelaUTEQ
+|     |     | Docenteresponsable: |     |     |     | Ing. GleistonGuerreroUlloa,PhD |     |     |     |     |
+| --- | --- | ------------------- | --- | --- | --- | ------------------------------ | --- | --- | --- | --- |
+Quevedo‚ÄìLosRios‚ÄìEcuador
 
-Solicitud de Aprobacion Etica de Proyectos Fin de Curso
-
-ISR-401 Ingenieria de Requisitos
-Periodo academico 2026ñ2027 PPA
-Cuarto nivel ñ paralelos A y B
-
-Documento de acompanamiento del Oficio Nro. FCC-ISR401-____-2026
-dirigido al Vicerrectorado Academico de la UTEQ
-
-Docente responsable: Ing. Gleiston Guerrero Ulloa, PhD
-Quevedo ñ Los Rios ñ Ecuador
-
-UTEQ | FCC | ISR-401
-
-Paquete de Anexos y Guias ñ Aprobacion Etica PFC
-
-Presentacion y estructura del paquete
-
+| UTEQ|FCC|ISR-401 |              |     |              |     |         | PaquetedeAnexosyGuias‚ÄìAprobacionEticaPFC |
+| ---------------- | ------------ | --- | ------------ | --- | ------- | ---------------------------------------- |
+|                  | Presentacion |     | y estructura | del | paquete |                                          |
 Este documento acompana al oficio de solicitud de aprobacion etica dirigido al Vicerrectorado
 Academico y contiene el material tecnico y metodologico que sustenta la peticion. Se organiza
 en tres partes:
-
-Parte I ñ Plantillas de los 9 documentos del Anexo A que requieren elaboracion. Los
+Parte I ‚Äì Plantillas de los 9 documentos del Anexo A que requieren elaboracion. Los
 documentos numeros 3 (Consentimiento Informado), 5 (Aval Institucional) y 7 (Compromiso
 de Confidencialidad) del Anexo A ya se encuentran como plantillas listas en el oficio principal
-(Anexos C, D y E de la solicitud), por lo que no se repiten aqui.
-
-Parte II ñ Plantillas de los documentos adicionales por categoria de riesgo etico. Com-
+| (Anexos |     | C, D y | E de la solicitud), |     | por lo que | no se repiten aqui. |
+| ------- | --- | ------ | ------------------- | --- | ---------- | ------------------- |
+Parte II ‚Äì Plantillas de los documentos adicionales por categoria de riesgo etico. Com-
 prende cinco documentos para categoria A (datos sensibles: MediCita, Sistema de Gimnasio
 y Sistema Inteligente de Terapia Fisica), cinco para categoria B (datos personales: MundiPets,
 RutaExpress, Marketplace UTEQ, Clinica Veterinaria y SIGA) y cuatro para categoria C (riesgo
 minimo operativo: AquaGest, SIMPA y Sistema de Gestion Agricola verde/cacao).
-
-Parte III ñ Guia especifica de elaboracion por proyecto PFC. Para cada uno de los once
+Parte III ‚Äì Guia especifica de elaboracion por proyecto PFC. Para cada uno de los once
 proyectos se entrega una ficha con dominio, organizacion objeto de estudio, poblacion partici-
 pante, preguntas guia para la entrevista, riesgos eticos particulares y checklist de documentos
-aplicables. El PFC #9 (SIGA) corresponde a un caso de auto-observacion institucional en el que
+aplicables. ElPFC#9(SIGA)correspondeauncasodeauto-observacioninstitucionalenelque
 la propia UTEQ es la organizacion objeto de estudio; el PFC #10 (Terapia Fisica) es un caso
 de alta sensibilidad clinica con componente de vision por computadora; el PFC #11 (Gestion
-Agricola verde/cacao) es un caso operativo agricola.
-
-Como usar este paquete
-
-1. Cada equipo estudiantil descarga este documento y localiza su proyecto en la Parte III.
+| Agricola |      | verde/cacao) | es           | un caso | operativo | agricola. |
+| -------- | ---- | ------------ | ------------ | ------- | --------- | --------- |
+|          | Como | usar         | este paquete |         |           |           |
+1. CadaequipoestudiantildescargaestedocumentoylocalizasuproyectoenlaParteIII.
 2. Con la guia especifica identifica cuales documentos de las Partes I y II debe elaborar.
 3. Personaliza cada plantilla sustituyendo los campos entre corchetes [ ] por los datos
-
 reales.
-
 4. Reune las evidencias firmadas y las carga al repositorio institucional del proyecto en
-
-una carpeta 06_Etica/ con un archivo PDF por documento.
-
+|     | una | carpeta | 06_Etica/ | con | un archivo | PDF por documento. |
+| --- | --- | ------- | --------- | --- | ---------- | ------------------ |
 5. El docente responsable consolida los once paquetes y los remite adjuntos al oficio di-
+|     | rigido | al  | Vicerrectorado. |     |     |     |
+| --- | ------ | --- | --------------- | --- | --- | --- |
+2026-2027PPA Pagina2/32
 
-rigido al Vicerrectorado.
-
-2026-2027 PPA
-
-Pagina 2 / 32
-
-UTEQ | FCC | ISR-401
-
-Paquete de Anexos y Guias ñ Aprobacion Etica PFC
-
-PARTE I ñ Plantillas de los 9 documentos del Anexo A
-
-A.1 ñ Protocolo de investigacion individualizado
-
-Alcance y extension
-
-Documento tecnico de maximo 10 paginas que caracteriza el proyecto de forma inde-
+| UTEQ|FCC|ISR-401 |             |             |                |                 |              | PaquetedeAnexosyGuias‚ÄìAprobacionEticaPFC |     |     |       |     |     |
+| ---------------- | ----------- | ----------- | -------------- | --------------- | ------------ | ---------------------------------------- | --- | --- | ----- | --- | --- |
+|                  | PARTE       |             | I ‚Äì Plantillas | de los          | 9 documentos |                                          |     | del | Anexo |     | A   |
+| A.1              | ‚Äì Protocolo | de          | investigacion  | individualizado |              |                                          |     |     |       |     |     |
+| Alcance          |             | y extension |                |                 |              |                                          |     |     |       |     |     |
+Documento tecnico de que caracteriza el proyecto de forma inde-
+|     |     |     | maximo | 10 paginas |     |     |     |     |     |     |     |
+| --- | --- | --- | ------ | ---------- | --- | --- | --- | --- | --- | --- | --- |
 pendiente para revision etica. Uno por proyecto PFC. Debe estar firmado por el docente
-responsable y el lider del equipo.
-
-Estructura obligatoria del protocolo
-
-#
-
-1
-
-2
-
-3
-
-4
-
-5
-
-6
-
-Seccion
-
-Contenido minimo
-
-Datos de identificacion
-
-Titulo del proyecto, PFC al que pertenece, docente
-responsable, integrantes del equipo (nombres, cedulas,
-correo institucional, paralelo), fecha, version.
-
-Resumen ejecutivo
-
-Maximo 250 palabras. Objetivo, poblacion, metodos y aporte
+| responsable |         | y el lider  | del equipo.   |                 |     |     |     |     |     |     |     |
+| ----------- | ------- | ----------- | ------------- | --------------- | --- | --- | --- | --- | --- | --- | --- |
+| Estructura  |         | obligatoria | del protocolo |                 |     |     |     |     |     |     |     |
+| #           | Seccion |             |               | Contenidominimo |     |     |     |     |     |     |     |
+1 Datos de identificacion Titulo del proyecto, PFC al que pertenece, docente
+|     |     |     |     | responsable, | integrantes    |            | del | equipo | (nombres, |     | cedulas, |
+| --- | --- | --- | --- | ------------ | -------------- | ---------- | --- | ------ | --------- | --- | -------- |
+|     |     |     |     | correo       | institucional, | paralelo), |     | fecha, | version.  |     |          |
+2 Resumen ejecutivo Maximo 250 palabras. Objetivo, poblacion, metodos y aporte
 esperado.
-
-Justificacion cientifica y
-social
-
-Marco teorico y
-normativo
-
-Vacio de conocimiento o problema practico que aborda.
-Aporte al dominio (acuicultura, veterinaria, salud, comercio,
-etc.). Publicacion cientifica prevista (revista JCR/Scopus
+3 Justificacion cientifica y Vacio de conocimiento o problema practico que aborda.
+social Aporte al dominio (acuicultura, veterinaria, salud, comercio,
+|     |     |     |     | etc.). Publicacion |     | cientifica |     | prevista | (revista | JCR/Scopus |     |
+| --- | --- | --- | --- | ------------------ | --- | ---------- | --- | -------- | -------- | ---------- | --- |
 objetivo).
-
-Fundamentos (SWEBOK v4.0, IREB CPRE FL v3.1, IEEE
-29148:2018, ISO/IEC 25010:2023). Referencias a estudios
-previos con cita completa.
-
-Objetivo general y
-objetivos especificos
-
-Un objetivo general redactado con verbo en infinitivo. Tres a
-cinco objetivos especificos operacionalizables.
-
-Preguntas de
-investigacion o hipotesis
-
-Preguntas de investigacion (research questions) si el diseno
-es exploratorio, o hipotesis si el diseno es
+4 Marco teorico y Fundamentos (SWEBOK v4.0, IREB CPRE FL v3.1, IEEE
+normativo 29148:2018, ISO/IEC 25010:2023). Referencias a estudios
+|     |     |     |     | previos | con cita | completa. |     |     |     |     |     |
+| --- | --- | --- | --- | ------- | -------- | --------- | --- | --- | --- | --- | --- |
+5 Objetivo general y Un objetivo general redactado con verbo en infinitivo. Tres a
+objetivos especificos cinco objetivos especificos operacionalizables.
+6 Preguntas de Preguntas de investigacion (research questions) si el diseno
+investigacion o hipotesis es exploratorio, o hipotesis si el diseno es
 hipotetico-deductivo.
-
-7
-
-Diseno metodologico
-
-8
-
-Poblacion y muestra
-
-Enfoque (cualitativo, cuantitativo o mixto), tipo de estudio,
-unidad de analisis, criterios de inclusion/exclusion de
+7 Diseno metodologico Enfoque (cualitativo, cuantitativo o mixto), tipo de estudio,
+|     |     |     |     | unidad | de analisis, | criterios |     | de inclusion/exclusion |     |     | de  |
+| --- | --- | --- | --- | ------ | ------------ | --------- | --- | ---------------------- | --- | --- | --- |
 participantes.
-
-Poblacion objetivo, tamano muestral, tecnica de muestreo
-(por conveniencia, intencional, bola de nieve, etc.),
+8 Poblacion y muestra Poblacion objetivo, tamano muestral, tecnica de muestreo
+|     |     |     |     | (por conveniencia, |     | intencional, |     | bola | de nieve, | etc.), |     |
+| --- | --- | --- | --- | ------------------ | --- | ------------ | --- | ---- | --------- | ------ | --- |
 justificacion.
+9 Tecnicas e instrumentos Entrevista semi-estructurada, encuesta, observacion, Design
+de elicitacion Thinking, taller de validacion. Referenciar los instrumentos
+|     |     |     |     | del Anexo | A.2. |     |     |     |     |     |     |
+| --- | --- | --- | --- | --------- | ---- | --- | --- | --- | --- | --- | --- |
+10 Plan de analisis de datos Analisis tematico, codificacion abierta/axial, estadistica
+|              |     |     |     | descriptiva, | triangulacion. |     | Software |     | (NVivo, | Excel, | R, etc.).  |
+| ------------ | --- | --- | --- | ------------ | -------------- | --- | -------- | --- | ------- | ------ | ---------- |
+| 2026-2027PPA |     |     |     |              |                |     |          |     |         |        | Pagina3/32 |
 
-9
-
-Tecnicas e instrumentos
-de elicitacion
-
-Entrevista semi-estructurada, encuesta, observacion, Design
-Thinking, taller de validacion. Referenciar los instrumentos
-del Anexo A.2.
-
-10
-
-Plan de analisis de datos
-
-Analisis tematico, codificacion abierta/axial, estadistica
-descriptiva, triangulacion. Software (NVivo, Excel, R, etc.).
-
-2026-2027 PPA
-
-Pagina 3 / 32
-
-UTEQ | FCC | ISR-401
-
-Paquete de Anexos y Guias ñ Aprobacion Etica PFC
-
-Seccion
-
-Contenido minimo
-
-#
-
-11
-
-Consideraciones eticas
-
-12
-
-Cronograma
-
-13
-
-Presupuesto
-
-Riesgos minimos, consentimiento informado,
-confidencialidad, anonimizacion, voluntariedad, ausencia de
-compensacion economica.
-
-Diagrama de Gantt por semanas del PPA, alineado con las
-entregas 1A, 1B, 2A, 2B del PFC.
-
-Detalle de recursos requeridos. Declarar si se autofinancia o
-si aplica algun apoyo externo (declarar en conflicto de
+| UTEQ|FCC|ISR-401 |     |     |     |                 |     | PaquetedeAnexosyGuias‚ÄìAprobacionEticaPFC |     |     |     |     |
+| ---------------- | --- | --- | --- | --------------- | --- | ---------------------------------------- | --- | --- | --- | --- |
+| # Seccion        |     |     |     | Contenidominimo |     |                                          |     |     |     |     |
+11 Consideraciones eticas Riesgos minimos, consentimiento informado,
+|     |     |     |     | confidencialidad, |     | anonimizacion, |     | voluntariedad, |     | ausencia de |
+| --- | --- | --- | --- | ----------------- | --- | -------------- | --- | -------------- | --- | ----------- |
+|     |     |     |     | compensacion      |     | economica.     |     |                |     |             |
+12 Cronograma Diagrama de Gantt por semanas del PPA, alineado con las
+|     |     |     |     | entregas |     | 1A, 1B, 2A, | 2B del PFC. |     |     |     |
+| --- | --- | --- | --- | -------- | --- | ----------- | ----------- | --- | --- | --- |
+13 Presupuesto Detalle de recursos requeridos. Declarar si se autofinancia o
+|     |     |     |     | si aplica | algun | apoyo | externo | (declarar | en conflicto | de  |
+| --- | --- | --- | --- | --------- | ----- | ----- | ------- | --------- | ------------ | --- |
 intereses).
-
-14
-
-Divulgacion de resultados Manuscrito para revista (nombre, cuartil), memoria del PFC,
-
-presentacion en jornada academica interna.
-
-15
-
-Referencias bibliograficas Formato IEEE. Minimo 15 referencias, con al menos 60% de
-
-los ultimos cinco anos.
-
-Nota de piso obligatoria
-
-debe
-
-protocolo
-
-como
-El
+14 Divulgacionderesultados Manuscrito para revista (nombre, cuartil), memoria del PFC,
+|     |     |     |     | presentacion |     | en jornada | academica | interna. |     |     |
+| --- | --- | --- | --- | ------------ | --- | ---------- | --------- | -------- | --- | --- |
+15 Referencias bibliograficas Formato IEEE. Minimo 15 referencias, con al menos 60% de
+|              |                  |      |     | los     | ultimos | cinco anos. |     |              |     |      |
+| ------------ | ---------------- | ---- | --- | ------- | ------- | ----------- | --- | ------------ | --- | ---- |
+| Nota de      | piso obligatoria |      |     |         |         |             |     |              |     |      |
+| El protocolo |                  | debe |     | subirse | al      | repositorio |     | del proyecto |     | como |
 06_Etica/A1_Protocolo_Investigacion.pdf. La URL del repositorio debe declararse en
 la caratula. Si esta URL esta rota o el archivo no es accesible al momento de la revision,
-el proyecto sera devuelto sin evaluacion etica.
-
-repositorio
-
-proyecto
-
-subirse
-
-del
-
-al
-
-A.2 ñ Instrumentos de recoleccion de datos
-
-Cuatro subplantillas
-
-Este documento consolida los cuatro tipos de instrumentos: guia de entrevista, cuestionario
+| el proyecto        | sera          | devuelto | sin evaluacion |     | etica.   |     |     |     |     |     |
+| ------------------ | ------------- | -------- | -------------- | --- | -------- | --- | --- | --- | --- | --- |
+| A.2 ‚Äì Instrumentos |               | de       | recoleccion    |     | de datos |     |     |     |     |     |
+| Cuatro             | subplantillas |          |                |     |          |     |     |     |     |     |
+Estedocumentoconsolidaloscuatrotiposdeinstrumentos: guiadeentrevista,cuestionario
 de encuesta, protocolo de observacion y guion de sesion Design Thinking. Cada equipo
-entrega los que efectivamente empleara.
-
-A.2.1 ñ Guia de entrevista semi-estructurada
-
-Datos de la sesion
-
-Codigo de la entrevista
-
-Fecha y hora
-
-Duracion prevista
-
-Modalidad
-
-Participante (rol)
-
-Entrevistador principal
-
-Entrevistador registrador
-
+| entrega | los que efectivamente |     |     | empleara. |     |     |     |     |     |     |
+| ------- | --------------------- | --- | --- | --------- | --- | --- | --- | --- | --- | --- |
+A.2.1‚ÄìGuiadeentrevistasemi-estructurada
+| Datos de | la sesion |     |     |     |     |     |     |     |     |     |
+| -------- | --------- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+Codigodelaentrevista
+Fechayhora
+Duracionprevista
+| Modalidad |     |     | Presencial |     | | Virtual | | Telefonica |     |     |     |     |
+| --------- | --- | --- | ---------- | --- | --------- | ------------ | --- | --- | --- | --- |
+Participante(rol)
+Entrevistadorprincipal
+Entrevistadorregistrador
 Bloques tematicos
-
-Presencial | Virtual | Telefonica
-
 Bloque 1. Apertura (5 min). Presentacion del equipo, del proyecto, lectura del consentimiento infor-
+| mado,        | solicitud | de firma, | verificacion |     | del permiso | de grabacion. |     |     |     |            |
+| ------------ | --------- | --------- | ------------ | --- | ----------- | ------------- | --- | --- | --- | ---------- |
+| 2026-2027PPA |           |           |              |     |             |               |     |     |     | Pagina4/32 |
 
-mado, solicitud de firma, verificacion del permiso de grabacion.
-
-2026-2027 PPA
-
-Pagina 4 / 32
-
-UTEQ | FCC | ISR-401
-
-Paquete de Anexos y Guias ñ Aprobacion Etica PFC
-
+| UTEQ|FCC|ISR-401 |     |     |     | PaquetedeAnexosyGuias‚ÄìAprobacionEticaPFC |     |
+| ---------------- | --- | --- | --- | ---------------------------------------- | --- |
 Bloque 2. Contextualizacion del participante (5-8 min). Cargo, antiguedad, principales responsabil-
-
-idades, herramientas informaticas actuales que utiliza.
-
+| idades, | herramientas | informaticas | actuales que | utiliza. |     |
+| ------- | ------------ | ------------ | ------------ | -------- | --- |
 Bloque 3. Descripcion de procesos de trabajo (10-15 min). Paso a paso de las actividades cotidi-
-
 anas relevantes al sistema en diseno. Utilizar la tecnica de las 5W+1H.
-
 Bloque 4. Identificacion de puntos de dolor (10 min). Que actividades consumen mas tiempo,
 cuales generan errores, cuales duplican esfuerzo, cuales dependen de conocimiento de
-otras personas.
-
-Bloque 5. Necesidades y expectativas del sistema (10 min). Que quisiera el participante que hiciera
-
-el sistema. Que evitaria hacer. Cual seria el escenario ideal.
-
+| otras | personas. |     |     |     |     |
+| ----- | --------- | --- | --- | --- | --- |
+Bloque 5. Necesidadesyexpectativasdelsistema(10min). Quequisieraelparticipantequehiciera
+| el sistema. | Que evitaria | hacer. | Cual seria el | escenario | ideal. |
+| ----------- | ------------ | ------ | ------------- | --------- | ------ |
 Bloque 6. Cierre (5 min). Preguntas del participante, agradecimiento, coordinacion de una sesion de
 validacion posterior, recordatorio del derecho a retirar la informacion suministrada.
-
-A.2.2 ñ Cuestionario de encuesta
-
+A.2.2‚ÄìCuestionariodeencuesta
 Instructivo
-
-ï Extension maxima: 20 items.
-
-ï Escalas: Likert de 5 puntos (1 = totalmente en desacuerdo, 5 = totalmente de acuerdo) o de
-
-frecuencia (1 = nunca, 5 = siempre).
-
-ï Items cerrados unicos, sin dobles negaciones, sin preguntas doble.
-
-ï Al menos 3 items abiertos al final para captura cualitativa.
-
-ï Pilotear con 3-5 personas antes de la aplicacion final.
-
-ï Reportar Alfa de Cronbach si la muestra supera n=30.
-
-Encabezado obligatorio del cuestionario
-
-Estimado(a) participante: este cuestionario forma parte del proyecto ì[titulo del PFC]î de-
+| ‚Ä¢ Extension | maxima: | 20 items. |     |     |     |
+| ----------- | ------- | --------- | --- | --- | --- |
+‚Ä¢ Escalas: Likertde5puntos(1=totalmenteendesacuerdo,5=totalmentedeacuerdo)ode
+| frecuencia | (1 = nunca, | 5 = siempre). |     |     |     |
+| ---------- | ----------- | ------------- | --- | --- | --- |
+‚Ä¢ Items cerrados unicos, sin dobles negaciones, sin preguntas doble.
+| ‚Ä¢ Al menos | 3 items          | abiertos al final | para captura     | cualitativa. |     |
+| ---------- | ---------------- | ----------------- | ---------------- | ------------ | --- |
+| ‚Ä¢ Pilotear | con 3-5 personas | antes             | de la aplicacion | final.       |     |
+| ‚Ä¢ Reportar | Alfa de Cronbach | si la             | muestra supera   | n=30.        |     |
+| Encabezado | obligatorio      | del cuestionario  |                  |              |     |
+Estimado(a) participante: este cuestionario forma parte del proyecto ‚Äú[titulo del PFC]‚Äù de-
 sarrollado por estudiantes de la Universidad Tecnica Estatal de Quevedo bajo la supervi-
 sion del Ing. Gleiston Guerrero Ulloa, PhD. Su participacion es voluntaria, anonima y sus
 respuestas seran tratadas conforme a la Ley Organica de Proteccion de Datos Personales
 del Ecuador. Al continuar, usted otorga su consentimiento para que sus respuestas sean
 utilizadas con fines academicos. Tiempo estimado de respuesta: [X] minutos.
+A.2.3‚ÄìProtocolodeobservacion
+2026-2027PPA Pagina5/32
 
-A.2.3 ñ Protocolo de observacion
-
-2026-2027 PPA
-
-Pagina 5 / 32
-
-UTEQ | FCC | ISR-401
-
-Paquete de Anexos y Guias ñ Aprobacion Etica PFC
-
-Codigo de la
+| UTEQ|FCC|ISR-401 |     |     |     | PaquetedeAnexosyGuias‚ÄìAprobacionEticaPFC |     |     |
+| ---------------- | --- | --- | --- | ---------------------------------------- | --- | --- |
+Codigodela
 observacion
-
-Sitio observado
-
-Fecha, hora inicio, hora
+Sitioobservado
+Fecha,horainicio,hora
 fin
-
 Observador(es)
-
-Tipo de observacion
-
-Estructurada | Semi-estructurada | No participante
-
-Focos observacionales
-
-Lista numerada de 3-6 aspectos concretos a observar.
-
-Instrumentos de
+|     |     | Estructurada | | Semi-estructurada |     | | No participante |     |
+| --- | --- | ------------ | ------------------- | --- | ----------------- | --- |
+Tipodeobservacion
+Focosobservacionales Lista numerada de 3-6 aspectos concretos a observar.
+Instrumentosde Ficha de campo, cronometro, camara (con autorizacion).
 registro
-
-Ficha de campo, cronometro, camara (con autorizacion).
-
-Consideracion etica
-
-No se registran rostros ni datos identificables.
-
-A.2.4 ñ Guion de sesion Design Thinking
-
+|     |     | No se | registran rostros | ni datos | identificables. |     |
+| --- | --- | ----- | ----------------- | -------- | --------------- | --- |
+Consideracionetica
+A.2.4‚ÄìGuiondesesionDesignThinking
 1. Empatizar (30 min). Mapa de empatia con los stakeholders participantes. Tecnicas: pre-
-
-guntas de sondeo, storytelling.
-
-2. Definir (20 min). Formulacion de la declaracion de punto de vista (POV): ì[usuario] necesita
-
-[necesidad] porque [insight]î.
-
+| guntas | de sondeo, | storytelling. |     |     |     |     |
+| ------ | ---------- | ------------- | --- | --- | --- | --- |
+2. Definir(20min). Formulaciondeladeclaraciondepuntodevista(POV):‚Äú[usuario]necesita
+| [necesidad] | porque | [insight]‚Äù. |     |     |     |     |
+| ----------- | ------ | ----------- | --- | --- | --- | --- |
 3. Idear (25 min). Lluvia de ideas moderada, minimo 30 ideas, agrupacion por afinidad, vota-
-
-cion con puntos.
-
+| cion | con puntos. |     |     |     |     |     |
+| ---- | ----------- | --- | --- | --- | --- | --- |
 4. Prototipar (30 min). Mockup de baja fidelidad en papel o Figma, un prototipo por idea
-
 seleccionada.
-
 5. Testear (15 min). Retroalimentacion con al menos dos stakeholders diferentes de los que
-
-participaron en Empatizar.
-
+| participaron | en Empatizar. |     |     |     |     |     |
+| ------------ | ------------- | --- | --- | --- | --- | --- |
 Consideracion etica de Design Thinking: todas las personas que participan de la sesion
 deben firmar consentimiento informado antes de iniciar. La sala de trabajo debe garantizar
-privacidad. Los prototipos y notas se anonimizan antes del archivo.
-
-A.4 ñ Plan de Gestion de Datos (DMP)
-
-Estandar de referencia
-
+| privacidad. | Los prototipos  | y notas  | se anonimizan | antes | del archivo. |     |
+| ----------- | --------------- | -------- | ------------- | ----- | ------------ | --- |
+| A.4 ‚Äì       | Plan de Gestion | de Datos | (DMP)         |       |              |     |
+| Estandar    | de referencia   |          |               |       |              |     |
 Se recomienda seguir la estructura DMP-Roadmap del Digital Curation Centre (Reino
 Unido), adaptada al contexto UTEQ. El DMP debe ser un documento vivo, actualizado
-tras cada entrega del PFC.
+| tras cada | entrega del | PFC. |                      |     |     |     |
+| --------- | ----------- | ---- | -------------------- | --- | --- | --- |
+| #         | Elemento    |      | Descripcionrequerida |     |     |     |
+1 Descripcion de datos Tipos de datos que se recolectaran: transcripciones de
+|     |     |     | entrevistas, | respuestas | de encuesta,     | notas de observacion, |
+| --- | --- | --- | ------------ | ---------- | ---------------- | --------------------- |
+|     |     |     | prototipos,  | artefactos | UML, fotografias | (sin rostros),        |
+|     |     |     | grabaciones  | de audio.  |                  |                       |
+2026-2027PPA Pagina6/32
 
-#
-
-1
-
-Elemento
-
-Descripcion requerida
-
-Descripcion de datos
-
-Tipos de datos que se recolectaran: transcripciones de
-entrevistas, respuestas de encuesta, notas de observacion,
-prototipos, artefactos UML, fotografias (sin rostros),
-grabaciones de audio.
-
-2026-2027 PPA
-
-Pagina 6 / 32
-
-UTEQ | FCC | ISR-401
-
-Paquete de Anexos y Guias ñ Aprobacion Etica PFC
-
-#
-
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-Elemento
-
-Formatos
-
-Volumen estimado
-
-Metodo de captura
-
-Descripcion requerida
-
-Formatos abiertos preferidos: .txt, .csv, .pdf, .md, .png.
-Formatos propietarios permitidos si son de uso obligatorio.
-
-Tamano aproximado en MB o GB de la data cruda al finalizar
+| UTEQ|FCC|ISR-401 |          |     |                      |     | PaquetedeAnexosyGuias‚ÄìAprobacionEticaPFC |     |     |     |     |     |     |
+| ---------------- | -------- | --- | -------------------- | --- | ---------------------------------------- | --- | --- | --- | --- | --- | --- |
+| #                | Elemento |     | Descripcionrequerida |     |                                          |     |     |     |     |     |     |
+2 Formatos Formatos abiertos preferidos: .txt, .csv, .pdf, .md, .png.
+|     |     |     | Formatos | propietarios |     | permitidos |     | si son | de uso | obligatorio. |     |
+| --- | --- | --- | -------- | ------------ | --- | ---------- | --- | ------ | ------ | ------------ | --- |
+3 Volumen estimado Tamano aproximado en MB o GB de la data cruda al finalizar
 el proyecto.
-
-Aplicacion utilizada (Google Forms, Zoom, dispositivo
-personal), procedimiento de transferencia al repositorio.
-
-Estandares de metadatos Cada archivo lleva encabezado con: proyecto, fecha, autor,
-
-version, tipo, licencia (Creative Commons BY-NC-SA 4.0 por
+4 Metodo de captura Aplicacion utilizada (Google Forms, Zoom, dispositivo
+|     |     |     | personal), | procedimiento |     |     | de transferencia |     | al  | repositorio. |     |
+| --- | --- | --- | ---------- | ------------- | --- | --- | ---------------- | --- | --- | ------------ | --- |
+5 Estandares de metadatos Cada archivo lleva encabezado con: proyecto, fecha, autor,
+|     |     |     | version, | tipo, | licencia | (Creative |     | Commons | BY-NC-SA |     | 4.0 por |
+| --- | --- | --- | -------- | ----- | -------- | --------- | --- | ------- | -------- | --- | ------- |
 defecto).
-
-Almacenamiento durante
-el proyecto
-
-Repositorio institucional (GitHub bajo cuenta institucional),
-carpeta 06_Etica/data_cruda/ con cifrado si contiene datos
+6 Almacenamiento durante Repositorio institucional (GitHub bajo cuenta institucional),
+el proyecto carpeta 06_Etica/data_cruda/ con cifrado si contiene datos
 personales.
-
-Cifrado y control de
-acceso
-
-Cifrado en reposo con AES-256 mediante 7-Zip o VeraCrypt
-para datos sensibles. Acceso restringido a integrantes del
-equipo y docente.
-
-8
-
-Copias de seguridad
-
-9
-
-Politica de retencion
-
-10
-
-Procedimiento de
-destruccion
-
-11
-
-Datos que se publicaran
-
-Datos que no se
-publicaran
-
-12
-
-13
-
-14
-
-Doble copia: repositorio + almacenamiento en la nube
-institucional. Frecuencia: al finalizar cada semana de
+7 Cifrado y control de Cifrado en reposo con AES-256 mediante 7-Zip o VeraCrypt
+acceso para datos sensibles. Acceso restringido a integrantes del
+|     |     |     | equipo | y docente. |     |     |     |     |     |     |     |
+| --- | --- | --- | ------ | ---------- | --- | --- | --- | --- | --- | --- | --- |
+8 Copias de seguridad Doble copia: repositorio + almacenamiento en la nube
+|     |     |     | institucional. |     | Frecuencia: |     | al finalizar | cada | semana |     | de  |
+| --- | --- | --- | -------------- | --- | ----------- | --- | ------------ | ---- | ------ | --- | --- |
 recoleccion.
-
-Datos crudos: 24 meses desde la finalizacion del proyecto.
-Datos agregados publicables: sin limite.
-
-Al vencer el periodo de retencion: eliminacion segura con
-shred en Linux o sdelete en Windows. Acta de destruccion
-firmada por el docente.
-
-Solo datos agregados o disociados en el manuscrito.
-Repositorio publico Zenodo con DOI para materiales
+9 Politica de retencion Datos crudos: 24 meses desde la finalizacion del proyecto.
+|     |     |     | Datos | agregados | publicables: |     |     | sin limite. |     |     |     |
+| --- | --- | --- | ----- | --------- | ------------ | --- | --- | ----------- | --- | --- | --- |
+10 Procedimiento de Al vencer el periodo de retencion: eliminacion segura con
+destruccion shred en Linux o sdelete en Windows. Acta de destruccion
+|     |     |     | firmada | por | el docente. |     |     |     |     |     |     |
+| --- | --- | --- | ------- | --- | ----------- | --- | --- | --- | --- | --- | --- |
+11 Datos que se publicaran Solo datos agregados o disociados en el manuscrito.
+|     |     |     | Repositorio |     | publico | Zenodo | con | DOI para | materiales |     |     |
+| --- | --- | --- | ----------- | --- | ------- | ------ | --- | -------- | ---------- | --- | --- |
 suplementarios.
-
-Nombres, cargos especificos, ubicaciones geograficas
-exactas de las organizaciones, imagenes con rostros,
-informacion competitiva de la organizacion.
-
-Responsable de la
-gestion
-
-Docente Ing. Gleiston Guerrero Ulloa, PhD, con apoyo del
-lider del equipo estudiantil.
-
-Presupuesto para gestion
-de datos
-
-Costo cero (recursos institucionales y de acceso libre).
-
-A.6 ñ Declaracion de conflicto de intereses
-
+12 Datos que no se Nombres, cargos especificos, ubicaciones geograficas
+publicaran exactas de las organizaciones, imagenes con rostros,
+|     |     |     | informacion |     | competitiva |     | de la | organizacion. |     |     |     |
+| --- | --- | --- | ----------- | --- | ----------- | --- | ----- | ------------- | --- | --- | --- |
+13 Responsable de la Docente Ing. Gleiston Guerrero Ulloa, PhD, con apoyo del
+|     | gestion |     | lider | del equipo | estudiantil. |     |     |     |     |     |     |
+| --- | ------- | --- | ----- | ---------- | ------------ | --- | --- | --- | --- | --- | --- |
+14 Presupuesto para gestion Costo cero (recursos institucionales y de acceso libre).
+|     | de datos      |              |              |     |     |     |     |     |     |     |     |
+| --- | ------------- | ------------ | ------------ | --- | --- | --- | --- | --- | --- | --- | --- |
+| A.6 | ‚Äì Declaracion | de conflicto | de intereses |     |     |     |     |     |     |     |     |
 Instrucciones
-
 Un formulario firmado por cada integrante del equipo (docente + estudiantes). Se marca
-ìSiî o ìNoî en cada item; toda respuesta ìSiî debe explicarse en el recuadro final.
+‚ÄúSi‚Äù o ‚ÄúNo‚Äù en cada item; toda respuesta ‚ÄúSi‚Äù debe explicarse en el recuadro final.
+| DECLARACION  |     | DE CONFLICTO | DE INTERESES |       |        |     |            |     |     |            |         |
+| ------------ | --- | ------------ | ------------ | ----- | ------ | --- | ---------- | --- | --- | ---------- | ------- |
+| Yo,          |     |              |              | , con | cedula | de  | ciudadania |     |     |            | , inte- |
+| 2026-2027PPA |     |              |              |       |        |     |            |     |     | Pagina7/32 |         |
 
-DECLARACION DE CONFLICTO DE INTERESES
-
-Yo,
-
-2026-2027 PPA
-
-, con cedula de ciudadania
-
-, inte-
-
-Pagina 7 / 32
-
-UTEQ | FCC | ISR-401
-
-Paquete de Anexos y Guias ñ Aprobacion Etica PFC
-
-grante del equipo del PFC
-
-, declaro bajo mi responsabilidad lo siguiente:
-
-#
-
-1
-
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-Situacion a declarar
-
-Si
-
-No
-
-Mantengo vinculo laboral, contractual o profesional actual con la
-organizacion objeto de estudio.
-
-Poseo participacion accionaria o economica en la organizacion.
-
-Tengo parentesco de consanguinidad o afinidad (hasta cuarto
-grado) con directivos o socios de la organizacion.
-
-He recibido pagos, regalos o beneficios de la organizacion en
-los ultimos 12 meses.
-
-Existe algun financiamiento externo condicionante para este
+| UTEQ|FCC|ISR-401 |     |     |     |     |     |     | PaquetedeAnexosyGuias‚ÄìAprobacionEticaPFC |     |     |     |     |
+| ---------------- | --- | --- | --- | --- | --- | --- | ---------------------------------------- | --- | --- | --- | --- |
+grantedelequipodelPFC ,declarobajomiresponsabilidadlosiguiente:
+| #   | Situacionadeclarar |     |     |     |     |     |     |     |     | Si  | No  |
+| --- | ------------------ | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+1 Mantengo vinculo laboral, contractual o profesional actual con la
+|     | organizacion |     | objeto | de  | estudio. |     |     |     |     |     |     |
+| --- | ------------ | --- | ------ | --- | -------- | --- | --- | --- | --- | --- | --- |
+2 Poseo participacion accionaria o economica en la organizacion.
+| 3   | Tengo  | parentesco |                | de consanguinidad |              |                     | o afinidad    | (hasta       | cuarto |     |     |
+| --- | ------ | ---------- | -------------- | ----------------- | ------------ | ------------------- | ------------- | ------------ | ------ | --- | --- |
+|     | grado) | con        | directivos     | o                 | socios       | de la organizacion. |               |              |        |     |     |
+| 4   | He     | recibido   | pagos,         | regalos           | o beneficios |                     | de la         | organizacion | en     |     |     |
+|     | los    | ultimos    | 12             | meses.            |              |                     |               |              |        |     |     |
+| 5   | Existe | algun      | financiamiento |                   | externo      |                     | condicionante | para         | este   |     |     |
 proyecto.
-
-Existe conflicto con otros proyectos o consultorias en curso.
-
-Alguna otra situacion que pudiera comprometer mi
-independencia como investigador.
-
-Detalle de las situaciones marcadas ìSiî (si aplica):
-
-Firma:
-
-Fecha:
-
-A.8 ñ Curriculum vitae resumido del docente responsable
-
+| 6       | Existe        | conflicto       |           | con otros          | proyectos | o           | consultorias | en curso. |     |     |     |
+| ------- | ------------- | --------------- | --------- | ------------------ | --------- | ----------- | ------------ | --------- | --- | --- | --- |
+| 7       | Alguna        | otra            | situacion | que                | pudiera   | comprometer |              | mi        |     |     |     |
+|         | independencia |                 |           | como investigador. |           |             |              |           |     |     |     |
+| Detalle | de            | las situaciones |           | marcadas           |           | ‚ÄúSi‚Äù        | (si aplica): |           |     |     |     |
+| Firma:  |               |                 |           |                    |           |             | Fecha:       |           |     |     |     |
+| A.8     | ‚Äì Curriculum  |                 | vitae     | resumido           | del       | docente     | responsable  |           |     |     |     |
 Instrucciones
-
 CV academico de maximo dos paginas, adaptado para revision etica. Enfasis en forma-
-cion, produccion cientifica reciente y experiencia en direccion de investigacion. Se firma en
-la ultima linea.
-
-Estructura sugerida
-
-1. Datos personales. Nombres, cedula, ORCID, correo institucional, telefono, unidad academ-
-
+cion,produccioncientificarecienteyexperienciaendirecciondeinvestigacion. Sefirmaen
+| la         | ultima | linea.   |     |     |     |     |     |     |     |     |     |
+| ---------- | ------ | -------- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Estructura |        | sugerida |     |     |     |     |     |     |     |     |     |
+1. Datospersonales. Nombres,cedula,ORCID,correoinstitucional,telefono,unidadacadem-
 ica.
-
 2. Formacion academica. Doctorado, maestria, pregrado (institucion, ano, titulo obtenido).
-
 3. Experiencia docente. Cargo actual, anos en la asignatura, asignaturas afines dictadas.
-
 4. Produccion cientifica reciente (ultimos cinco anos). Articulos JCR/Scopus con DOI,
 cuartil, factor de impacto. Ponencias en conferencias internacionales indexadas. Capitulos
-de libro con editorial. Se listan cronologicamente descendentes.
+| de           | libro | con editorial. |     | Se listan | cronologicamente |     |     | descendentes. |     |            |     |
+| ------------ | ----- | -------------- | --- | --------- | ---------------- | --- | --- | ------------- | --- | ---------- | --- |
+| 2026-2027PPA |       |                |     |           |                  |     |     |               |     | Pagina8/32 |     |
 
-2026-2027 PPA
-
-Pagina 8 / 32
-
-UTEQ | FCC | ISR-401
-
-Paquete de Anexos y Guias ñ Aprobacion Etica PFC
-
+| UTEQ|FCC|ISR-401 |     |     |     |     |     | PaquetedeAnexosyGuias‚ÄìAprobacionEticaPFC |     |     |
+| ---------------- | --- | --- | --- | --- | --- | ---------------------------------------- | --- | --- |
 5. Direccion de tesis y proyectos. Tesis de pregrado y posgrado dirigidas. Proyectos de
-
 investigacion coordinados con financiamiento institucional o externo.
-
 6. Formacion etica. Certificaciones eticas vigentes (CITI Program, curso equivalente).
-
-7. Declaracion de veracidad. Frase final y firma.
-
-Frase de cierre obligatoria
-
-Declaro bajo juramento que toda la informacion consignada en el presente curriculum vitae
+| 7. Declaracion  | de          | veracidad. | Frase | final | y firma. |     |     |     |
+| --------------- | ----------- | ---------- | ----- | ----- | -------- | --- | --- | --- |
+| Frase de cierre | obligatoria |            |       |       |          |     |     |     |
+Declarobajojuramentoquetodalainformacionconsignadaenelpresentecurriculumvitae
 es veraz y corresponde a documentos originales que reposan en mi archivo personal y en
-la Direccion de Talento Humano de la UTEQ.
-
-A.9 ñ Nomina del equipo estudiantil
-
-PROYECTO:
-
-PARALELO:
-
-#
-
-1
-
-2
-
-3
-
-4
-
-5
-
-Nombres y apellidos
+| la Direccion        | de Talento |        | Humano      | de la  | UTEQ. |                     |             |     |
+| ------------------- | ---------- | ------ | ----------- | ------ | ----- | ------------------- | ----------- | --- |
+| A.9 ‚Äì Nomina        | del        | equipo | estudiantil |        |       |                     |             |     |
+| PROYECTO:           |            |        |             |        |       | PARALELO:           |             |     |
+| # Nombresyapellidos |            |        |             | Cedula |       | Correoinstitucional | Rolasignado |     |
 completos
-
-Cedula
-
-Correo institucional
-
-Rol asignado
-
-Lider
-
-Secretario(a)
-
-Tecnico(a)
-
-Tecnico(a)
-
-Tecnico(a)
-
-Compromiso del equipo: los integrantes cuyo nombre aparece en esta nomina declaran cono-
+| 1   |     |     |     |     |     |     | Lider         |     |
+| --- | --- | --- | --- | --- | --- | --- | ------------- | --- |
+| 2   |     |     |     |     |     |     | Secretario(a) |     |
+| 3   |     |     |     |     |     |     | Tecnico(a)    |     |
+| 4   |     |     |     |     |     |     | Tecnico(a)    |     |
+| 5   |     |     |     |     |     |     | Tecnico(a)    |     |
+Compromisodelequipo: losintegrantescuyonombreapareceenestanominadeclarancono-
 cer y aceptar los compromisos eticos establecidos en el protocolo de investigacion, el consen-
-timiento informado y el plan de gestion de datos.
-
-Firma del lider del equipo
-
-Firma del docente responsable
-
-Fecha
-
-Fecha
-
-A.10 ñ Cronograma detallado del proyecto (Gantt semanal)
-
-Alineacion con hitos del PFC
-
+| timiento informado | y           | el plan   | de gestion |              | de datos. |                 |     |       |
+| ------------------ | ----------- | --------- | ---------- | ------------ | --------- | --------------- | --- | ----- |
+| Firma del lider    | del equipo  |           |            |              |           |                 |     | Fecha |
+| Firma del docente  | responsable |           |            |              |           |                 |     | Fecha |
+| A.10 ‚Äì Cronograma  |             | detallado |            | del proyecto |           | (Gantt semanal) |     |       |
+| Alineacion         | con hitos   |           | del PFC    |              |           |                 |     |       |
 El cronograma debe reflejar los cuatro hitos oficiales del PFC (Entregas 1A Semana 4,
 1B Semana 10, 2A Semana 13, 2B Semana 17) y ubicar dentro de ellos las ventanas de
-recoleccion de datos y las revisiones eticas intermedias.
+| recoleccion     | de datos | y   | las revisiones |          | eticas intermedias. |     |            |     |
+| --------------- | -------- | --- | -------------- | -------- | ------------------- | --- | ---------- | --- |
+| Plantilla Gantt | (semanas |     | 1 a 17         | del PPA) |                     |     |            |     |
+| 2026-2027PPA    |          |     |                |          |                     |     | Pagina9/32 |     |
 
-Plantilla Gantt (semanas 1 a 17 del PPA)
-
-2026-2027 PPA
-
-Pagina 9 / 32
-
-UTEQ | FCC | ISR-401
-
-Paquete de Anexos y Guias ñ Aprobacion Etica PFC
-
-Actividad
-Diagnostico y objetivo
-
-Identificacion stakeholders
-
-Elicitacion primaria
-
-Aval institucional firmado
-
-Consentimientos firmados
-
-Ejecucion de entrevistas
-
-Ejecucion de encuestas
-
-Sesiones Design Thinking
-
-Analisis y clasificacion
-
-Redaccion de ERS/SRS
-
-Modelado UML
-
-Validacion con stakeholders
-
-Preparacion de manuscrito
-
-Entrega 1A
-
-Entrega 1B
-
-Entrega 2A
-
-Entrega 2B / Defensa
-
-1
-
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-10 11 12 13 14 15 16 17
-
-ï
-
-ï
-
-ï
-
-ï
-
+| UTEQ|FCC|ISR-401 |     |     |     |     |     | PaquetedeAnexosyGuias‚ÄìAprobacionEticaPFC |     |         |             |       |
+| ---------------- | --- | --- | --- | --- | --- | ---------------------------------------- | --- | ------- | ----------- | ----- |
+| Actividad        |     |     |     | 1   | 2   | 3 4 5 6                                  | 7 8 | 9 10 11 | 12 13 14 15 | 16 17 |
+Diagnosticoyobjetivo
+Identificacionstakeholders
+Elicitacionprimaria
+Avalinstitucionalfirmado
+Consentimientosfirmados
+Ejecuciondeentrevistas
+Ejecuciondeencuestas
+SesionesDesignThinking
+Analisisyclasificacion
+RedacciondeERS/SRS
+ModeladoUML
+Validacionconstakeholders
+Preparaciondemanuscrito
+| Entrega1A         |     |     |     |     |     | ‚Ä¢   |     |     |     |     |
+| ----------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Entrega1B         |     |     |     |     |     |     |     | ‚Ä¢   |     |     |
+| Entrega2A         |     |     |     |     |     |     |     |     | ‚Ä¢   |     |
+| Entrega2B/Defensa |     |     |     |     |     |     |     |     |     | ‚Ä¢   |
 Marcar las celdas con un simbolo X, un rectangulo relleno o color de fondo verde para indicar
-en que semanas ocurre cada actividad.
-
-A.11 ñ Analisis de riesgos y medidas de mitigacion
-
+| en que semanas |          | ocurre | cada    | actividad. |         |               |     |     |     |     |
+| -------------- | -------- | ------ | ------- | ---------- | ------- | ------------- | --- | --- | --- | --- |
+| A.11 ‚Äì         | Analisis | de     | riesgos | y          | medidas | de mitigacion |     |     |     |     |
 Metodologia
-
 Matriz de riesgos con evaluacion cualitativa de probabilidad (Baja, Media, Alta) e impacto
 (Bajo, Medio, Alto). Nivel de riesgo resultante: Bajo (verde), Medio (amarillo), Alto (rojo).
-Cada riesgo debe tener al menos una accion de mitigacion.
-
-Categorias minimas de riesgos a analizar
-
-#
-
-1
-
-Categoria
-
-Riesgo etico
-
-2
-
-Riesgo etico
-
-Ejemplo de riesgo
-
-Medida de mitigacion tipo
-
-Filtracion de datos
-personales de
+| Cada        | riesgo  | debe tener |            | al menos | una             | accion de mitigacion. |                        |            |            |     |
+| ----------- | ------- | ---------- | ---------- | -------- | --------------- | --------------------- | ---------------------- | ---------- | ---------- | --- |
+| Categorias  | minimas |            | de riesgos |          | a analizar      |                       |                        |            |            |     |
+| # Categoria |         |            |            |          | Ejemploderiesgo |                       | Medidademitigaciontipo |            |            |     |
+| 1 Riesgo    |         | etico      |            |          | Filtracion      | de datos              | Cifrado                | en reposo, |            |     |
+|             |         |            |            |          | personales      | de                    | anonimizacion          | desde      | el diseno. |     |
 participantes.
-
-Incomodidad
-emocional del
-participante al ser
+| 2 Riesgo |     | etico |     |     | Incomodidad  |        | Derecho        | a interrumpir | sin      |     |
+| -------- | --- | ----- | --- | --- | ------------ | ------ | -------------- | ------------- | -------- | --- |
+|          |     |       |     |     | emocional    | del    | justificacion. | Preguntas     |          |     |
+|          |     |       |     |     | participante | al ser | revisadas      | por el        | docente. |     |
 entrevistado.
+3 Riesgo reputacional Publicacion accidental Doble revision del manuscrito
+|     |     |     |     |     | del nombre    | de la | antes de  | someterlo.     | Uso de |     |
+| --- | --- | --- | --- | --- | ------------- | ----- | --------- | -------------- | ------ | --- |
+|     |     |     |     |     | organizacion. |       | seudonimo | institucional. |        |     |
+4 Riesgo tecnico Perdida de datos Doble copia (repositorio + nube).
+|     |     |     |     |     | crudos. |     | Backup | semanal. |     |     |
+| --- | --- | --- | --- | --- | ------- | --- | ------ | -------- | --- | --- |
+5 Riesgo operativo Retiro de un integrante Cross-training. Documentacion
+|              |     |     |     |     | del equipo. |     | de todos | los procesos. |             |     |
+| ------------ | --- | --- | --- | --- | ----------- | --- | -------- | ------------- | ----------- | --- |
+| 2026-2027PPA |     |     |     |     |             |     |          |               | Pagina10/32 |     |
 
-Cifrado en reposo,
-anonimizacion desde el diseno.
-
-Derecho a interrumpir sin
-justificacion. Preguntas
-revisadas por el docente.
-
-3
-
-Riesgo reputacional
-
-4
-
-5
-
-Riesgo tecnico
-
-Riesgo operativo
-
-Publicacion accidental
-del nombre de la
-organizacion.
-
-Doble revision del manuscrito
-antes de someterlo. Uso de
-seudonimo institucional.
-
-Perdida de datos
-crudos.
-
-Doble copia (repositorio + nube).
-Backup semanal.
-
-Retiro de un integrante
-del equipo.
-
-Cross-training. Documentacion
-de todos los procesos.
-
-2026-2027 PPA
-
-Pagina 10 / 32
-
-UTEQ | FCC | ISR-401
-
-Paquete de Anexos y Guias ñ Aprobacion Etica PFC
-
-#
-
-6
-
-7
-
-8
-
-Categoria
-
-Ejemplo de riesgo
-
-Medida de mitigacion tipo
-
-Riesgo operativo
-
-Riesgo academico
-
-Riesgo integridad
-
-Retiro del aval
-institucional.
-
-Contar con un segundo caso de
-estudio de respaldo.
-
-Incumplimiento de
-plazos del PPA.
-
-Cronograma con holgura del
-15%. Reuniones semanales.
-
-Fabricacion o
-falsificacion de datos.
-
-Trazabilidad de commits.
-Auditoria docente.
-
-Formato para completar la matriz
-
-Descripcion del riesgo
-
-Prob.
-
-Impacto
-
-Nivel
-
-Medida de mitigacion
-
-#
-
+| UTEQ|FCC|ISR-401 |     |     |     |     |                 |     | PaquetedeAnexosyGuias‚ÄìAprobacionEticaPFC |                        |     |     |
+| ---------------- | --- | --- | --- | --- | --------------- | --- | ---------------------------------------- | ---------------------- | --- | --- |
+| # Categoria      |     |     |     |     | Ejemploderiesgo |     |                                          | Medidademitigaciontipo |     |     |
+6 Riesgo operativo Retiro del aval Contar con un segundo caso de
+|     |     |     |     |     | institucional. |     |     | estudio | de respaldo. |     |
+| --- | --- | --- | --- | --- | -------------- | --- | --- | ------- | ------------ | --- |
+7 Riesgo academico Incumplimiento de Cronograma con holgura del
+|          |                |            |     |        | plazos        | del PPA. |        | 15%. Reuniones |          | semanales. |
+| -------- | -------------- | ---------- | --- | ------ | ------------- | -------- | ------ | -------------- | -------- | ---------- |
+| 8 Riesgo |                | integridad |     |        | Fabricacion   | o        |        | Trazabilidad   | de       | commits.   |
+|          |                |            |     |        | falsificacion | de       | datos. | Auditoria      | docente. |            |
+| Formato  | para completar |            | la  | matriz |               |          |        |                |          |            |
+# Descripciondelriesgo Prob. Impacto Nivel Medidademitigacion
 1
-
 2
-
 3
-
 4
-
 5
-
 6
-
 7
-
 8
-
-A.12 ñ Certificado de formacion etica en investigacion
-
-Opciones aceptadas
-
+| A.12 ‚Äì   | Certificado |     | de formacion |     | etica | en investigacion |     |     |     |     |
+| -------- | ----------- | --- | ------------ | --- | ----- | ---------------- | --- | --- | --- | --- |
+| Opciones | aceptadas   |     |              |     |       |                  |     |     |     |     |
 El requisito se acredita con cualquiera de las siguientes opciones. Se adjunta copia digital
-del certificado con el codigo de verificacion visible.
-
-1. CITI Program (Collaborative Institutional Training Initiative). Modulo ìHuman Subjects Re-
-search ñ Social & Behavioral Investigatorsî o ìResponsible Conduct of Research (RCR)î.
-Sitio: https://about.citiprogram.org. Duracion aproximada: 4-6 horas. Vigencia: 3 anos.
-
+| del certificado |     | con | el codigo | de  | verificacion | visible. |     |     |     |     |
+| --------------- | --- | --- | --------- | --- | ------------ | -------- | --- | --- | --- | --- |
+1. CITI Program (Collaborative Institutional Training Initiative). Modulo ‚ÄúHuman Subjects Re-
+search ‚Äì Social & Behavioral Investigators‚Äù o ‚ÄúResponsible Conduct of Research (RCR)‚Äù.
+Sitio: https://about.citiprogram.org. Duracionaproximada: 4-6horas. Vigencia: 3anos.
 2. Curso de Buenas Practicas Clinicas GCP-ICH. Recomendado si el proyecto se aproxima
-
-a datos clinicos (aplicable a MediCita).
-
-3. Curso de Etica en Investigacion del Consorcio Ecuatoriano para el Desarrollo de la Internet
-
-Avanzada (CEDIA) o su equivalente institucional local.
-
+| a datos | clinicos | (aplicable |     | a MediCita). |     |     |     |     |     |     |
+| ------- | -------- | ---------- | --- | ------------ | --- | --- | --- | --- | --- | --- |
+3. CursodeEticaenInvestigaciondelConsorcioEcuatorianoparaelDesarrollodelaInternet
+| Avanzada | (CEDIA) |     | o su | equivalente | institucional |     | local. |     |     |     |
+| -------- | ------- | --- | ---- | ----------- | ------------- | --- | ------ | --- | --- | --- |
 4. Modulo interno de la UTEQ sobre Etica en Investigacion, si se dicta durante el semestre.
+| Documentacion |            | minima          | que           | se     | adjunta      |     |     |     |     |             |
+| ------------- | ---------- | --------------- | ------------- | ------ | ------------ | --- | --- | --- | --- | ----------- |
+| ‚Ä¢ Copia       | digital    | del certificado |               | (PDF). |              |     |     |     |     |             |
+| ‚Ä¢ Codigo      | o URL      | de              | verificacion. |        |              |     |     |     |     |             |
+| ‚Ä¢ Fecha       | de emision |                 | y fecha       | de     | vencimiento. |     |     |     |     |             |
+| 2026-2027PPA  |            |                 |               |        |              |     |     |     |     | Pagina11/32 |
 
-Documentacion minima que se adjunta
+| UTEQ|FCC|ISR-401 |                      |            |             | PaquetedeAnexosyGuias‚ÄìAprobacionEticaPFC |
+| ---------------- | -------------------- | ---------- | ----------- | ---------------------------------------- |
+| ‚Ä¢ Modulo         | especifico aprobado. |            |             |                                          |
+| Alcance          | del requisito        |            |             |                                          |
+| ‚Ä¢ El docente     | responsable          | acredita   | certificado | vigente.                                 |
+| ‚Ä¢ Al menos       | un integrante        | por equipo | estudiantil | acredita certificado.                    |
+‚Ä¢ Se recomienda que todos los integrantes lo completen antes de iniciar el trabajo de campo.
+2026-2027PPA Pagina12/32
 
-ï Copia digital del certificado (PDF).
-
-ï Codigo o URL de verificacion.
-
-ï Fecha de emision y fecha de vencimiento.
-
-2026-2027 PPA
-
-Pagina 11 / 32
-
-UTEQ | FCC | ISR-401
-
-Paquete de Anexos y Guias ñ Aprobacion Etica PFC
-
-ï Modulo especifico aprobado.
-
-Alcance del requisito
-
-ï El docente responsable acredita certificado vigente.
-
-ï Al menos un integrante por equipo estudiantil acredita certificado.
-
-ï Se recomienda que todos los integrantes lo completen antes de iniciar el trabajo de campo.
-
-2026-2027 PPA
-
-Pagina 12 / 32
-
-UTEQ | FCC | ISR-401
-
-Paquete de Anexos y Guias ñ Aprobacion Etica PFC
-
-PARTE II ñ Documentos adicionales por categoria de riesgo etico
-
+| UTEQ|FCC|ISR-401 |     |     |     |     |     | PaquetedeAnexosyGuias‚ÄìAprobacionEticaPFC |
+| ---------------- | --- | --- | --- | --- | --- | ---------------------------------------- |
+PARTE II ‚Äì Documentos adicionales por categoria de riesgo etico
 Aplicabilidad
-
-La Categoria A aplica a MediCita, Sistema de gestion de gimnasio y Sistema Inteligente de
+LaCategoriaAaplicaaMediCita,SistemadegestiondegimnasioySistemaInteligentede
 Terapia Fisica. La Categoria B aplica a MundiPets, RutaExpress, Marketplace UTEQ, Sis-
-tema de gestion de clinica veterinaria y SIGA. La Categoria C aplica a AquaGest, SIMPA y
+temadegestiondeclinicaveterinariaySIGA.LaCategoriaCaplicaaAquaGest, SIMPAy
 Sistema de Gestion Agricola verde/cacao. Cada equipo elabora unicamente los documen-
-tos correspondientes a su categoria.
-
-Categoria A ñ Datos sensibles de salud o biometricos (MediCita, Gimnasio, Terapia
-
+| tos correspondientes |     |     | a su | categoria. |     |     |
+| -------------------- | --- | --- | ---- | ---------- | --- | --- |
+Categoria A ‚Äì Datos sensibles de salud o biometricos (MediCita, Gimnasio, Terapia
 Fisica)
-
-A1. Protocolo de disociacion completa desde el diseno (Privacy-by-Design)
-
+A1. Protocolodedisociacioncompletadesdeeldiseno(Privacy-by-Design)
 Documento tecnico de 3-5 paginas que demuestra que el sistema no procesa datos clinicos ni
-biometricos reales de personas identificables. Estructura:
-
-1. Identificacion de flujos de datos. Diagrama de flujo de datos (DFD) del sistema mostrando
-todos los puntos donde entran, se procesan y salen datos personales, clinicos o biometricos.
-
+| biometricos | reales | de  | personas | identificables. |     | Estructura: |
+| ----------- | ------ | --- | -------- | --------------- | --- | ----------- |
+1. Identificaciondeflujosdedatos. Diagramadeflujodedatos(DFD)delsistemamostrando
+todoslospuntosdondeentran,seprocesanysalendatospersonales,clinicosobiometricos.
 2. Diagrama entidad-relacion con marca de campos sensibles. Modelo ER completo con
-marca visual (asterisco rojo o icono candado) sobre cada atributo considerado dato personal,
-sensible o biometrico segun la LOPDP.
-
+marcavisual(asteriscorojooiconocandado)sobrecadaatributoconsideradodatopersonal,
+| sensible | o biometrico |     | segun | la LOPDP. |     |     |
+| -------- | ------------ | --- | ----- | --------- | --- | --- |
 3. Estrategia de disociacion. Descripcion tecnica: separacion en dos bases (una operativa
 con datos disociados, otra de mapeo con identificadores). Uso de tokens, hashes con sal,
-seudonimizacion, o generacion sintetica.
-
+| seudonimizacion, |     |     | o generacion | sintetica. |     |     |
+| ---------------- | --- | --- | ------------ | ---------- | --- | --- |
 4. Controles tecnicos. Cifrado en reposo (AES-256), cifrado en transito (TLS 1.3), gestion de
-
 claves, control de acceso basado en roles (RBAC), registro de auditoria (audit log).
-
 5. Modelo de personas-tipo (personas ficticias). Se documentan al menos cinco personas
 ficticias que se usaran para casos de prueba (nombre, edad, condiciones inventadas, histo-
-rial construido, sin correspondencia con persona real).
-
+| rial construido, |     | sin | correspondencia |     | con | persona real). |
+| ---------------- | --- | --- | --------------- | --- | --- | -------------- |
 6. Verificacion de disociacion. Procedimiento para verificar antes de cada despliegue de
-
 prueba que no ha entrado data real por error (test de reidentificacion).
+A2. Declaraciondeusoexclusivodedatossinteticosodepersonas-tipo
+2026-2027PPA Pagina13/32
 
-A2. Declaracion de uso exclusivo de datos sinteticos o de personas-tipo
-
-2026-2027 PPA
-
-Pagina 13 / 32
-
-UTEQ | FCC | ISR-401
-
-Paquete de Anexos y Guias ñ Aprobacion Etica PFC
-
-Plantilla firmable
-
-,
-
-del
-
-equipo
-
-integrantes
-
-Yo/Nosotros,
-
-del PFC
-, categoria A, declaramos formalmente que durante el desar-
-(1) no captaremos, procesaremos, almacenaremos ni publicaremos
-rollo del proyecto:
-datos clinicos, biometricos ni de salud de personas reales; (2) todos los ejemplos, capturas
+| UTEQ|FCC|ISR-401 |              |          |     |             |     |               |     | PaquetedeAnexosyGuias‚ÄìAprobacionEticaPFC |             |           |
+| ---------------- | ------------ | -------- | --- | ----------- | --- | ------------- | --- | ---------------------------------------- | ----------- | --------- |
+|                  | Plantilla    | firmable |     |             |     |               |     |                                          |             |           |
+|                  | Yo/Nosotros, |          |     |             |     |               | ,   | integrantes                              | del equipo  | del PFC   |
+|                  |              |          |     | , categoria |     | A, declaramos |     | formalmente                              | que durante | el desar- |
+rollo del proyecto: (1) no captaremos, procesaremos, almacenaremos ni publicaremos
+datosclinicos,biometricosnidesaluddepersonasreales;(2)todoslosejemplos,capturas
 de pantalla, casos de prueba y demostraciones se construiran sobre personas ficticias
 representativas cuyo mapeo se conserva en un documento interno del equipo; (3) las
 entrevistas al personal de la organizacion se limitaran a describir procesos de trabajo y no
-involucraran comentarios sobre pacientes o socios individuales; (4) si durante el desarrollo
-del sistema el equipo advierte captura accidental de data real, procederemos a su borrado
-seguro dentro de las 24 horas siguientes al hallazgo y comunicaremos el hecho al docente
+involucrarancomentariossobrepacientesosociosindividuales;(4)siduranteeldesarrollo
+delsistemaelequipoadviertecapturaaccidentaldedatareal,procederemosasuborrado
+segurodentrodelas24horassiguientesalhallazgoycomunicaremoselhechoaldocente
 responsable.
-
-Fecha, firmas de cada integrante y del docente responsable.
-
-A3. Aval especifico del establecimiento (clinica o gimnasio)
-
+| Fecha, | firmas | de cada | integrante |     | y del | docente | responsable. |     |     |     |
+| ------ | ------ | ------- | ---------- | --- | ----- | ------- | ------------ | --- | --- | --- |
+A3. Avalespecificodelestablecimiento(clinicaogimnasio)
 Carta membretada del establecimiento firmada por el director medico, gerente clinico o propi-
 etario del centro deportivo, en la cual se declara expresamente que:
-
 1. Se autoriza al equipo estudiantil a realizar entrevistas al personal designado.
-
 2. No se autoriza el acceso a expedientes clinicos, historias medicas, fichas de socios ni
-
-evaluaciones biometricas de personas reales.
-
+|     | evaluaciones | biometricas |     | de  | personas | reales. |     |     |     |     |
+| --- | ------------ | ----------- | --- | --- | -------- | ------- | --- | --- | --- | --- |
 3. El equipo estudiantil trabajara con datos ficticios para el desarrollo del sistema.
-
 4. Se establece un canal de comunicacion con el establecimiento para reportar cualquier inci-
-
 dente.
-
-A4. Referencia a LOPDP ñ articulos sobre datos sensibles
-
-Contenido minimo de esta seccion del protocolo
-
-Redactar en el protocolo de investigacion una seccion titulada ìCumplimiento de la Ley
-Organica de Proteccion de Datos Personalesî que:
-
-ï Reconozca que los datos de salud son categoria especial de datos sensibles segun la
-
+A4. ReferenciaaLOPDP‚Äìarticulossobredatossensibles
+|     | Contenido | minimo | de  | esta seccion |     | del | protocolo |     |     |     |
+| --- | --------- | ------ | --- | ------------ | --- | --- | --------- | --- | --- | --- |
+Redactar en el protocolo de investigacion una seccion titulada ‚ÄúCumplimiento de la Ley
+|     | Organica | de Proteccion |     | de Datos | Personales‚Äù |     | que: |     |     |     |
+| --- | -------- | ------------- | --- | -------- | ----------- | --- | ---- | --- | --- | --- |
+‚Ä¢ Reconozca que los datos de salud son categoria especial de datos sensibles segun la
 LOPDP.
-
-ï Cite los articulos de la LOPDP que regulan el tratamiento de datos sensibles y sus
-
-condiciones excepcionales.
-
-ï Declare que el proyecto se acoge a la excepcion de investigacion cientifica con datos
-
+‚Ä¢ Cite los articulos de la LOPDP que regulan el tratamiento de datos sensibles y sus
+|     | condiciones |     | excepcionales. |     |     |     |     |     |     |     |
+| --- | ----------- | --- | -------------- | --- | --- | --- | --- | --- | --- | --- |
+‚Ä¢ Declare que el proyecto se acoge a la excepcion de investigacion cientifica con datos
 disociados.
+‚Ä¢ Establezca al docente responsable como Delegado de Proteccion de Datos (DPO) in-
+|     | formal | del proyecto. |     |     |     |     |     |     |     |     |
+| --- | ------ | ------------- | --- | --- | --- | --- | --- | --- | --- | --- |
+‚Ä¢ DetallelosderechosARCO(Acceso,Rectificacion,Cancelacion,Oposicion)queelsis-
+|     | tema | soportara | en su | version | productiva. |     |     |     |     |     |
+| --- | ---- | --------- | ----- | ------- | ----------- | --- | --- | --- | --- | --- |
+A5. Protocolodemanejodeimagenesclinicasybiometricas(siaplica)
+| 2026-2027PPA |     |     |     |     |     |     |     |     |     | Pagina14/32 |
+| ------------ | --- | --- | --- | --- | --- | --- | --- | --- | --- | ----------- |
 
-ï Establezca al docente responsable como Delegado de Proteccion de Datos (DPO) in-
-
-formal del proyecto.
-
-ï Detalle los derechos ARCO (Acceso, Rectificacion, Cancelacion, Oposicion) que el sis-
-
-tema soportara en su version productiva.
-
-A5. Protocolo de manejo de imagenes clinicas y biometricas (si aplica)
-
-2026-2027 PPA
-
-Pagina 14 / 32
-
-UTEQ | FCC | ISR-401
-
-Paquete de Anexos y Guias ñ Aprobacion Etica PFC
-
-Aplica unicamente si el sistema procesa radiografias, fotografias clinicas, huellas, reconocimiento
-facial o similares. Contenido:
-
-ï Prohibicion de captura de imagenes reales durante el desarrollo.
-
-ï Uso de imagenes sinteticas o de bancos publicos de datos con licencia (ej. NIH ChestX-
-
-ray14, Kaggle synthetic datasets).
-
-ï Procedimiento de enmascaramiento automatico de rostros (blur, mosaico) si por error entra
-
-una imagen real.
-
-ï Almacenamiento cifrado y separado del resto de datos operativos.
-
-ï Compromiso de no entrenar modelos de IA con imagenes de personas reales sin autoriza-
-
+| UTEQ|FCC|ISR-401 |     |     |     | PaquetedeAnexosyGuias‚ÄìAprobacionEticaPFC |
+| ---------------- | --- | --- | --- | ---------------------------------------- |
+Aplicaunicamentesielsistemaprocesaradiografias,fotografiasclinicas,huellas,reconocimiento
+| facial o similares. | Contenido: |             |                |                |
+| ------------------- | ---------- | ----------- | -------------- | -------------- |
+| ‚Ä¢ Prohibicion       | de captura | de imagenes | reales durante | el desarrollo. |
+‚Ä¢ Uso de imagenes sinteticas o de bancos publicos de datos con licencia (ej. NIH ChestX-
+| ray14, | Kaggle synthetic | datasets). |     |     |
+| ------ | ---------------- | ---------- | --- | --- |
+‚Ä¢ Procedimiento de enmascaramiento automatico de rostros (blur, mosaico) si por error entra
+| una imagen | real. |     |     |     |
+| ---------- | ----- | --- | --- | --- |
+‚Ä¢ Almacenamiento cifrado y separado del resto de datos operativos.
+‚Ä¢ Compromiso de no entrenar modelos de IA con imagenes de personas reales sin autoriza-
 cion adicional.
-
-Categoria B ñ Datos personales (MundiPets, RutaExpress, Marketplace UTEQ, Clinica
-
-Veterinaria, SIGA)
-
-B1. Aval especifico de la organizacion comercial o de servicios
-
+Categoria B ‚Äì Datos personales (MundiPets, RutaExpress, Marketplace UTEQ, Clinica
+| Veterinaria, | SIGA) |     |     |     |
+| ------------ | ----- | --- | --- | --- |
+B1. Avalespecificodelaorganizacioncomercialodeservicios
 Adicional al Anexo E del oficio principal. Carta membretada firmada por el gerente o represen-
 tante legal que precisa: (1) autorizacion para entrevistar al personal indicado, (2) autorizacion
 para aplicar encuestas a clientes voluntarios previa firma de consentimiento, (3) autorizacion
 para observar procesos operativos sin registrar informacion personal de clientes, (4) compro-
 miso de la organizacion de no divulgar externamente la informacion recogida por el equipo
 estudiantil.
-
-B2. Protocolo de proteccion de datos personales de clientes y usuarios
-
-Documento tecnico de 2-3 paginas que describe:
-
-1. Minimizacion de datos. Se recolectan unicamente los datos estrictamente necesarios para
-
-la especificacion del sistema.
-
+B2. Protocolodeprotecciondedatospersonalesdeclientesyusuarios
+| Documento | tecnico | de 2-3 paginas | que describe: |     |
+| --------- | ------- | -------------- | ------------- | --- |
+1. Minimizaciondedatos. Serecolectanunicamentelosdatosestrictamentenecesariospara
+| la especificacion |     | del sistema. |     |     |
+| ----------------- | --- | ------------ | --- | --- |
 2. Seudonimizacion. Nombres y contactos se reemplazan por identificadores tipo CLI-001,
-
 USR-002.
-
-3. Cifrado. AES-256 en reposo, TLS 1.3 en transito.
-
+| 3. Cifrado. | AES-256 | en reposo, | TLS 1.3 en transito. |     |
+| ----------- | ------- | ---------- | -------------------- | --- |
 4. Controles de acceso. Solo integrantes del equipo y docente responsable pueden acceder
-
-a los datos disociados.
-
-5. Politica de retencion. 24 meses, luego borrado seguro.
-
+| a los       | datos disociados. |           |               |         |
+| ----------- | ----------------- | --------- | ------------- | ------- |
+| 5. Politica | de retencion.     | 24 meses, | luego borrado | seguro. |
 6. Ejercicio de derechos ARCO. Canal habilitado para que participantes puedan solicitar ac-
-
-ceso, rectificacion, cancelacion u oposicion.
-
-B3. Compromiso de no uso de datos reales de transacciones comerciales
-
+| ceso, | rectificacion, | cancelacion | u oposicion. |     |
+| ----- | -------------- | ----------- | ------------ | --- |
+B3. Compromisodenousodedatosrealesdetransaccionescomerciales
 Declaracion firmada por el equipo indicando que las bases de datos de prueba del sistema
 se construyen exclusivamente con transacciones ficticias, y que no se importa data real de la
+2026-2027PPA Pagina15/32
 
-2026-2027 PPA
-
-Pagina 15 / 32
-
-UTEQ | FCC | ISR-401
-
-Paquete de Anexos y Guias ñ Aprobacion Etica PFC
-
+| UTEQ|FCC|ISR-401 |     |     |     |     | PaquetedeAnexosyGuias‚ÄìAprobacionEticaPFC |
+| ---------------- | --- | --- | --- | --- | ---------------------------------------- |
 organizacion. Si la organizacion facilita un extracto de sus datos, este debe llegar previamente
-disociado y ser tratado bajo el DMP.
-
-B4. Politica de manejo de datos de geolocalizacion (aplica solo a RutaExpress)
-
-Documento de una pagina que establece:
-
-ï Los datos de geolocalizacion de rutas se manejan de forma agregada, no individual.
-
-ï No se publican mapas con rutas individuales de conductores.
-
-ï Los puntos de origen y destino se generalizan a nivel de barrio o parroquia, no de direccion
-
+| disociado | y ser | tratado | bajo el DMP. |     |     |
+| --------- | ----- | ------- | ------------ | --- | --- |
+B4. Politicademanejodedatosdegeolocalizacion(aplicasoloaRutaExpress)
+| Documento | de  | una pagina | que establece: |     |     |
+| --------- | --- | ---------- | -------------- | --- | --- |
+‚Ä¢ Los datos de geolocalizacion de rutas se manejan de forma agregada, no individual.
+| ‚Ä¢ No se | publican | mapas | con rutas individuales |     | de conductores. |
+| ------- | -------- | ----- | ---------------------- | --- | --------------- |
+‚Ä¢ Los puntos de origen y destino se generalizan a nivel de barrio o parroquia, no de direccion
 exacta.
-
-ï Las trayectorias almacenadas se anonimizan antes del analisis (sin ID de conductor asoci-
-
+‚Ä¢ Las trayectorias almacenadas se anonimizan antes del analisis (sin ID de conductor asoci-
 ado).
-
-ï No se activa geolocalizacion en tiempo real durante el desarrollo; se usan datos historicos
-
+‚Ä¢ No se activa geolocalizacion en tiempo real durante el desarrollo; se usan datos historicos
 disociados.
-
 B5. Politica de manejo de datos de menores (aplica solo a MundiPets y Clinica Veterinaria si
-
 corresponde)
-
 Documento de una pagina que establece la conducta del proyecto ante la posibilidad de que
-propietarios de mascotas sean menores de edad:
-
-ï El proyecto no incluye a menores de edad en entrevistas ni encuestas.
-
-ï Si un menor aparece en un caso hipotetico, se requiere consentimiento del representante
-
-legal previo cualquier interaccion.
-
-ï El sistema, en su version productiva, incluira un mecanismo de verificacion de mayoria de
-
-edad al registrar propietarios.
-
-ï Los datos de menores, de existir en el extracto disociado facilitado por la organizacion, se
-
-filtran y se eliminan antes del analisis.
-
-Categoria C ñ Riesgo minimo operativo (AquaGest, SIMPA, Gestion Agricola
-
+| propietarios | de  | mascotas | sean menores | de edad: |     |
+| ------------ | --- | -------- | ------------ | -------- | --- |
+‚Ä¢ El proyecto no incluye a menores de edad en entrevistas ni encuestas.
+‚Ä¢ Si un menor aparece en un caso hipotetico, se requiere consentimiento del representante
+| legal | previo | cualquier | interaccion. |     |     |
+| ----- | ------ | --------- | ------------ | --- | --- |
+‚Ä¢ El sistema, en su version productiva, incluira un mecanismo de verificacion de mayoria de
+| edad | al registrar | propietarios. |     |     |     |
+| ---- | ------------ | ------------- | --- | --- | --- |
+‚Ä¢ Los datos de menores, de existir en el extracto disociado facilitado por la organizacion, se
+| filtran | y se eliminan |     | antes del analisis. |     |     |
+| ------- | ------------- | --- | ------------------- | --- | --- |
+Categoria C ‚Äì Riesgo minimo operativo (AquaGest, SIMPA, Gestion Agricola
 verde/cacao)
-
-C1. Aval de la unidad productiva
-
+C1. Avaldelaunidadproductiva
 Carta firmada por el propietario o administrador de la unidad productiva (camaronera o predio
-palmicultor), en papel membretado o con sello, que autoriza al equipo estudiantil a realizar entre-
+palmicultor),enpapelmembretadooconsello,queautorizaalequipoestudiantilarealizarentre-
 vistas al personal tecnico y administrativo, observar procesos productivos, y utilizar informacion
-disociada para fines academicos.
-
-C2. Compromiso de confidencialidad sobre informacion estrategica
-
+| disociada | para | fines academicos. |     |     |     |
+| --------- | ---- | ----------------- | --- | --- | --- |
+C2. Compromisodeconfidencialidadsobreinformacionestrategica
 Declaracion firmada por el equipo en la que se compromete a no divulgar: volumenes de pro-
 duccion mensual o anual, precios de venta, margenes, proveedores, contratos comerciales,
 informacion tributaria, ni informacion competitiva de la organizacion.
+2026-2027PPA Pagina16/32
 
-2026-2027 PPA
-
-Pagina 16 / 32
-
-UTEQ | FCC | ISR-401
-
-Paquete de Anexos y Guias ñ Aprobacion Etica PFC
-
-C3. Protocolo de anonimizacion de datos empresariales sensibles
-
+UTEQ|FCC|ISR-401 PaquetedeAnexosyGuias‚ÄìAprobacionEticaPFC
+C3. Protocolodeanonimizaciondedatosempresarialessensibles
 Documento de una pagina que explica como se enmascaran los siguientes elementos en el
 manuscrito y en los artefactos publicados:
-
-ï Nombre de la organizacion. Sustituido por seudonimo tipo ìCamaronera Xî o ìPalmicultora
-
-Yî.
-
-ï Ubicacion geografica exacta. Generalizada a nivel de canton o provincia.
-
-ï Volumenes de produccion. Presentados en rangos o normalizados a porcentajes.
-
-ï Precios y margenes. No se reportan.
-
-ï Nombres de directivos y empleados. Se reemplazan por identificadores tipo ENTR-01.
-
-C4. Referencia a normativa sectorial
-
+‚Ä¢ Nombredelaorganizacion. Sustituidoporseudonimotipo‚ÄúCamaroneraX‚Äùo‚ÄúPalmicultora
+Y‚Äù.
+‚Ä¢ Ubicacion geografica exacta. Generalizada a nivel de canton o provincia.
+‚Ä¢ Volumenes de produccion. Presentados en rangos o normalizados a porcentajes.
+‚Ä¢ Precios y margenes. No se reportan.
+‚Ä¢ Nombres de directivos y empleados. Se reemplazan por identificadores tipo ENTR-01.
+C4. Referenciaanormativasectorial
 Seccion del protocolo que reconoce y respeta la normativa sectorial aplicable segun corre-
 sponda:
-
-ï AquaGest. Codigo Organico Ambiental, Ley Organica para el Desarrollo de la Acuicultura
+‚Ä¢ AquaGest. Codigo Organico Ambiental, Ley Organica para el Desarrollo de la Acuicultura
 y Pesca, regulaciones del Ministerio de Produccion, Comercio Exterior, Inversiones y Pesca
 (MPCEIP), y del Instituto Publico de Investigacion de Acuicultura y Pesca (IPIAP).
-
-ï SIMPA. Regulaciones de la Agencia de Regulacion y Control Fito y Zoosanitario (AGROCAL-
-IDAD), Ministerio de Agricultura y Ganaderia (MAG), y estandares de la Asociacion Nacional
+‚Ä¢ SIMPA.RegulacionesdelaAgenciadeRegulacionyControlFitoyZoosanitario(AGROCAL-
+IDAD),MinisteriodeAgriculturayGanaderia(MAG),yestandaresdelaAsociacionNacional
 de Cultivadores de Palma Aceitera (ANCUPA).
-
 Declaracion de que el proyecto no contraviene ni sustituye ninguna obligacion regulatoria sec-
 torial de la organizacion.
+2026-2027PPA Pagina17/32
 
-2026-2027 PPA
-
-Pagina 17 / 32
-
-UTEQ | FCC | ISR-401
-
-Paquete de Anexos y Guias ñ Aprobacion Etica PFC
-
-PARTE III ñ Guia especifica de elaboracion por proyecto PFC
-
-Como leer esta parte
-
-Cada ficha PFC describe: dominio, organizacion objeto de estudio recomendada, poblacion
+| UTEQ|FCC|ISR-401 |           |            |            | PaquetedeAnexosyGuias‚ÄìAprobacionEticaPFC |     |              |     |
+| ---------------- | --------- | ---------- | ---------- | ---------------------------------------- | --- | ------------ | --- |
+| PARTE            |           | III ‚Äì Guia | especifica | de elaboracion                           |     | por proyecto | PFC |
+| Como             | leer esta | parte      |            |                                          |     |              |     |
+CadafichaPFCdescribe: dominio,organizacionobjetodeestudiorecomendada,poblacion
 participante, banco de preguntas guia para la entrevista, riesgos eticos particulares del
-proyecto y checklist de documentos que aplica. La categoria de riesgo etico se muestra en
+proyectoychecklistdedocumentosqueaplica. Lacategoriaderiesgoeticosemuestraen
 la cabecera.
-
-PFC #1 ñ AquaGest
-
-Categoria C ñ Riesgo minimo operativo
-
+| PFC#1‚ÄìAquaGest |     |     |     |     | CategoriaC‚ÄìRiesgominimooperativo |     |     |
+| -------------- | --- | --- | --- | --- | -------------------------------- | --- | --- |
 Dominio y sistema objetivo. Sistema de gestion de camaronera (Biofina o similar) para el
 control operativo de corrales de cultivo de camaron, monitoreo de biomasa, calidad de agua y
 ciclos productivos.
-
-Organizacion objeto de estudio. Camaronera formal ubicada en la costa de Los Rios, Guayas,
+Organizacionobjetodeestudio. CamaroneraformalubicadaenlacostadeLosRios,Guayas,
 El Oro o Manabi, con al menos cinco corrales activos y personal tecnico dedicado.
-
-Poblacion participante. Administrador de finca, jefe tecnico, tecnicos de monitoreo, capataces
+Poblacionparticipante. Administradordefinca,jefetecnico,tecnicosdemonitoreo,capataces
 de corral y personal administrativo. Todos mayores de edad, dependientes contractuales de la
 organizacion.
-
-Banco de preguntas guia (entrevista)
-
+| Banco | de preguntas | guia | (entrevista) |     |     |     |     |
+| ----- | ------------ | ---- | ------------ | --- | --- | --- | --- |
 1. Como planifica la actividad diaria de siembra y monitoreo de sus corrales.
-
 2. Que parametros de calidad de agua monitorea con mayor frecuencia y como los registra.
-
 3. Como calcula la biomasa y estima el consumo de alimento por corral.
-
-4. Que decisiones toma cuando un parametro sale fuera de rango.
-
+| 4. Que | decisiones | toma | cuando un parametro | sale fuera | de rango. |     |     |
+| ------ | ---------- | ---- | ------------------- | ---------- | --------- | --- | --- |
 5. Como se coordinan las tareas entre capataces, laboratorio y administracion.
-
 6. Que informacion consulta o registra al momento de una cosecha.
-
 7. Que problemas o errores le ha generado el uso de registros en papel o en Excel.
+| 8. Que  | le gustaria | automatizar  | y por que. |     |     |     |     |
+| ------- | ----------- | ------------ | ---------- | --- | --- | --- | --- |
+| Riesgos | eticos      | particulares |            |     |     |     |     |
+‚Ä¢ Divulgacion de informacion competitiva (volumenes, rendimiento, densidades de siembra).
+| ‚Ä¢ Divulgacion |     | de la ubicacion | exacta | de la finca. |     |     |     |
+| ------------- | --- | --------------- | ------ | ------------ | --- | --- | --- |
+‚Ä¢ Exposicion involuntaria de informacion sobre incidentes ambientales o sanitarios.
+| Checklist    | de documentos |     | aplicables |     |     |     |             |
+| ------------ | ------------- | --- | ---------- | --- | --- | --- | ----------- |
+| 2026-2027PPA |               |     |            |     |     |     | Pagina18/32 |
 
-8. Que le gustaria automatizar y por que.
-
-Riesgos eticos particulares
-
-ï Divulgacion de informacion competitiva (volumenes, rendimiento, densidades de siembra).
-
-ï Divulgacion de la ubicacion exacta de la finca.
-
-ï Exposicion involuntaria de informacion sobre incidentes ambientales o sanitarios.
-
-Checklist de documentos aplicables
-
-2026-2027 PPA
-
-Pagina 18 / 32
-
-UTEQ | FCC | ISR-401
-
-Paquete de Anexos y Guias ñ Aprobacion Etica PFC
-
-Documentos A.1 al A.12 del Anexo A (comunes obligatorios).
-
-12 items
-
-C1 ñ Aval de la unidad productiva (camaronera).
-
-C2 ñ Compromiso de confidencialidad sobre informacion estrategica.
-
-C3 ñ Protocolo de anonimizacion de datos empresariales.
-
-C4 ñ Referencia a normativa sectorial (MPCEIP, IPIAP).
-
-Aplica
-
-Aplica
-
-Aplica
-
-Aplica
-
-PFC #2 ñ MundiPets
-
-Categoria B ñ Datos personales
-
+| UTEQ|FCC|ISR-401 |     |     |     |     |     |     | PaquetedeAnexosyGuias‚ÄìAprobacionEticaPFC |     |
+| ---------------- | --- | --- | --- | --- | --- | --- | ---------------------------------------- | --- |
+Documentos A.1 al A.12 del Anexo A (comunes obligatorios). 12 items
+|     | C1 ‚Äì Aval | de la | unidad | productiva | (camaronera). |     |     | Aplica |
+| --- | --------- | ----- | ------ | ---------- | ------------- | --- | --- | ------ |
+C2 ‚Äì Compromiso de confidencialidad sobre informacion estrategica. Aplica
+C3 ‚Äì Protocolo de anonimizacion de datos empresariales. Aplica
+C4 ‚Äì Referencia a normativa sectorial (MPCEIP, IPIAP). Aplica
+PFC#2‚ÄìMundiPets CategoriaB‚ÄìDatospersonales
 Dominio y sistema objetivo. Plataforma veterinaria multiservicio para gestion de historia clin-
 ica de mascotas, agendamiento de citas, prescripciones y comunidad de duenos.
-
 Organizacion objeto de estudio. Una o mas clinicas veterinarias asociadas y un panel de
-duenos de mascotas mayores de edad.
-
+| duenos | de mascotas |     | mayores | de  | edad. |     |     |     |
+| ------ | ----------- | --- | ------- | --- | ----- | --- | --- | --- |
 Poblacion participante. Medicos veterinarios, recepcionistas y personal auxiliar de la clinica;
 duenos de mascotas mayores de edad reclutados por convocatoria voluntaria.
-
-Banco de preguntas guia (entrevista al personal veterinario)
-
+| Banco | de preguntas |     | guia | (entrevista | al personal |     | veterinario) |     |
+| ----- | ------------ | --- | ---- | ----------- | ----------- | --- | ------------ | --- |
 1. Como agenda las citas actualmente y que problemas enfrenta con el proceso.
-
 2. Como registra la historia clinica de cada mascota y como accede a consultas anteriores.
-
-3. Como maneja las prescripciones, vacunacion y recordatorios.
-
-4. Que comunicaciones sostiene con los duenos entre consultas.
-
+| 3.  | Como maneja        | las | prescripciones, |     | vacunacion     | y recordatorios. |            |     |
+| --- | ------------------ | --- | --------------- | --- | -------------- | ---------------- | ---------- | --- |
+| 4.  | Que comunicaciones |     | sostiene        |     | con los duenos | entre            | consultas. |     |
 5. Que informacion querria consultar en el momento de atender una emergencia.
-
-6. Que reportes le seria util generar para la gestion de la clinica.
-
-Banco de preguntas guia (entrevista al dueno voluntario)
-
-1. Como escoge a la veterinaria a la que lleva a su mascota.
-
+| 6.    | Que reportes | le seria | util        | generar     | para la        | gestion     | de la clinica. |     |
+| ----- | ------------ | -------- | ----------- | ----------- | -------------- | ----------- | -------------- | --- |
+| Banco | de preguntas |          | guia        | (entrevista | al dueno       | voluntario) |                |     |
+| 1.    | Como escoge  | a la     | veterinaria |             | a la que lleva | a su        | mascota.       |     |
 2. Que informacion querria tener disponible siempre sobre su mascota.
-
-3. Que recordatorios le serian utiles.
-
+| 3.  | Que recordatorios |     | le serian | utiles. |     |     |     |     |
+| --- | ----------------- | --- | --------- | ------- | --- | --- | --- | --- |
 4. Que uso da actualmente a redes sociales para temas de su mascota.
-
-Riesgos eticos particulares
-
-ï Manejo de datos de contacto de duenos (nombre, telefono, direccion).
-
-ï Posible inclusion involuntaria de datos de menores (si el dueno registrado es menor).
-
-ï Manejo de historia clinica animal (no humana, pero sensible desde la perspectiva del propi-
-
+| Riesgos | eticos | particulares |     |     |     |     |     |     |
+| ------- | ------ | ------------ | --- | --- | --- | --- | --- | --- |
+‚Ä¢ Manejo de datos de contacto de duenos (nombre, telefono, direccion).
+‚Ä¢ Posible inclusion involuntaria de datos de menores (si el dueno registrado es menor).
+‚Ä¢ Manejo de historia clinica animal (no humana, pero sensible desde la perspectiva del propi-
 etario).
+| Checklist    | de  | documentos |     | aplicables |     |     |     |             |
+| ------------ | --- | ---------- | --- | ---------- | --- | --- | --- | ----------- |
+| 2026-2027PPA |     |            |     |            |     |     |     | Pagina19/32 |
 
-Checklist de documentos aplicables
-
-2026-2027 PPA
-
-Pagina 19 / 32
-
-UTEQ | FCC | ISR-401
-
-Paquete de Anexos y Guias ñ Aprobacion Etica PFC
-
-Documentos A.1 al A.12 del Anexo A (comunes obligatorios).
-
-12 items
-
-B1 ñ Aval de la clinica veterinaria y/o convocatoria a duenos voluntarios.
-
-B2 ñ Protocolo de proteccion de datos personales de duenos.
-
-B3 ñ Compromiso de no uso de datos reales de historias clinicas.
-
-B5 ñ Politica de manejo de datos de menores.
-
-Aplica
-
-Aplica
-
-Aplica
-
-Aplica
-
-PFC #3 ñ SIMPA
-
-Categoria C ñ Riesgo minimo operativo
-
+| UTEQ|FCC|ISR-401 |     |     |     |     |     | PaquetedeAnexosyGuias‚ÄìAprobacionEticaPFC |     |     |
+| ---------------- | --- | --- | --- | --- | --- | ---------------------------------------- | --- | --- |
+Documentos A.1 al A.12 del Anexo A (comunes obligatorios). 12 items
+B1 ‚Äì Aval de la clinica veterinaria y/o convocatoria a duenos voluntarios. Aplica
+B2 ‚Äì Protocolo de proteccion de datos personales de duenos. Aplica
+B3 ‚Äì Compromiso de no uso de datos reales de historias clinicas. Aplica
+|             | B5 ‚Äì | Politica | de manejo | de  | datos | de menores. |                                  | Aplica |
+| ----------- | ---- | -------- | --------- | --- | ----- | ----------- | -------------------------------- | ------ |
+| PFC#3‚ÄìSIMPA |      |          |           |     |       |             | CategoriaC‚ÄìRiesgominimooperativo |        |
 Dominio y sistema objetivo. Sistema Integrado para el Mantenimiento de la Palma Africana
 (SIMPA): gestion de parcelas, aplicaciones fitosanitarias, monitoreo de plagas y registro con-
 forme a AGROCALIDAD.
-
 Organizacion objeto de estudio. Predio palmicultor de mediana o gran escala en Los Rios,
 Esmeraldas, Sucumbios u Orellana, con al menos 20 hectareas activas.
-
 Poblacion participante. Propietario o administrador del predio, ingeniero agronomo residente,
 tecnicos AGROCALIDAD que asesoran al predio, capataces y personal de campo.
-
-Banco de preguntas guia
-
+| Banco | de preguntas |     | guia |     |     |     |     |     |
+| ----- | ------------ | --- | ---- | --- | --- | --- | --- | --- |
 1. Como planifica la aplicacion de fitosanitarios en cada parcela y como respeta los periodos
-
 de reingreso.
-
-2. Como registra la ocurrencia de plagas (Pudricion del Cogollo, Anillo Rojo, Marchitez Sorpre-
-
-siva) y su evolucion.
-
+2. Comoregistralaocurrenciadeplagas(PudriciondelCogollo,AnilloRojo,MarchitezSorpre-
+|     | siva) y su | evolucion. |     |     |     |     |     |     |
+| --- | ---------- | ---------- | --- | --- | --- | --- | --- | --- |
 3. Como reporta a AGROCALIDAD y que registros exige la agencia.
-
-4. Como coordina la cosecha semanal con la extractora.
-
-5. Que registros mantiene en papel actualmente.
-
+| 4.  | Como coordina |          | la cosecha | semanal  | con          | la extractora. |     |     |
+| --- | ------------- | -------- | ---------- | -------- | ------------ | -------------- | --- | --- |
+| 5.  | Que registros | mantiene |            | en papel | actualmente. |                |     |     |
 6. Que informacion querria consultar en campo desde un dispositivo movil.
-
-Riesgos eticos particulares
-
-ï Divulgacion de rendimiento por hectarea y precios de venta.
-
-ï Divulgacion de la incidencia de plagas (informacion sensible para la aseguradora y para el
-
+| Riesgos | eticos      | particulares |             |     |          |           |           |     |
+| ------- | ----------- | ------------ | ----------- | --- | -------- | --------- | --------- | --- |
+| ‚Ä¢       | Divulgacion | de           | rendimiento | por | hectarea | y precios | de venta. |     |
+‚Ä¢ Divulgacion de la incidencia de plagas (informacion sensible para la aseguradora y para el
 sector).
+| ‚Ä¢         | Localizacion | exacta     | de  | los predios | afectados. |     |     |     |
+| --------- | ------------ | ---------- | --- | ----------- | ---------- | --- | --- | --- |
+| Checklist | de           | documentos |     | aplicables  |            |     |     |     |
+Documentos A.1 al A.12 del Anexo A (comunes obligatorios). 12 items
+C1 ‚Äì Aval de la unidad productiva (predio palmicultor). Aplica
+C2 ‚Äì Compromiso de confidencialidad sobre informacion estrategica. Aplica
+|     | C3 ‚Äì | Protocolo | de anonimizacion. |     |     |     |     | Aplica |
+| --- | ---- | --------- | ----------------- | --- | --- | --- | --- | ------ |
+C4 ‚Äì Referencia a normativa sectorial (AGROCALIDAD, MAG, ANCUPA). Aplica
+PFC#4‚ÄìRutaExpress CategoriaB‚ÄìDatospersonales
+| 2026-2027PPA |     |     |     |     |     |     |     | Pagina20/32 |
+| ------------ | --- | --- | --- | --- | --- | --- | --- | ----------- |
 
-ï Localizacion exacta de los predios afectados.
-
-Checklist de documentos aplicables
-
-Documentos A.1 al A.12 del Anexo A (comunes obligatorios).
-
-12 items
-
-C1 ñ Aval de la unidad productiva (predio palmicultor).
-
-C2 ñ Compromiso de confidencialidad sobre informacion estrategica.
-
-C3 ñ Protocolo de anonimizacion.
-
-C4 ñ Referencia a normativa sectorial (AGROCALIDAD, MAG, ANCUPA).
-
-Aplica
-
-Aplica
-
-Aplica
-
-Aplica
-
-PFC #4 ñ RutaExpress
-
-Categoria B ñ Datos personales
-
-2026-2027 PPA
-
-Pagina 20 / 32
-
-UTEQ | FCC | ISR-401
-
-Paquete de Anexos y Guias ñ Aprobacion Etica PFC
-
+| UTEQ|FCC|ISR-401 |     |     |     |     |     |     |     | PaquetedeAnexosyGuias‚ÄìAprobacionEticaPFC |     |
+| ---------------- | --- | --- | --- | --- | --- | --- | --- | ---------------------------------------- | --- |
 Dominio y sistema objetivo. Plataforma de movilidad colaborativa y mensajeria urbana para
 gestion de envios, asignacion de conductores y seguimiento de entregas.
-
 Organizacion objeto de estudio. Empresa de mensajeria formal de tamano pequeno o medi-
 ano en Quevedo, Guayaquil o Santo Domingo, o cooperativa de motorizados.
-
 Poblacion participante. Conductores adultos afiliados, coordinadores de operaciones, per-
 sonal de bodega, clientes-tipo (perfiles construidos, no clientes reales identificados) y usuarios
-finales voluntarios que quieran participar de encuestas.
-
-Banco de preguntas guia
-
-1. Como recibe y despacha una solicitud de envio actualmente.
-
-2. Como se comunica con el cliente durante la ruta.
-
+| finales | voluntarios |             | que        | quieran | participar |           | de encuestas.         |     |     |
+| ------- | ----------- | ----------- | ---------- | ------- | ---------- | --------- | --------------------- | --- | --- |
+| Banco   | de          | preguntas   |            | guia    |            |           |                       |     |     |
+| 1.      | Como        | recibe      | y despacha |         | una        | solicitud | de envio actualmente. |     |     |
+| 2.      | Como        | se comunica |            | con     | el cliente | durante   | la ruta.              |     |     |
 3. Como confirma la entrega y captura la evidencia (firma, foto, codigo).
-
-4. Que problemas frecuentes enfrenta (direcciones incompletas, cliente no disponible, corte de
-
+4. Queproblemasfrecuentesenfrenta(direccionesincompletas,clientenodisponible,cortede
 internet).
-
-5. Como se coordina el pago y la comision.
-
+| 5.  | Como | se coordina |     | el pago | y la | comision. |     |     |     |
+| --- | ---- | ----------- | --- | ------- | ---- | --------- | --- | --- | --- |
 6. Que informacion querria ver en su aplicacion movil como conductor.
-
-Riesgos eticos particulares
-
-ï Manejo de datos de geolocalizacion.
-
-ï Datos personales de conductores (rutas frecuentes, ingresos).
-
-ï Datos personales de clientes finales (direcciones exactas, patrones de consumo).
-
-ï Potencial uso indebido de datos para vigilancia laboral.
-
-Checklist de documentos aplicables
-
-Documentos A.1 al A.12 del Anexo A (comunes obligatorios).
-
-12 items
-
-B1 ñ Aval de la empresa de mensajeria.
-
-B2 ñ Protocolo de proteccion de datos personales.
-
-B3 ñ Compromiso de no uso de datos reales de transacciones.
-
-Aplica
-
-Aplica
-
-Aplica
-
-B4 ñ Politica de manejo de datos de geolocalizacion.
-
-Obligatorio
-
-PFC #5 ñ MediCita
-
-Categoria A ñ Datos sensibles de salud
-
+| Riesgos |        | eticos     | particulares |                     |     |        |             |            |     |
+| ------- | ------ | ---------- | ------------ | ------------------- | --- | ------ | ----------- | ---------- | --- |
+| ‚Ä¢       | Manejo | de         | datos        | de geolocalizacion. |     |        |             |            |     |
+| ‚Ä¢       | Datos  | personales |              | de conductores      |     | (rutas | frecuentes, | ingresos). |     |
+‚Ä¢ Datos personales de clientes finales (direcciones exactas, patrones de consumo).
+| ‚Ä¢         | Potencial | uso           | indebido | de  | datos      | para | vigilancia laboral. |     |     |
+| --------- | --------- | ------------- | -------- | --- | ---------- | ---- | ------------------- | --- | --- |
+| Checklist |           | de documentos |          |     | aplicables |      |                     |     |     |
+Documentos A.1 al A.12 del Anexo A (comunes obligatorios). 12 items
+|     | B1  | ‚Äì Aval      | de  | la empresa    | de  | mensajeria. |             |     | Aplica |
+| --- | --- | ----------- | --- | ------------- | --- | ----------- | ----------- | --- | ------ |
+|     | B2  | ‚Äì Protocolo |     | de proteccion |     | de datos    | personales. |     | Aplica |
+B3 ‚Äì Compromiso de no uso de datos reales de transacciones. Aplica
+B4 ‚Äì Politica de manejo de datos de geolocalizacion. Obligatorio
+| PFC#5‚ÄìMediCita |     |     |     |     |     |     |     | CategoriaA‚ÄìDatossensiblesdesalud |     |
+| -------------- | --- | --- | --- | --- | --- | --- | --- | -------------------------------- | --- |
 Dominio y sistema objetivo. Plataforma de agendamiento de citas medicas y telemedicina
-orientada a consultorios y clinicas privadas.
-
+| orientada |     | a consultorios |     | y clinicas |     | privadas. |     |     |     |
+| --------- | --- | -------------- | --- | ---------- | --- | --------- | --- | --- | --- |
 Organizacion objeto de estudio. Clinica privada u hospital cooperante, o consultorio medico
 particular. Se prohibe expresamente el trabajo con establecimientos publicos sin autorizacion
-adicional del MSP.
-
+| adicional |     | del MSP. |     |     |     |     |     |     |     |
+| --------- | --- | -------- | --- | --- | --- | --- | --- | --- | --- |
 Poblacion participante. Personal medico (medicos generales y especialistas), personal ad-
 ministrativo (recepcion, facturacion), pacientes-tipo. No se entrevista a pacientes reales.
+| Banco        | de  | preguntas |     | guia |     |     |     |     |             |
+| ------------ | --- | --------- | --- | ---- | --- | --- | --- | --- | ----------- |
+| 2026-2027PPA |     |           |     |      |     |     |     |     | Pagina21/32 |
 
-Banco de preguntas guia
-
-2026-2027 PPA
-
-Pagina 21 / 32
-
-UTEQ | FCC | ISR-401
-
-Paquete de Anexos y Guias ñ Aprobacion Etica PFC
-
+| UTEQ|FCC|ISR-401 |     |     |     |     |     |     |     | PaquetedeAnexosyGuias‚ÄìAprobacionEticaPFC |     |     |     |
+| ---------------- | --- | --- | --- | --- | --- | --- | --- | ---------------------------------------- | --- | --- | --- |
 1. Como se agenda una cita actualmente (telefono, WhatsApp, presencial).
-
-2. Como se maneja la agenda de multiples especialistas.
-
+| 2.  | Como | se maneja |     | la agenda |     | de multiples | especialistas. |     |     |     |     |
+| --- | ---- | --------- | --- | --------- | --- | ------------ | -------------- | --- | --- | --- | --- |
 3. Como se documenta la consulta (historia clinica en papel, sistema institucional).
-
 4. Que necesidades ha detectado en el manejo de recordatorios y cancelaciones.
-
-5. Que consideraciones tiene sobre telemedicina y videoconsulta.
-
-6. Que datos administrativos maneja para facturacion y estadistica.
-
-Riesgos eticos particulares
-
-ï Riesgo alto de exposicion a datos clinicos sensibles.
-
-ï Datos de salud son categoria especial en la LOPDP.
-
-ï Posibilidad de que el personal medico mencione casos de pacientes durante la entrevista
-
-(debe evitarse desviando la conversacion).
-
-ï Alta responsabilidad de disociacion desde el diseno.
-
-Restricciones especificas de MediCita
-
+| 5.      | Que consideraciones |          |                 |           | tiene  | sobre telemedicina |             | y videoconsulta. |              |     |     |
+| ------- | ------------------- | -------- | --------------- | --------- | ------ | ------------------ | ----------- | ---------------- | ------------ | --- | --- |
+| 6.      | Que datos           |          | administrativos |           | maneja | para               | facturacion | y                | estadistica. |     |     |
+| Riesgos |                     | eticos   | particulares    |           |        |                    |             |                  |              |     |     |
+| ‚Ä¢       | Riesgo              | alto     | de exposicion   |           | a      | datos clinicos     |             | sensibles.       |              |     |     |
+| ‚Ä¢       | Datos               | de salud | son             | categoria |        | especial           | en la       | LOPDP.           |              |     |     |
+‚Ä¢ Posibilidad de que el personal medico mencione casos de pacientes durante la entrevista
+|               | (debe                | evitarse | desviando   |     | la          | conversacion). |          |         |     |     |     |
+| ------------- | -------------------- | -------- | ----------- | --- | ----------- | -------------- | -------- | ------- | --- | --- | --- |
+| ‚Ä¢             | Alta responsabilidad |          |             | de  | disociacion |                | desde el | diseno. |     |     |     |
+| Restricciones |                      |          | especificas |     |             | de MediCita    |          |         |     |     |     |
 Este proyecto no debera en ninguna etapa: (a) acceder a historias clinicas reales; (b)
 entrevistar a pacientes; (c) capturar imagenes clinicas reales; (d) integrarse con sistemas
 hospitalarios en produccion. Todo el desarrollo se hace con personas-tipo y datos sinteti-
 cos.
-
-Checklist de documentos aplicables
-
-Documentos A.1 al A.12 del Anexo A (comunes obligatorios).
-
-A1 ñ Protocolo de disociacion completa desde el diseno (Privacy-by-
+| Checklist |     | de documentos |     |     | aplicables |     |     |     |     |     |     |
+| --------- | --- | ------------- | --- | --- | ---------- | --- | --- | --- | --- | --- | --- |
+Documentos A.1 al A.12 del Anexo A (comunes obligatorios). 12 items
+A1 ‚Äì Protocolo de disociacion completa desde el diseno (Privacy-by- Obligatorio
 Design).
-
-A2 ñ Declaracion de uso exclusivo de datos sinteticos.
-
-A3 ñ Aval especifico del establecimiento medico.
-
-A4 ñ Referencia a LOPDP articulos sobre datos sensibles.
-
-A5 ñ Protocolo de manejo de imagenes clinicas (si aplica).
-
-12 items
-
-Obligatorio
-
-Obligatorio
-
-Obligatorio
-
-Obligatorio
-
-Segun
+A2 ‚Äì Declaracion de uso exclusivo de datos sinteticos. Obligatorio
+|     | A3  | ‚Äì Aval | especifico |     | del | establecimiento |     | medico. |     |     | Obligatorio |
+| --- | --- | ------ | ---------- | --- | --- | --------------- | --- | ------- | --- | --- | ----------- |
+A4 ‚Äì Referencia a LOPDP articulos sobre datos sensibles. Obligatorio
+A5 ‚Äì Protocolo de manejo de imagenes clinicas (si aplica). Segun
 sistema
-
-PFC #6 ñ Marketplace UTEQ
-
-Categoria B ñ Datos personales
-
+| PFC#6‚ÄìMarketplaceUTEQ |     |     |     |     |     |     |     |     | CategoriaB‚ÄìDatospersonales |     |     |
+| --------------------- | --- | --- | --- | --- | --- | --- | --- | --- | -------------------------- | --- | --- |
 Dominio y sistema objetivo. Plataforma de comercio electronico interna para la comunidad
-universitaria: publicacion, busqueda y compra-venta de productos y servicios entre estudiantes,
-docentes y personal.
-
-Organizacion objeto de estudio. La propia comunidad UTEQ, con aval del Vicerrectorado
-Academico o del Vicerrectorado de Bienestar Universitario.
-
-Poblacion participante. Estudiantes, docentes y personal administrativo mayores de edad, re-
-clutados por convocatoria voluntaria en la Facultad de Ciencias de la Computacion y facultades
+universitaria: publicacion,busquedaycompra-ventadeproductosyserviciosentreestudiantes,
+| docentes     |     | y personal. |                |     |          |              |                |           |           |                         |     |
+| ------------ | --- | ----------- | -------------- | --- | -------- | ------------ | -------------- | --------- | --------- | ----------------------- | --- |
+|              |     |             |                |     |          | La           | propia         | comunidad | UTEQ, con | aval del Vicerrectorado |     |
+| Organizacion |     |             | objeto         | de  | estudio. |              |                |           |           |                         |     |
+| Academico    |     | o del       | Vicerrectorado |     |          | de Bienestar | Universitario. |           |           |                         |     |
+Poblacionparticipante. Estudiantes,docentesypersonaladministrativomayoresdeedad,re-
+clutadosporconvocatoriavoluntariaenlaFacultaddeCienciasdelaComputacionyfacultades
 afines.
+| Banco        | de  | preguntas |     | guia |     |     |     |     |     |     |             |
+| ------------ | --- | --------- | --- | ---- | --- | --- | --- | --- | --- | --- | ----------- |
+| 2026-2027PPA |     |           |     |      |     |     |     |     |     |     | Pagina22/32 |
 
-Banco de preguntas guia
-
-2026-2027 PPA
-
-Pagina 22 / 32
-
-UTEQ | FCC | ISR-401
-
-Paquete de Anexos y Guias ñ Aprobacion Etica PFC
-
+| UTEQ|FCC|ISR-401 |     |     |     |     |     |     | PaquetedeAnexosyGuias‚ÄìAprobacionEticaPFC |     |
+| ---------------- | --- | --- | --- | --- | --- | --- | ---------------------------------------- | --- |
 1. Que ha comprado o vendido dentro de la UTEQ o entre companeros en el ultimo semestre.
-
 2. Como se ha enterado de las ofertas o solicitudes (WhatsApp, redes, tablon).
-
 3. Que problemas ha enfrentado (precios, calidad, pagos, encuentros).
-
 4. Que garantias querria antes de comprarle a otro miembro de la comunidad.
-
-5. Como preferiria acordar el punto y momento de entrega.
-
+| 5.  | Como | preferiria | acordar | el punto | y   | momento | de entrega. |     |
+| --- | ---- | ---------- | ------- | -------- | --- | ------- | ----------- | --- |
 6. Que categorias de productos o servicios cree usted que deberian estar disponibles.
-
-Riesgos eticos particulares
-
-ï Datos personales de la comunidad universitaria.
-
-ï Sensibilidad reputacional (una filtracion afecta directamente la imagen institucional).
-
-ï Uso adecuado del correo institucional para reclutamiento.
-
-ï Potencial captura de datos financieros si el sistema procesa pagos.
-
-Checklist de documentos aplicables
-
-Documentos A.1 al A.12 del Anexo A (comunes obligatorios).
-
-12 items
-
-B1 ñ Aval institucional UTEQ (Vicerrectorado).
-
-B2 ñ Protocolo de proteccion de datos personales de la comunidad.
-
-B3 ñ Compromiso de no uso de datos reales de pagos.
-
-Aplica
-
-Aplica
-
-Aplica
-
-PFC #7 ñ Sistema de gestion de gimnasio
-
-Categoria A ñ Datos sensibles biometricos
-
+| Riesgos |       | eticos     | particulares |              |     |                |     |     |
+| ------- | ----- | ---------- | ------------ | ------------ | --- | -------------- | --- | --- |
+| ‚Ä¢       | Datos | personales | de           | la comunidad |     | universitaria. |     |     |
+‚Ä¢ Sensibilidad reputacional (una filtracion afecta directamente la imagen institucional).
+| ‚Ä¢   | Uso adecuado |     | del | correo institucional |     | para | reclutamiento. |     |
+| --- | ------------ | --- | --- | -------------------- | --- | ---- | -------------- | --- |
+‚Ä¢ Potencial captura de datos financieros si el sistema procesa pagos.
+| Checklist |     | de documentos |     | aplicables |     |     |     |     |
+| --------- | --- | ------------- | --- | ---------- | --- | --- | --- | --- |
+Documentos A.1 al A.12 del Anexo A (comunes obligatorios). 12 items
+|     | B1  | ‚Äì Aval | institucional | UTEQ | (Vicerrectorado). |     |     | Aplica |
+| --- | --- | ------ | ------------- | ---- | ----------------- | --- | --- | ------ |
+B2 ‚Äì Protocolo de proteccion de datos personales de la comunidad. Aplica
+|     | B3  | ‚Äì Compromiso |     | de no | uso de | datos | reales de pagos. | Aplica |
+| --- | --- | ------------ | --- | ----- | ------ | ----- | ---------------- | ------ |
+PFC#7‚ÄìSistemadegestiondegimnasio CategoriaA‚ÄìDatossensiblesbiometricos
 Dominio y sistema objetivo. Sistema de gestion de centros deportivos: registro de socios,
 planes de entrenamiento, control de asistencia, seguimiento de progreso corporal.
-
 Organizacion objeto de estudio. Gimnasio o centro deportivo privado, con al menos un ano
-de operacion formal.
-
-Poblacion participante. Propietario, entrenadores personales, recepcionistas, socios-tipo (per-
-files construidos, no socios reales).
-
-Banco de preguntas guia
-
+| de operacion |     | formal. |     |     |     |     |     |     |
+| ------------ | --- | ------- | --- | --- | --- | --- | --- | --- |
+Poblacionparticipante. Propietario,entrenadorespersonales,recepcionistas,socios-tipo(per-
+| files | construidos, |           | no socios | reales). |     |     |     |     |
+| ----- | ------------ | --------- | --------- | -------- | --- | --- | --- | --- |
+| Banco | de           | preguntas |           | guia     |     |     |     |     |
 1. Como registra actualmente a los socios y como maneja los pagos mensuales.
-
 2. Como asigna planes de entrenamiento y como controla su cumplimiento.
-
 3. Que datos corporales o de progreso recoge y con que frecuencia.
+| 4.           | Como         | maneja      | la asistencia | diaria        | de         | los socios. |              |             |
+| ------------ | ------------ | ----------- | ------------- | ------------- | ---------- | ----------- | ------------ | ----------- |
+| 5.           | Como         | se comunica |               | con socios    | inactivos. |             |              |             |
+| 6.           | Que reportes |             | usa para      | la gestion    | del        | negocio.    |              |             |
+| Riesgos      |              | eticos      | particulares  |               |            |             |              |             |
+| ‚Ä¢            | Datos        | biometricos |               | son categoria | especial   |             | en la LOPDP. |             |
+| 2026-2027PPA |              |             |               |               |            |             |              | Pagina23/32 |
 
-4. Como maneja la asistencia diaria de los socios.
-
-5. Como se comunica con socios inactivos.
-
-6. Que reportes usa para la gestion del negocio.
-
-Riesgos eticos particulares
-
-ï Datos biometricos son categoria especial en la LOPDP.
-
-2026-2027 PPA
-
-Pagina 23 / 32
-
-UTEQ | FCC | ISR-401
-
-Paquete de Anexos y Guias ñ Aprobacion Etica PFC
-
-ï Datos de peso, medidas corporales, IMC pueden generar impacto psicologico si son mal
-
+UTEQ|FCC|ISR-401 PaquetedeAnexosyGuias‚ÄìAprobacionEticaPFC
+‚Ä¢ Datos de peso, medidas corporales, IMC pueden generar impacto psicologico si son mal
 manejados.
-
-ï Posible captura de fotografias de socios (deben evitarse durante el desarrollo).
-
-ï Datos de rutina y horario pueden ser usados con fines de vigilancia.
-
+‚Ä¢ Posible captura de fotografias de socios (deben evitarse durante el desarrollo).
+‚Ä¢ Datos de rutina y horario pueden ser usados con fines de vigilancia.
 Restricciones especificas del sistema de gestion de gimnasio
-
 El proyecto no debera durante el desarrollo: (a) capturar datos biometricos reales de so-
 cios; (b) tomar fotografias corporales; (c) recolectar peso, medidas o IMC de personas
 identificables. Todo se trabaja con socios-tipo ficticios y datos sinteticos.
-
 Checklist de documentos aplicables
-
-Documentos A.1 al A.12 del Anexo A (comunes obligatorios).
-
-A1 ñ Protocolo de disociacion completa desde el diseno.
-
-A2 ñ Declaracion de uso exclusivo de datos sinteticos.
-
-A3 ñ Aval especifico del establecimiento deportivo.
-
-12 items
-
-Obligatorio
-
-Obligatorio
-
-Obligatorio
-
-A4 ñ Referencia a LOPDP articulos sobre datos sensibles biometricos.
-
-Obligatorio
-
-A5 ñ Protocolo de manejo de imagenes corporales (si aplica).
-
-Segun
+Documentos A.1 al A.12 del Anexo A (comunes obligatorios). 12 items
+A1 ‚Äì Protocolo de disociacion completa desde el diseno. Obligatorio
+A2 ‚Äì Declaracion de uso exclusivo de datos sinteticos. Obligatorio
+A3 ‚Äì Aval especifico del establecimiento deportivo. Obligatorio
+A4 ‚Äì Referencia a LOPDP articulos sobre datos sensibles biometricos. Obligatorio
+A5 ‚Äì Protocolo de manejo de imagenes corporales (si aplica). Segun
 sistema
-
-PFC #8 ñ Sistema de gestion de clinica veterinaria
-
-Categoria B ñ Datos personales
-
+PFC#8‚ÄìSistemadegestiondeclinicaveterinaria CategoriaB‚ÄìDatospersonales
 Dominio y sistema objetivo. Sistema de gestion integral para clinica veterinaria: agenda,
-historia clinica animal, inventario de medicamentos, facturacion, comunicacion con propietarios.
-
+historiaclinicaanimal,inventariodemedicamentos,facturacion,comunicacionconpropietarios.
 Organizacion objeto de estudio. Clinica veterinaria local privada con al menos dos veterinar-
 ios de planta.
-
 Poblacion participante. Medicos veterinarios, personal administrativo, propietarios de masco-
 tas voluntarios mayores de edad.
-
 Banco de preguntas guia
-
 1. Como se registra un nuevo paciente (mascota + propietario) actualmente.
-
 2. Como se documenta la historia clinica y las consultas subsecuentes.
-
 3. Como se maneja el inventario de medicamentos y vacunas.
-
 4. Como se comunican los recordatorios de desparasitacion, vacunacion o control.
-
 5. Como se genera la factura al finalizar una consulta.
-
 6. Que reportes usa el propietario de la clinica para la gestion.
-
 Riesgos eticos particulares
+‚Ä¢ Datos personales de propietarios (nombre, contacto, direccion).
+‚Ä¢ Posible presencia de propietarios menores de edad.
+‚Ä¢ Datos financieros de la clinica.
+2026-2027PPA Pagina24/32
 
-ï Datos personales de propietarios (nombre, contacto, direccion).
-
-ï Posible presencia de propietarios menores de edad.
-
-ï Datos financieros de la clinica.
-
-2026-2027 PPA
-
-Pagina 24 / 32
-
-UTEQ | FCC | ISR-401
-
-Paquete de Anexos y Guias ñ Aprobacion Etica PFC
-
-ï Historia clinica animal, aunque no de humanos, contiene datos sensibles del propietario por
-
+| UTEQ|FCC|ISR-401 |     |     |     |     |     |     |     | PaquetedeAnexosyGuias‚ÄìAprobacionEticaPFC |     |
+| ---------------- | --- | --- | --- | --- | --- | --- | --- | ---------------------------------------- | --- |
+‚Ä¢ Historia clinica animal, aunque no de humanos, contiene datos sensibles del propietario por
 conexion.
-
-Checklist de documentos aplicables
-
-Documentos A.1 al A.12 del Anexo A (comunes obligatorios).
-
-12 items
-
-B1 ñ Aval de la clinica veterinaria.
-
-B2 ñ Protocolo de proteccion de datos personales de propietarios.
-
-B3 ñ Compromiso de no uso de datos reales.
-
-B5 ñ Politica de manejo de datos de menores.
-
-Aplica
-
-Aplica
-
-Aplica
-
-Aplica
-
-PFC #9 ñ SIGA ñ Sistema Inteligente de Gestion de Aulas
-
-Categoria B ñ Datos personales
-
-(potencial A)
-
+| Checklist |     | de documentos |     |     | aplicables |     |     |     |     |
+| --------- | --- | ------------- | --- | --- | ---------- | --- | --- | --- | --- |
+Documentos A.1 al A.12 del Anexo A (comunes obligatorios). 12 items
+|     | B1  | ‚Äì Aval | de la | clinica | veterinaria. |     |     |     | Aplica |
+| --- | --- | ------ | ----- | ------- | ------------ | --- | --- | --- | ------ |
+B2 ‚Äì Protocolo de proteccion de datos personales de propietarios. Aplica
+|     | B3  | ‚Äì Compromiso |     | de     | no uso | de datos | reales.     |     | Aplica |
+| --- | --- | ------------ | --- | ------ | ------ | -------- | ----------- | --- | ------ |
+|     | B5  | ‚Äì Politica   | de  | manejo | de     | datos    | de menores. |     | Aplica |
+PFC#9‚ÄìSIGA‚ÄìSistemaInteligentedeGestiondeAulas CategoriaB‚ÄìDatospersonales
+(potencialA)
 Dominio y sistema objetivo. Sistema Inteligente de Gestion de Aulas (SIGA) para la Facultad
 de Ciencias de la Computacion de la UTEQ. Cubre reservacion y asignacion de aulas, moni-
-toreo de ocupacion, control de asistencia, gestion de equipamiento tecnologico, integracion con
-horarios academicos y analitica de uso de espacios.
-
+toreodeocupacion,controldeasistencia,gestiondeequipamientotecnologico,integracioncon
+| horarios | academicos |     |     | y analitica | de  | uso de | espacios. |     |     |
+| -------- | ---------- | --- | --- | ----------- | --- | ------ | --------- | --- | --- |
 Organizacion objeto de estudio. La propia UTEQ, especificamente la Facultad de Ciencias
 de la Computacion. Esta caracteristica de auto-observacion institucional exige consideraciones
 eticas y de conflicto de intereses adicionales respecto a los demas PFC.
-
 Poblacion participante. Coordinacion de carrera (Mgs. Jessica A. Ponce Ordonez), personal
-administrativo de la FCC, docentes de la carrera de Ingenieria de Software, estudiantes mayores
+administrativodelaFCC,docentesdelacarreradeIngenieriadeSoftware,estudiantesmayores
 de edad de cuarto y quinto nivel (voluntarios reclutados por convocatoria abierta), personal de
-servicios generales responsable del acondicionamiento de aulas.
-
-Consideraciones especiales por auto-observacion
-
+| servicios       | generales |     | responsable |     | del | acondicionamiento    |     | de aulas. |     |
+| --------------- | --------- | --- | ----------- | --- | --- | -------------------- | --- | --------- | --- |
+| Consideraciones |           |     | especiales  |     |     | por auto-observacion |     |           |     |
 Al ser SIGA un proyecto donde la organizacion objeto de estudio es la propia UTEQ, apli-
 can las siguientes reglas adicionales: (a) el aval institucional se solicita al Decano de la
-FCC o directamente al Vicerrectorado Academico ñ la misma autoridad que aprueba la
-solicitud etica ñ lo cual debe manejarse explicitamente para evitar apariencia de conflicto
+FCC o directamente al Vicerrectorado Academico ‚Äì la misma autoridad que aprueba la
+solicitud etica ‚Äì lo cual debe manejarse explicitamente para evitar apariencia de conflicto
 de intereses; (b) el docente responsable y los integrantes del equipo son parte de la co-
 munidad universitaria estudiada, por lo que la declaracion de conflicto de intereses debe
 ser mas detallada; (c) las entrevistas a docentes de la carrera deben conducirse por inte-
 grantes que no tengan asignaturas vigentes con ellos, o registrarse con doble validacion;
-(d) los datos de estudiantes participantes no pueden vincularse con sus calificaciones aca-
-demicas ni con ningun registro del SGA institucional.
-
+(d)losdatosdeestudiantesparticipantesnopuedenvincularseconsuscalificacionesaca-
+| demicas |     | ni con | ningun | registro |     | del SGA | institucional. |     |     |
+| ------- | --- | ------ | ------ | -------- | --- | ------- | -------------- | --- | --- |
 Banco de preguntas guia (personal administrativo y coordinacion)
-
 1. Como se asignan actualmente las aulas a las asignaturas al inicio del semestre.
-
 2. Como se registran los cambios de aula durante el semestre y quien los autoriza.
-
 3. Como se gestionan las solicitudes puntuales de aula para eventos, defensas, tutorias.
-
 4. Como se controla el estado del equipamiento tecnologico (proyectores, computadoras, sis-
-
-temas de audio).
-
+|     | temas | de audio). |     |     |     |     |     |     |     |
+| --- | ----- | ---------- | --- | --- | --- | --- | --- | --- | --- |
 5. Como se coordina con servicios generales la limpieza y el acondicionamiento entre clases.
+| 2026-2027PPA |     |     |     |     |     |     |     |     | Pagina25/32 |
+| ------------ | --- | --- | --- | --- | --- | --- | --- | --- | ----------- |
 
-2026-2027 PPA
-
-Pagina 25 / 32
-
-UTEQ | FCC | ISR-401
-
-Paquete de Anexos y Guias ñ Aprobacion Etica PFC
-
+| UTEQ|FCC|ISR-401 |     |     |     |     |     | PaquetedeAnexosyGuias‚ÄìAprobacionEticaPFC |     |
+| ---------------- | --- | --- | --- | --- | --- | ---------------------------------------- | --- |
 6. Que reportes de ocupacion o subutilizacion se generan para la toma de decisiones.
-
-Banco de preguntas guia (docentes)
-
-1. Como confirma la disponibilidad de un aula antes de una clase.
-
+| Banco   | de preguntas |     | guia (docentes) |     |         |              |        |
+| ------- | ------------ | --- | --------------- | --- | ------- | ------------ | ------ |
+| 1. Como | confirma     | la  | disponibilidad  | de  | un aula | antes de una | clase. |
 2. Que hace cuando el aula asignada tiene problemas de equipamiento.
-
 3. Como reserva un aula fuera de su horario regular (tutorias, examenes de recuperacion).
-
 4. Que informacion querria consultar desde su telefono sobre las aulas.
-
-Banco de preguntas guia (estudiantes voluntarios)
-
-1. Como se entera de un cambio de aula.
-
+| Banco   | de preguntas |     | guia (estudiantes |          | voluntarios) |     |     |
+| ------- | ------------ | --- | ----------------- | -------- | ------------ | --- | --- |
+| 1. Como | se entera    | de  | un cambio         | de aula. |              |     |     |
 2. Que tan claras son las senalizaciones para ubicar el aula asignada.
-
-3. Que uso hace de las aulas libres para estudio autonomo.
-
-Riesgos eticos particulares
-
-ï Datos personales de la comunidad UTEQ (nombres, correos institucionales, horarios de
-
+| 3. Que  | uso hace | de           | las aulas libres | para | estudio | autonomo. |     |
+| ------- | -------- | ------------ | ---------------- | ---- | ------- | --------- | --- |
+| Riesgos | eticos   | particulares |                  |      |         |           |     |
+‚Ä¢ Datos personales de la comunidad UTEQ (nombres, correos institucionales, horarios de
 clase).
-
-ï Riesgo de vigilancia si el sistema incluye sensores IoT, contadores de personas o camaras.
-
-ï Riesgo reputacional institucional en caso de filtracion (afecta directamente a la UTEQ).
-
-ï Conflicto de intereses estructural por auto-observacion.
-
-ï Sensibilidad de patrones de asistencia docente que pudieran revelarse por analitica de ocu-
-
+‚Ä¢ Riesgo de vigilancia si el sistema incluye sensores IoT, contadores de personas o camaras.
+‚Ä¢ Riesgo reputacional institucional en caso de filtracion (afecta directamente a la UTEQ).
+| ‚Ä¢ Conflicto | de  | intereses | estructural | por | auto-observacion. |     |     |
+| ----------- | --- | --------- | ----------- | --- | ----------------- | --- | --- |
+‚Ä¢ Sensibilidad de patrones de asistencia docente que pudieran revelarse por analitica de ocu-
 pacion.
-
-ï Posible correlacion no autorizada con datos del SGA (calificaciones, matriculacion).
-
-ï Posible presencia de estudiantes de 17 anos en primer nivel (aunque el proyecto se focaliza
-
+‚Ä¢ Posible correlacion no autorizada con datos del SGA (calificaciones, matriculacion).
+‚Ä¢ Posiblepresenciadeestudiantesde17anosenprimernivel(aunqueelproyectosefocaliza
 en cuarto/quinto).
-
-Criterio de elevacion a Categoria A
-
+| Criterio | de elevacion |     | a Categoria |     | A   |     |     |
+| -------- | ------------ | --- | ----------- | --- | --- | --- | --- |
 Si el diseno de SIGA contempla cualquiera de los siguientes componentes, el proyecto
-debe elevarse a Categoria A y elaborar adicionalmente los documentos A1ñA5: (1) re-
+debe elevarse a Categoria A y elaborar adicionalmente los documentos A1‚ÄìA5: (1) re-
 conocimiento facial para control de asistencia; (2) camaras de video en aulas con analit-
 ica visual; (3) huella dactilar o cualquier biometrico para acceso; (4) escaneo de codigos
 QR personales vinculados a expedientes academicos. En ese caso, tambien se prohibe
 la captura de datos biometricos reales durante el desarrollo, empleando exclusivamente
 personas-tipo.
+| Checklist | de documentos |     | aplicables |     | (Categoria | B base) |     |
+| --------- | ------------- | --- | ---------- | --- | ---------- | ------- | --- |
+2026-2027PPA Pagina26/32
 
-Checklist de documentos aplicables (Categoria B base)
-
-2026-2027 PPA
-
-Pagina 26 / 32
-
-UTEQ | FCC | ISR-401
-
-Paquete de Anexos y Guias ñ Aprobacion Etica PFC
-
-Documentos A.1 al A.12 del Anexo A (comunes obligatorios).
-
-B1 ñ Aval institucional emitido por el Decano de la FCC o el Vicerrectorado
+| UTEQ|FCC|ISR-401 |     |     |     |     | PaquetedeAnexosyGuias‚ÄìAprobacionEticaPFC |
+| ---------------- | --- | --- | --- | --- | ---------------------------------------- |
+Documentos A.1 al A.12 del Anexo A (comunes obligatorios). 12 items
+B1‚ÄìAvalinstitucionalemitidoporelDecanodelaFCCoelVicerrectorado Obligatorio
 Academico.
-
-12 items
-
-Obligatorio
-
-B2 ñ Protocolo de proteccion de datos personales de la comunidad uni-
+B2 ‚Äì Protocolo de proteccion de datos personales de la comunidad uni- Obligatorio
 versitaria.
-
-Obligatorio
-
-B3 ñ Compromiso de no correlacion con datos del SGA institucional.
-
-Obligatorio
-
-B5 ñ Politica de manejo de datos de menores (por precaucion, aunque no
-se prevee reclutamiento).
-
-Aplica
-
-Elevacion a Categoria A: si el diseno incluye biometria o vigilancia visual,
-agregar A1ñA5.
-
-Condicional
-
-Aval institucional recomendado
-
+B3 ‚Äì Compromiso de no correlacion con datos del SGA institucional. Obligatorio
+B5‚ÄìPoliticademanejodedatosdemenores(porprecaucion,aunqueno Aplica
+|     | se prevee | reclutamiento). |     |     |     |
+| --- | --------- | --------------- | --- | --- | --- |
+ElevacionaCategoriaA:sieldisenoincluyebiometriaovigilanciavisual, Condicional
+|      | agregar A1‚ÄìA5. |             |     |     |     |
+| ---- | -------------- | ----------- | --- | --- | --- |
+| Aval | institucional  | recomendado |     |     |     |
 Dado que el aval del Vicerrectorado Academico coincide con la aprobacion etica solici-
 tada, se recomienda que el aval del proyecto SIGA lo emita el Decano de la Facultad
 de Ciencias de la Computacion, con copia informativa al Vicerrectorado. De esa man-
 era se preserva la separacion entre la autoridad que autoriza el acceso a la organizacion
 (Decano) y la autoridad que aprueba la etica del estudio (Vicerrector).
-
-PFC #10 ñ Sistema Inteligente de Control y Seguimiento de Terapia Fisica Categoria A ñ Datos
-
-sensibles de salud + biometricos
-
-Dominio y sistema objetivo. Sistema para el control administrativo y seguimiento clinico de pa-
-cientes en tratamiento de fisioterapia y rehabilitacion, con componente de vision por computa-
+PFC#10‚ÄìSistemaInteligentedeControlySeguimientodeTerapiaFisica CategoriaA‚ÄìDatos
+sensiblesdesalud+biometricos
+Dominioysistemaobjetivo. Sistemaparaelcontroladministrativoyseguimientoclinicodepa-
+cientesentratamientodefisioterapiayrehabilitacion,concomponentedevisionporcomputa-
 dora para el analisis de la correcta ejecucion de ejercicios terapeuticos y seguimiento remoto
-de la progresion del paciente.
-
+| de la progresion | del | paciente. |     |     |     |
+| ---------------- | --- | --------- | --- | --- | --- |
 Organizacion objeto de estudio. Centro de fisioterapia y rehabilitacion, consultorio privado
 de fisioterapia, o area de rehabilitacion de una clinica cooperante. Se prohibe expresamente el
-trabajo con establecimientos publicos sin autorizacion adicional del Ministerio de Salud Publica.
-
+trabajoconestablecimientospublicossinautorizacionadicionaldelMinisteriodeSaludPublica.
 Poblacion participante. Fisioterapeutas, kinesiologos, medicos rehabilitadores, personal ad-
 ministrativo del centro, estudiantes o profesionales voluntarios de fisioterapia como asesores.
-No se entrevista a pacientes reales y no se captura video de pacientes reales ejecutando
+Noseentrevistaapacientesrealesynosecapturavideodepacientesrealesejecutando
 ejercicios.
-
-Banco de preguntas guia (personal clinico)
-
+| Banco | de preguntas | guia (personal | clinico) |     |     |
+| ----- | ------------ | -------------- | -------- | --- | --- |
 1. Como registra actualmente la ficha clinica del paciente al ingresar por primera vez.
-
 2. Como planifica el programa de rehabilitacion y como lo ajusta segun la evolucion.
-
 3. Que ejercicios son mas dificiles de supervisar cuando el paciente los hace en casa.
-
 4. Que evidencia de progreso solicita usualmente al paciente (fotos, videos, autorreportes,
-
-mediciones goniometricas).
-
-5. Como se comunica con el paciente entre sesiones presenciales.
-
+| mediciones | goniometricas). |        |                |          |               |
+| ---------- | --------------- | ------ | -------------- | -------- | ------------- |
+| 5. Como    | se comunica     | con el | paciente entre | sesiones | presenciales. |
 6. Que reportes de progreso genera para el paciente y para el medico tratante.
+| 7. Que | necesidades  | detecta              | en el seguimiento | post-alta. |                 |
+| ------ | ------------ | -------------------- | ----------------- | ---------- | --------------- |
+| Banco  | de preguntas | guia (fisioterapeuta |                   | como       | asesor experto) |
+2026-2027PPA Pagina27/32
 
-7. Que necesidades detecta en el seguimiento post-alta.
-
-Banco de preguntas guia (fisioterapeuta como asesor experto)
-
-2026-2027 PPA
-
-Pagina 27 / 32
-
-UTEQ | FCC | ISR-401
-
-Paquete de Anexos y Guias ñ Aprobacion Etica PFC
-
-1. Que angulos, posturas y patrones de movimiento son criticos identificar automaticamente en
-
-cada tipo de ejercicio.
-
+| UTEQ|FCC|ISR-401 |     |     |     | PaquetedeAnexosyGuias‚ÄìAprobacionEticaPFC |     |
+| ---------------- | --- | --- | --- | ---------------------------------------- | --- |
+1. Queangulos,posturasypatronesdemovimientosoncriticosidentificarautomaticamenteen
+| cada | tipo de | ejercicio. |     |     |     |
+| ---- | ------- | ---------- | --- | --- | --- |
 2. Que errores de ejecucion son mas frecuentes y cuales tienen mayor riesgo de agravar la
-
 lesion.
-
 3. Que criterios permitirian a un sistema decidir si un ejercicio se ejecuto correctamente sin
-
-necesidad de supervision presencial.
-
-Riesgos eticos particulares
-
-ï Riesgo alto de exposicion a datos clinicos sensibles (historia clinica, diagnostico, evolucion).
-
-ï Riesgo biometrico por el componente de vision por computadora: puntos anatomicos, es-
-
-queleto, medidas corporales.
-
-ï Riesgo de dano fisico si el sistema emite retroalimentacion erronea que induzca al paciente
-
-a ejecutar mal un ejercicio (riesgo de responsabilidad civil).
-
-ï Datos de salud y datos biometricos son ambos categoria especial en la LOPDP.
-
-ï Posibilidad de que el fisioterapeuta mencione casos de pacientes durante la entrevista (debe
-
-evitarse desviando la conversacion).
-
-Restricciones especificas de Terapia Fisica
-
+| necesidad |        | de supervision | presencial. |     |     |
+| --------- | ------ | -------------- | ----------- | --- | --- |
+| Riesgos   | eticos | particulares   |             |     |     |
+‚Ä¢ Riesgoaltodeexposicionadatosclinicossensibles(historiaclinica,diagnostico,evolucion).
+‚Ä¢ Riesgo biometrico por el componente de vision por computadora: puntos anatomicos, es-
+| queleto, | medidas | corporales. |     |     |     |
+| -------- | ------- | ----------- | --- | --- | --- |
+‚Ä¢ Riesgo de dano fisico si el sistema emite retroalimentacion erronea que induzca al paciente
+| a ejecutar |     | mal un ejercicio | (riesgo | de responsabilidad | civil). |
+| ---------- | --- | ---------------- | ------- | ------------------ | ------- |
+‚Ä¢ Datos de salud y datos biometricos son ambos categoria especial en la LOPDP.
+‚Ä¢ Posibilidaddequeelfisioterapeutamencionecasosdepacientesdurantelaentrevista(debe
+| evitarse      | desviando | la          | conversacion). |        |     |
+| ------------- | --------- | ----------- | -------------- | ------ | --- |
+| Restricciones |           | especificas | de Terapia     | Fisica |     |
 Este proyecto no debera en ninguna etapa: (a) acceder a historias clinicas reales de pa-
 cientes en rehabilitacion; (b) entrevistar a pacientes; (c) capturar video real de pacientes
 ejecutando ejercicios; (d) integrar el modelo de vision por computadora con imagenes de
 pacientes reales; (e) desplegar el sistema en un entorno productivo sin evaluacion adi-
 cional. Todo el desarrollo se hace con personas-tipo, videos de acceso libre (bancos pub-
 licos con licencia) y capturas propias del equipo estudiantil ejecutando los ejercicios como
-voluntarios explicitos.
-
-Consideraciones sobre el componente de IA
-
+| voluntarios     |     | explicitos. |               |       |     |
+| --------------- | --- | ----------- | ------------- | ----- | --- |
+| Consideraciones |     | sobre       | el componente | de IA |     |
 El modelo de vision por computadora debe entrenarse exclusivamente con: (1) bancos
 publicos etiquetados con licencia libre (ej. MPII Human Pose, COCO, MediaPipe); (2)
 videos capturados por el equipo estudiantil con consentimiento explicito de sus propios
 integrantes; (3) datos sinteticos generados por herramientas de simulacion. Se declara en
-el manuscrito la procedencia exacta de todos los datos de entrenamiento, y se publica una
+elmanuscritolaprocedenciaexactadetodoslosdatosdeentrenamiento,ysepublicauna
 tarjeta de modelo (model card) con las limitaciones conocidas del sistema.
+| Checklist | de  | documentos | aplicables |     |     |
+| --------- | --- | ---------- | ---------- | --- | --- |
+2026-2027PPA Pagina28/32
 
-Checklist de documentos aplicables
-
-2026-2027 PPA
-
-Pagina 28 / 32
-
-UTEQ | FCC | ISR-401
-
-Paquete de Anexos y Guias ñ Aprobacion Etica PFC
-
-Documentos A.1 al A.12 del Anexo A (comunes obligatorios).
-
-A1 ñ Protocolo de disociacion completa desde el diseno (Privacy-by-
+UTEQ|FCC|ISR-401 PaquetedeAnexosyGuias‚ÄìAprobacionEticaPFC
+Documentos A.1 al A.12 del Anexo A (comunes obligatorios). 12 items
+A1 ‚Äì Protocolo de disociacion completa desde el diseno (Privacy-by- Obligatorio
 Design).
-
-12 items
-
-Obligatorio
-
-A2 ñ Declaracion de uso exclusivo de datos sinteticos y bancos publicos
-con licencia.
-
-Obligatorio
-
-A3 ñ Aval especifico del centro de fisioterapia.
-
-A4 ñ Referencia a LOPDP articulos sobre datos sensibles de salud y bio-
+A2 ‚Äì Declaracion de uso exclusivo de datos sinteticos y bancos publicos Obligatorio
+|     | con | licencia. |            |     |            |                  |             |
+| --- | --- | --------- | ---------- | --- | ---------- | ---------------- | ----------- |
+|     | A3  | ‚Äì Aval    | especifico |     | del centro | de fisioterapia. | Obligatorio |
+A4 ‚Äì Referencia a LOPDP articulos sobre datos sensibles de salud y bio- Obligatorio
 metricos.
-
-Obligatorio
-
-Obligatorio
-
-A5 ñ Protocolo de manejo de video corporal + tarjeta de modelo de IA.
-
-Obligatorio
-
-PFC #11 ñ Sistema de Gestion Agricola (cultivo de verde y cacao) Categoria C ñ Riesgo minimo
-
+A5 ‚Äì Protocolo de manejo de video corporal + tarjeta de modelo de IA. Obligatorio
+PFC#11‚ÄìSistemadeGestionAgricola(cultivodeverdeycacao) CategoriaC‚ÄìRiesgominimo
 operativo
-
-Dominio y sistema objetivo. Sistema para la gestion de fincas dedicadas al cultivo simultaneo
+Dominioysistemaobjetivo. Sistemaparalagestiondefincasdedicadasalcultivosimultaneo
 de banano/platano verde (Musa spp.) y cacao (Theobroma cacao) en sistemas de asociacion
 o monocultivo. Cubre planificacion de labores culturales, aplicaciones fitosanitarias, control de
 cosecha, trazabilidad hasta acopio y registro conforme a AGROCALIDAD y las regulaciones
 sectoriales.
-
-Organizacion objeto de estudio. Finca agricola formal ubicada en la costa (Los Rios, Guayas,
+Organizacionobjetodeestudio. Fincaagricolaformalubicadaenlacosta(LosRios,Guayas,
 El Oro, Manabi) o en la Amazonia (Sucumbios, Orellana, Napo), con al menos 10 hectareas
 activas de verde o cacao, y personal tecnico dedicado. Preferible con certificacion Rainforest
-Alliance, Fair Trade o similar (esto agrega valor al analisis).
-
-Poblacion participante. Propietario o administrador de la finca, ingeniero agronomo residente,
+| Alliance, | Fair | Trade | o similar |     | (esto | agrega valor al analisis). |     |
+| --------- | ---- | ----- | --------- | --- | ----- | -------------------------- | --- |
+Poblacionparticipante. Propietariooadministradordelafinca,ingenieroagronomoresidente,
 tecnicos AGROCALIDAD que asesoran, capataces, personal de campo, personal de acopio,
 y de manera opcional representantes del centro de acopio o de la asociacion de productores
-(ANECACAO para cacao, AEBE para banano).
-
-Banco de preguntas guia
-
+| (ANECACAO |     | para      | cacao, | AEBE | para | banano). |     |
+| --------- | --- | --------- | ------ | ---- | ---- | -------- | --- |
+| Banco     | de  | preguntas |        | guia |      |          |     |
 1. Como planifica el calendario anual de labores culturales para verde y para cacao (poda,
-
-deshije, control de malezas, fertilizacion).
-
+|     | deshije, | control | de  | malezas, | fertilizacion). |     |     |
+| --- | -------- | ------- | --- | -------- | --------------- | --- | --- |
 2. Como registra la aplicacion de fitosanitarios y como controla los periodos de reingreso y de
-
 carencia.
-
-3. Como identifica y registra la ocurrencia de plagas y enfermedades (Sigatoka Negra en verde,
-
+3. Comoidentificayregistralaocurrenciadeplagasyenfermedades(SigatokaNegraenverde,
 Moniliasis y Escoba de Bruja en cacao) y cual es su protocolo de accion.
-
 4. Como planifica y ejecuta la cosecha semanal, y como coordina el transporte al centro de
-
 acopio.
-
 5. Como maneja el control de calidad post-cosecha (fermentacion y secado del cacao, embar-
-
-que del verde).
-
-6. Como reporta a AGROCALIDAD, MAG y a la comercializadora los movimientos productivos.
-
-7. Que registros mantiene en papel o en Excel actualmente y que informacion querria consultar
-
-en campo desde un dispositivo movil.
-
+|     | que del | verde). |     |     |     |     |     |
+| --- | ------- | ------- | --- | --- | --- | --- | --- |
+6. ComoreportaaAGROCALIDAD,MAGyalacomercializadoralosmovimientosproductivos.
+7. QueregistrosmantieneenpapeloenExcelactualmenteyqueinformacionquerriaconsultar
+|     | en campo | desde | un  | dispositivo |     | movil. |     |
+| --- | -------- | ----- | --- | ----------- | --- | ------ | --- |
 8. Como gestiona el pago del personal por tarea o por dia y como controla la asistencia.
+| Riesgos      |     | eticos | particulares |     |     |     |             |
+| ------------ | --- | ------ | ------------ | --- | --- | --- | ----------- |
+| 2026-2027PPA |     |        |              |     |     |     | Pagina29/32 |
 
-Riesgos eticos particulares
-
-2026-2027 PPA
-
-Pagina 29 / 32
-
-UTEQ | FCC | ISR-401
-
-Paquete de Anexos y Guias ñ Aprobacion Etica PFC
-
-ï Divulgacion de rendimiento por hectarea, precios de venta al acopiador o al exportador, y
-
+UTEQ|FCC|ISR-401 PaquetedeAnexosyGuias‚ÄìAprobacionEticaPFC
+‚Ä¢ Divulgacion de rendimiento por hectarea, precios de venta al acopiador o al exportador, y
 margenes.
-
-ï Divulgacion de la incidencia de plagas y enfermedades (informacion sensible para la asegu-
-
-radora, para las certificadoras y para el sector).
-
-ï Localizacion exacta de la finca (riesgo de robo de cacao, robo de racimos, invasion).
-
-ï Datos personales del personal de campo, muchos de ellos jornaleros con vinculo laboral
-
-informal (proteccion adicional necesaria).
-
-ï Posibilidad de que se detecten practicas no conformes con normativa laboral o ambiental
-
+‚Ä¢ Divulgaciondelaincidenciadeplagasyenfermedades(informacionsensibleparalaasegu-
+|     | radora, | para las | certificadoras |     | y para | el sector). |     |
+| --- | ------- | -------- | -------------- | --- | ------ | ----------- | --- |
+‚Ä¢ Localizacion exacta de la finca (riesgo de robo de cacao, robo de racimos, invasion).
+‚Ä¢ Datos personales del personal de campo, muchos de ellos jornaleros con vinculo laboral
+|     | informal | (proteccion |     | adicional | necesaria). |     |     |
+| --- | -------- | ----------- | --- | --------- | ----------- | --- | --- |
+‚Ä¢ Posibilidad de que se detecten practicas no conformes con normativa laboral o ambiental
 durante las entrevistas (el equipo debe tener protocolo de accion ante estos hallazgos).
-
-Nota sobre relaciones laborales informales
-
+| Nota | sobre | relaciones |     | laborales | informales |     |     |
+| ---- | ----- | ---------- | --- | --------- | ---------- | --- | --- |
 Es frecuente que en fincas medianas y pequenas exista personal de campo con vinculo
-laboral informal (jornaleros, subcontratistas, familiares). Al aplicar las entrevistas, el equipo
+laboralinformal(jornaleros,subcontratistas,familiares). Alaplicarlasentrevistas,elequipo
 debe: (a) asegurar que el consentimiento se comprenda plenamente (leerlo en voz alta
 si el participante lo prefiere); (b) no preguntar sobre condiciones contractuales del partici-
-pante que puedan generar consecuencias para el; (c) no publicar respuestas que pudieran
+pantequepuedangenerarconsecuenciasparael;(c)nopublicarrespuestasquepudieran
 identificar practicas irregulares del empleador con consecuencias legales para este.
-
-Checklist de documentos aplicables
-
-Documentos A.1 al A.12 del Anexo A (comunes obligatorios).
-
-C1 ñ Aval de la unidad productiva (finca agricola).
-
-C2 ñ Compromiso de confidencialidad sobre informacion estrategica y de
+| Checklist | de  | documentos |     | aplicables |     |     |     |
+| --------- | --- | ---------- | --- | ---------- | --- | --- | --- |
+Documentos A.1 al A.12 del Anexo A (comunes obligatorios). 12 items
+|     | C1  | ‚Äì Aval | de la | unidad | productiva | (finca agricola). | Aplica |
+| --- | --- | ------ | ----- | ------ | ---------- | ----------------- | ------ |
+C2 ‚Äì Compromiso de confidencialidad sobre informacion estrategica y de Aplica
 personal.
-
-12 items
-
-Aplica
-
-Aplica
-
-C3 ñ Protocolo de anonimizacion (finca, ubicacion, rendimientos, personal).
-
-Aplica
-
-C4 ñ Referencia a normativa sectorial (AGROCALIDAD, MAG, ANECACAO,
+C3‚ÄìProtocolodeanonimizacion(finca,ubicacion,rendimientos,personal). Aplica
+C4‚ÄìReferenciaanormativasectorial(AGROCALIDAD,MAG,ANECACAO, Aplica
 AEBE).
+| 2026-2027PPA |     |     |     |     |     |     | Pagina30/32 |
+| ------------ | --- | --- | --- | --- | --- | --- | ----------- |
 
-Aplica
-
-2026-2027 PPA
-
-Pagina 30 / 32
-
-UTEQ | FCC | ISR-401
-
-Paquete de Anexos y Guias ñ Aprobacion Etica PFC
-
-Resumen operativo ñ Que entrega cada equipo
-
-Estructura de carpeta 06_Etica/ en el repositorio del PFC
-
+| UTEQ|FCC|ISR-401 |     |            |     |           |     |                |     | PaquetedeAnexosyGuias‚ÄìAprobacionEticaPFC |      |        |     |
+| ---------------- | --- | ---------- | --- | --------- | --- | -------------- | --- | ---------------------------------------- | ---- | ------ | --- |
+|                  |     | Resumen    |     | operativo |     | ‚Äì              | Que | entrega                                  | cada | equipo |     |
+| Estructura       |     | de carpeta |     | 06_Etica/ | en  | el repositorio |     | del                                      | PFC  |        |     |
 06_Etica/
-
-|-- A1_Protocolo_Investigacion.pdf
-|-- A2_Instrumentos_Recoleccion.pdf
-|-- A3_Consentimiento_Informado.pdf
-|-- A4_Plan_Gestion_Datos.pdf
-|-- A5_Aval_Institucional.pdf
-|-- A6_Declaracion_Conflicto_Intereses.pdf
-|-- A7_Compromiso_Confidencialidad.pdf
-|-- A8_CV_Docente.pdf
-|-- A9_Nomina_Equipo.pdf
-|-- A10_Cronograma_Gantt.pdf
-|-- A11_Analisis_Riesgos.pdf
-|-- A12_Certificado_Etica.pdf
-|-- [Categoria]/
-
+| |-- | A1_Protocolo_Investigacion.pdf  |     |     |     |     |     |     |     |     |     |     |
+| --- | ------------------------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |-- | A2_Instrumentos_Recoleccion.pdf |     |     |     |     |     |     |     |     |     |     |
+|-- A3_Consentimiento_Informado.pdf (plantilla del oficio Anexo C)
+| |-- | A4_Plan_Gestion_Datos.pdf              |     |     |     |     |     |     |            |     |     |                 |
+| --- | -------------------------------------- | --- | --- | --- | --- | --- | --- | ---------- | --- | --- | --------------- |
+| |-- | A5_Aval_Institucional.pdf              |     |     |     |     |     |     | (plantilla |     | del | oficio Anexo E) |
+| |-- | A6_Declaracion_Conflicto_Intereses.pdf |     |     |     |     |     |     |            |     |     |                 |
+|-- A7_Compromiso_Confidencialidad.pdf (plantilla del oficio Anexo D)
+| |-- | A8_CV_Docente.pdf         |     |     |     |     |     |     |             |     |       |           |
+| --- | ------------------------- | --- | --- | --- | --- | --- | --- | ----------- | --- | ----- | --------- |
+| |-- | A9_Nomina_Equipo.pdf      |     |     |     |     |     |     |             |     |       |           |
+| |-- | A10_Cronograma_Gantt.pdf  |     |     |     |     |     |     |             |     |       |           |
+| |-- | A11_Analisis_Riesgos.pdf  |     |     |     |     |     |     |             |     |       |           |
+| |-- | A12_Certificado_Etica.pdf |     |     |     |     |     |     |             |     |       |           |
+| |-- | [Categoria]/              |     |     |     |     |     |     | (subcarpeta |     | segun | A, B o C) |
 |-- documentos_especificos.pdf
-
-|-- README_Etica.md
-
-Resumen de conteo de documentos por proyecto
-
-(plantilla del oficio Anexo C)
-
-(plantilla del oficio Anexo E)
-
-(plantilla del oficio Anexo D)
-
-(subcarpeta segun A, B o C)
-
-#
-
-1
-
-PFC
-
-AquaGest
-
-2 MundiPets
-
-3
-
-4
-
-SIMPA
-
-RutaExpress
-
-5 MediCita
-
-6 Marketplace UTEQ
-
-7
-
-8
-
-9
-
-10
-
-11
-
-Sistema de gimnasio
-
-Sistema de clinica veterinaria
-
-SIGA (auto-observacion UTEQ)
-
-Sistema Inteligente de Terapia
-Fisica
-
-Sistema de Gestion Agricola
-verde/cacao
-
-Categoria
-
-Anexo A
-
-Adicionales
-
-C
-
-B
-
-C
-
-B
-
-A
-
-B
-
-A
-
-B
-
-B
-(potencial
+| |--     | README_Etica.md |        |     |            |     |              |           |     |        |     |                |
+| ------- | --------------- | ------ | --- | ---------- | --- | ------------ | --------- | --- | ------ | --- | -------------- |
+| Resumen | de              | conteo | de  | documentos |     | por proyecto |           |     |        |     |                |
+| #       | PFC             |        |     |            |     |              | Categoria |     | AnexoA |     | Adicionales    |
+| 1       | AquaGest        |        |     |            |     |              |           | C   |        | 12  | 4 (C1‚ÄìC4)      |
+| 2       | MundiPets       |        |     |            |     |              |           | B   |        | 12  | 4 (B1, B2, B3, |
+B5)
+| 3   | SIMPA       |     |             |             |     |     |     | C   |     | 12  | 4 (C1‚ÄìC4)      |
+| --- | ----------- | --- | ----------- | ----------- | --- | --- | --- | --- | --- | --- | -------------- |
+| 4   | RutaExpress |     |             |             |     |     |     | B   |     | 12  | 4 (B1‚ÄìB4)      |
+| 5   | MediCita    |     |             |             |     |     |     | A   |     | 12  | 4‚Äì5 (A1‚ÄìA5)    |
+| 6   | Marketplace |     | UTEQ        |             |     |     |     | B   |     | 12  | 3 (B1‚ÄìB3)      |
+| 7   | Sistema     |     | de gimnasio |             |     |     |     | A   |     | 12  | 4‚Äì5 (A1‚ÄìA5)    |
+| 8   | Sistema     |     | de clinica  | veterinaria |     |     |     | B   |     | 12  | 4 (B1, B2, B3, |
+B5)
+| 9   | SIGA | (auto-observacion |     |     | UTEQ) |     |            | B   |     | 12  | 4 +         |
+| --- | ---- | ----------------- | --- | --- | ----- | --- | ---------- | --- | --- | --- | ----------- |
+|     |      |                   |     |     |       |     | (potencial |     |     |     | condicional |
 A)
+| 10  | Sistema |     | Inteligente | de  | Terapia |     |     | A   |     | 12  | 5 (A1‚ÄìA5) |
+| --- | ------- | --- | ----------- | --- | ------- | --- | --- | --- | --- | --- | --------- |
+Fisica
+| 11  | Sistema |     | de Gestion | Agricola |     |     |     | C   |     | 12  | 4 (C1‚ÄìC4) |
+| --- | ------- | --- | ---------- | -------- | --- | --- | --- | --- | --- | --- | --------- |
+verde/cacao
+| 2026-2027PPA |     |     |     |     |     |     |     |     |     |     | Pagina31/32 |
+| ------------ | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ----------- |
 
-A
-
-C
-
-12
-
-12
-
-12
-
-12
-
-12
-
-12
-
-12
-
-12
-
-12
-
-12
-
-12
-
-4 (C1ñC4)
-
-4 (B1, B2, B3,
-B5)
-
-4 (C1ñC4)
-
-4 (B1ñB4)
-
-4ñ5 (A1ñA5)
-
-3 (B1ñB3)
-
-4ñ5 (A1ñA5)
-
-4 (B1, B2, B3,
-B5)
-
-4 +
-condicional
-
-5 (A1ñA5)
-
-4 (C1ñC4)
-
-2026-2027 PPA
-
-Pagina 31 / 32
-
-UTEQ | FCC | ISR-401
-
-Paquete de Anexos y Guias ñ Aprobacion Etica PFC
-
-Recordatorio final
-
+UTEQ|FCC|ISR-401 PaquetedeAnexosyGuias‚ÄìAprobacionEticaPFC
+| Recordatorio | final |     |
+| ------------ | ----- | --- |
 Todos los documentos deben subirse al repositorio institucional del proyecto antes del
 cierre de la ventana de recoleccion de datos (semana 6 del PPA como fecha limite re-
 comendada). El docente responsable consolida los once paquetes y los remite adjuntos
 al oficio dirigido al Vicerrectorado Academico. La aprobacion emitida sera adjuntada a los
-manuscritos que se sometan a revistas JCR/Scopus.
-
-2026-2027 PPA
-
-Pagina 32 / 32
-
-
+| manuscritos | que se sometan | a revistas JCR/Scopus. |
+| ----------- | -------------- | ---------------------- |
+2026-2027PPA Pagina32/32
