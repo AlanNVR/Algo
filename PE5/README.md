@@ -163,7 +163,15 @@ esos archivos por separado no produce salida útil.
 > **Qué versión producen estas fuentes.** Las fuentes de `01_ERS/` generan **`ERS_v1.1.pdf`**, que es la
 > versión final del PFC. `ERS_v1.0.pdf` se conserva como artefacto histórico: es el documento sobre el
 > que se ejecutó la inspección formal de la PE4 y con el que se comparan las correcciones, de modo que
-> no se regenera desde estas fuentes. Véase la nota de la sección 5 bis.
+> no se regenera desde estas fuentes.
+>
+> **Las fuentes de la v1.0 no se duplican en una carpeta paralela.** Están congeladas en el historial
+> con la etiqueta `ers-v1.0`, y se recuperan con `git checkout ers-v1.0 -- 01_ERS/`. Mantener dos
+> copias de los mismos archivos es el mecanismo que produjo los once defectos de consistencia
+> detectados en la inspección de la Unidad IV; Git ya versiona y la etiqueta hace el resto. El detalle
+> está en `01_ERS/LEEME.md`.
+>
+> Véase también la nota de la sección 5 bis.
 
 ### 4.4 Verificación rápida
 
@@ -178,7 +186,8 @@ La línea base del ERS aprobada por el CCB se publica como etiqueta anotada de G
 
 ```bash
 git tag -n                    # lista las etiquetas con su mensaje
-git show baseline-v1.1        # línea base de la PE4
+git show ers-v1.0             # fuentes del ERS inspeccionado en la PE4
+git show baseline-v1.1        # línea base aprobada por el CCB
 git show baseline-final       # línea base de cierre del PFC (PE5)
 ```
 

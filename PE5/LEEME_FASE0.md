@@ -1,7 +1,7 @@
 # Fase 0 — Reponer las fuentes del ERS en el repositorio
 
 **Responsable:** Villafuerte Rosero Allan Noe (`AlanNVR`)
-**Tiempo estimado:** 20–30 minutos
+**Tiempo estimado:** 25–35 minutos
 **Bloquea:** todas las demás fases del plan de acción
 
 ---
@@ -32,6 +32,7 @@ Fase0_ERS/
 ├── LEEME_FASE0.md              este archivo
 ├── README.md                   versión actualizada, para la raíz del repositorio
 └── 01_ERS/
+    ├── LEEME.md                NUEVO — qué versión producen estas fuentes
     ├── ERS_SRS_2A.tex          archivo principal (nombre nuevo, sin sufijo de versión)
     ├── seccion4_uml.tex        modelado UML e i*  ·  ahora carga cu_11_18.tex
     ├── seccion5_priorizacion.tex
@@ -66,7 +67,32 @@ grep -c "^\\\\RF{" ERS_SRS_2A_v1.0.tex
 Debe devolver `ERS_SRS_2A_v1.0.tex`, «Versión: 3.0» y `39`. Si devuelve otra cosa, **parar y avisar
 al equipo**: alguien ya tocó las fuentes y hay que revisar qué se cambió antes de sobrescribir.
 
-### 2. Retirar las fuentes antiguas
+### 2. Etiquetar las fuentes de la v1.0 antes de sobrescribirlas
+
+Las fuentes que están hoy en el repositorio son las de la v1.0. **No se duplican en una carpeta
+paralela**: se congelan con una etiqueta de Git, que es la herramienta prevista para eso.
+
+```bash
+cd ISR401-PFC-ERS-EQUIPO_B
+git tag -a ers-v1.0 -m "Fuentes del ERS v1.0 — documento inspeccionado en la PE4"
+git push origin ers-v1.0
+git ls-remote --tags origin     # debe listar ers-v1.0
+```
+
+A partir de aquí, recuperar las fuentes de la v1.0 es una orden:
+
+```bash
+git checkout ers-v1.0 -- 01_ERS/     # las trae al directorio de trabajo
+git checkout HEAD -- 01_ERS/         # vuelve a las vigentes
+```
+
+> **Por qué no dos carpetas.** Mantener `01_ERS/v1.0/` y `01_ERS/v1.1/` con los mismos archivos
+> duplicados es el mecanismo exacto que produjo los once defectos de consistencia que la inspección
+> detectó en este documento: dos representaciones del mismo contenido sin nada que las reconcilie.
+> Además, la §7 de la guía fija la estructura de `01_ERS/` como plana. Git ya versiona; la etiqueta
+> hace el resto.
+
+### 3. Retirar las fuentes antiguas
 
 ```bash
 cd ISR401-PFC-ERS-EQUIPO_B/01_ERS
@@ -77,16 +103,19 @@ git rm ERS_SRS_2A_v1.0.tex seccion4_uml.tex seccion5_priorizacion.tex \
 **No borrar `img/` ni los PDF.** `ERS_v1.0.pdf` se conserva: es el documento sobre el que se ejecutó
 la inspección de la Unidad IV y con el que se comparan las correcciones.
 
-### 3. Copiar las fuentes nuevas
+### 4. Copiar las fuentes nuevas
 
 Descomprimir este paquete y copiar el contenido de su carpeta `01_ERS/` sobre `01_ERS/` del
-repositorio. Deben quedar diez archivos `.tex` más `referencias.bib` más `img/`.
+repositorio. Deben quedar diez archivos `.tex`, más `referencias.bib`, `LEEME.md` e `img/`.
 
 ```bash
 ls *.tex | wc -l    # debe devolver 10
 ```
 
-### 4. Compilar
+El `LEEME.md` va **dentro de `01_ERS/`**, no en la raíz: es donde mira quien abre la carpeta. Declara
+qué versión producen las fuentes, dónde están las de la v1.0 y qué hace cada archivo.
+
+### 5. Compilar
 
 ```bash
 pdflatex ERS_SRS_2A
@@ -114,7 +143,7 @@ sudo apt-get install -y texlive-lang-spanish texlive-publishers \
 
 En MiKTeX se instalan solos al compilar; basta con aceptar las descargas.
 
-### 5. Sustituir el PDF publicado
+### 6. Sustituir el PDF publicado
 
 ```bash
 mv ERS_SRS_2A.pdf ERS_v1.1.pdf
@@ -124,20 +153,20 @@ Este PDF **reemplaza** al `ERS_v1.1.pdf` anterior. El que estaba publicado no in
 correcciones que el informe de la PE4 declaraba aplicadas, y esa discrepancia es precisamente lo que
 la re-inspección de la PE5 registró como los siete defectos residuales de la métrica M6.
 
-### 6. Actualizar el README
+### 7. Actualizar el README
 
 Copiar el `README.md` de este paquete a la **raíz** del repositorio, sustituyendo el anterior.
 Corrige el nombre del archivo principal y añade una sección que documenta por qué el `ERS_v1.1.pdf`
 publicado en la PE4 no coincidía con sus fuentes.
 
-### 7. Commits
+### 8. Commits
 
 Dos commits, ambos desde la cuenta de Villafuerte:
 
 ```bash
 cd ISR401-PFC-ERS-EQUIPO_B
 
-git add 01_ERS/*.tex 01_ERS/referencias.bib
+git add 01_ERS/*.tex 01_ERS/referencias.bib 01_ERS/LEEME.md
 git commit -m "fix(ers): reponer fuentes LaTeX correspondientes a la v1.1" \
            -m "Las fuentes publicadas en la PE4 correspondían a la v1.0 sin corregir, de modo que el
 PDF entregado no se regeneraba desde el repositorio. Se reponen las fuentes que sí lo generan e
